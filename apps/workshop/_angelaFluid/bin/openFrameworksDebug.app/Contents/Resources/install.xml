@@ -1,0 +1,125 @@
+<install>
+
+	<version>0.02</version>
+	<author>Erik Sjodin</author>
+	<url>http://www.eriksjodin.net</url>
+	<requires>POCO C++</requires>
+
+	<add>	
+
+		<!-- 	=====================================================================	-->
+		<!--	========================== add for the "installation" of OF =========	-->
+		<!-- 	=====================================================================	-->
+
+		<addons_h>
+		//--------------------------------------------- cppGlue - Animation
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_ANIMATION
+			#include "Animator.h"
+			using Glue::Animation::Animator;
+			#include "Tween.h"
+			using Glue::Animation::Tween;
+			#include "Caller.h"
+			using Glue::Animation::Caller;
+			#include "Back.h"
+			using Glue::Animation::Easings::Back;
+			#include "Bounce.h"
+			using Glue::Animation::Easings::Bounce;
+			#include "Circ.h"
+			using Glue::Animation::Easings::Circ;
+			#include "Cubic.h"
+			using Glue::Animation::Easings::Cubic;
+			#include "Elastic.h"
+			using Glue::Animation::Easings::Elastic;
+			#include "Expo.h"
+			using Glue::Animation::Easings::Expo;
+			#include "Linear.h"
+			using Glue::Animation::Easings::Linear;
+			#include "Quad.h"
+			using Glue::Animation::Easings::Quad;
+			#include "Quart.h"
+			using Glue::Animation::Easings::Quart;
+			#include "Quint.h"
+			using Glue::Animation::Easings::Quint;
+			#include "Sine.h"
+			using Glue::Animation::Easings::Sine;
+		#endif
+		//--------------------------------------------- cppGlue - Arduino
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_ARDUINO
+			#include "Arduino.h"
+			using Glue::IO::Arduino;
+			#include "StandardFirmata.h"
+			using Glue::IO::StandardFirmata;
+		#endif 
+		//--------------------------------------------- cppGlue - USB DMX PRO
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_DMXPRO
+			#include "DmxPro.h"
+			using Glue::IO::DmxPro;
+		#endif 
+		//--------------------------------------------- cppGlue - Graphics
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_GRAPHICS
+			#include "Color.h"
+			using Glue::Graphics::Color;
+			#include "DisplayObject.h"
+			using Glue::Graphics::DisplayObject;
+			#include "DisplayObjectContainer.h"
+			using Glue::Graphics::DisplayObjectContainer;
+		#endif
+		//--------------------------------------------- cppGlue - GUI
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_GUI
+			#include "CirkcleKnob.h"
+			using Glue::GUI::CircleKnob;
+			#include "GUIObject.h"
+			using Glue::GUI::GUIObject;
+			#include "InputField.h"
+			using Glue::GUI::InputField;
+			#include "RectButton.h"
+			using Glue::GUI::RectButton;
+			#include "RectSlider.h"
+			using Glue::GUI::RectSlider;
+			#include "RectToggle.h"
+			using Glue::GUI::RectToggle;
+			#include "TextLabel.h"
+			using Glue::GUI::TextLabel;
+		#endif	
+		//--------------------------------------------- cppGlue - Utils
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_UTILS
+			#include "Calc.h"
+			using Glue::Utils::Calc;
+		#endif
+		//--------------------------------------------- cppGlue - Midi
+		#ifdef OF_ADDON_USING_OFXCPPGLUE_MIDI
+			#include "Midi.h"
+			using Glue::IO::Midi;
+			#include "rtMidi.h"
+		#endif
+		</addons_h>
+
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+
+		<!-- drag the addons/ofxCppGlue/src folder to addons in the XCode project -->
+		<!-- choose "Relative to Project" as Reference Type, check "Recursively create..."  -->
+		<!-- rename the added folder (in XCode) to cppGlue -->
+		<src>
+			<folder name="addons/ofxCppGlue/src">						
+				<!-- 	add all files within this folder	-->
+			</folder>
+		</src>
+
+		<!-- Add this path to "Header Search Paths" in Project / Edit Project Settings / Build	-->
+		<include>
+			<path>../../../addons/ofxCppGlue/libs/Poco/include</path>
+		</include>
+		
+		<!-- Add all of these paths to "Other Linker Flags" in Project / Edit Project Settings / Build	-->
+		<link>
+			<lib os="mac" compiler="xcode">../../../addons/ofxCppGlue/libs/Poco/lib/osx/libCppUnit.a</lib>
+			<lib os="mac" compiler="xcode">../../../addons/ofxCppGlue/libs/Poco/lib/osx/libPocoFoundation.a</lib>
+			<lib os="mac" compiler="xcode">../../../addons/ofxCppGlue/libs/Poco/lib/osx/libPocoNet.a</lib>
+			<lib os="mac" compiler="xcode">../../../addons/ofxCppGlue/libs/Poco/lib/osx/libPocoUtil.a</lib>
+			<lib os="mac" compiler="xcode">../../../addons/ofxCppGlue/libs/Poco/lib/osx/libPocoXML.a</lib>
+		</link>		
+	</add>
+	
+</install>

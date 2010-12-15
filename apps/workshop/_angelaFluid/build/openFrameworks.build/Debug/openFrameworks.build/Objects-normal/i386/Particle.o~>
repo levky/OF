@@ -1,0 +1,16 @@
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:27: error: 'ofImage' does not name a type
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:30: error: declaration of 'float Particle::mass'
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:20: error: conflicts with previous declaration 'float Particle::mass'
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:32: error: 'ofxVec3f' does not name a type
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:33: error: 'ofxVec3f' does not name a type
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:34: error: 'ofxVec3f' does not name a type
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.h:35: error: 'ofxVec3f' does not name a type
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp: In member function 'void Particle::init(float, float)':
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:29: error: 'pos' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:30: error: 'acc' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:31: error: 'vel' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:38: error: 'force' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp: In member function 'void Particle::update()':
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:62: error: 'force' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:63: error: 'vel' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/fluidExample_angela/src/Particle.cpp:65: error: 'pos' was not declared in this scope
