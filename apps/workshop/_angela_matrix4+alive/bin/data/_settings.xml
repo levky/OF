@@ -1,0 +1,34 @@
+<controls>
+    <Toggle_blank>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+    </Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <ColorPicker_BG_Color>
+        <name>BG Color</name>
+        <values_0>0.000000</values_0>
+        <values_1>0.000000</values_1>
+        <values_2>0.000000</values_2>
+        <values_3>0.000000</values_3>
+    </ColorPicker_BG_Color>
+    <Toggle_blank></Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+</controls>

@@ -1,0 +1,36 @@
+<controls>
+    <Toggle_Toggle_Mouse_Force>
+        <name>Toggle Mouse Force</name>
+        <value>0</value>
+    </Toggle_Toggle_Mouse_Force>
+    <Toggle_Toggle_grabbing>
+        <name>Toggle grabbing</name>
+        <value>0</value>
+    </Toggle_Toggle_grabbing>
+    <Toggle_blank>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+    </Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <ColorPicker_BG_Color>
+        <name>BG Color</name>
+        <values_0>0.000000</values_0>
+        <values_1>0.000000</values_1>
+        <values_2>0.000000</values_2>
+        <values_3>0.000000</values_3>
+    </ColorPicker_BG_Color>
+    <Toggle_Toggle_Flockings>
+        <name>Toggle Flockings</name>
+        <value>0</value>
+    </Toggle_Toggle_Flockings>
+    <Toggle_Toggle_gravity>
+        <name>Toggle gravity</name>
+        <value>0</value>
+    </Toggle_Toggle_gravity>
+    <Toggle_enable/disable_adding_boids>
+        <name>enable/disable adding boids</name>
+        <value>1</value>
+    </Toggle_enable/disable_adding_boids>
+</controls>
