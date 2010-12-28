@@ -31,6 +31,6 @@
     </Toggle_Toggle_gravity>
     <Toggle_enable/disable_adding_boids>
         <name>enable/disable adding boids</name>
-        <value>1</value>
+        <value>0</value>
     </Toggle_enable/disable_adding_boids>
 </controls>

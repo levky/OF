@@ -10,7 +10,7 @@
 #define MAXBOIDS  500
 #define PORT 8000    //receive 
 #define SPORT 9000    //send 
-#define HOST "172.20.10.97"//ipod or iphone ip Address
+#define HOST "172.20.10.96"//ipod or iphone ip Address
 
 // ------------------------------------------------- a simple extended box2d circle
 class CustomParticle : public ofxBox2dCircle {
