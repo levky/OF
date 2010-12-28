@@ -1,0 +1,2 @@
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/_angelaBox2DExample/../../../addons/ofxBox2d/src/angCircle.cpp:11:9: warning: #pragma once in main file
+i686-apple-darwin9-gcc-4.0.1: -lpthread: linker input file unused because linking not done
