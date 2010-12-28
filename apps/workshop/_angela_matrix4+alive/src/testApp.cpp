@@ -390,11 +390,11 @@ void testApp::update(){
 		else if(m.getAddress()=="/2/slider/5"){
 			pcounter=m.getArgAsFloat(0)*200;
 			if (pcounter<5) {
-				pcounter=5;
+				pcounter=1;
 			}
 		}
 		else if(m.getAddress()=="/2/slider/6"){
-			deadspeed=m.getArgAsFloat(0)*200;
+			deadspeed=m.getArgAsFloat(0)*80;
 			if (deadspeed<5) {
 				deadspeed=1;
 			}

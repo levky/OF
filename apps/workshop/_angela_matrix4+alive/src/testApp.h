@@ -10,7 +10,7 @@
 
 #define PORT 8000
 #define SPORT 9000
-#define HOST "172.20.10.97" 
+#define HOST "172.20.10.96" 
 
 class testApp : public ofBaseApp{
 
