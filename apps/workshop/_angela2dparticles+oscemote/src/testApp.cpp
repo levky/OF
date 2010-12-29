@@ -41,7 +41,6 @@ void testApp::setup() {
 	box2d.init();
 	box2d.setGravity(0, 0);
 	box2d.setFPS(30.0);
-//box2d.disableGrabbing();
 	box2d.registerGrabbing();
 	box2d.createBounds();
 	
@@ -50,7 +49,7 @@ void testApp::setup() {
 	pBoids->setTooCloseDist(45.0);
 	pBoids->setInSightDist(75.0);
 	
-	
+//settings for gui
 	gui.addToggle("Toggle Mouse Force", bMouseForce);
 	gui.addToggle("Toggle grabbing", bGrabbing);
 	gui.addToggle("blank", toggle1);
@@ -61,39 +60,42 @@ void testApp::setup() {
 	gui.addToggle("Toggle Flockings", bFlockings).setNewColumn(true);
 	gui.addTitle("subtract one boid");
 
-	
 	gui.addToggle("Toggle gravity", bAGravity).setNewColumn(true);
 	gui.addToggle("enable/disable adding boids",bAddBoids);
 
 
 	//gui.loadFromXML();
+	
+	//show gui
 	gui.show();
+	
+//for touchOSC, send the initial settings to iphone/ipod/ipod	
 	ofxOscMessage m1;
-	m1.setAddress( "/1/A1" );
+	m1.setAddress( "/1/A1" );//mouse force
 	m1.addIntArg(0);
 	sender.sendMessage( m1 );
 	ofxOscMessage m2;
-	m2.setAddress( "/1/A2" );
+	m2.setAddress( "/1/A2" );//flocking
 	m2.addIntArg(0);
 	sender.sendMessage( m2 );
 	ofxOscMessage m3;
-	m3.setAddress( "/1/gravity" );
+	m3.setAddress( "/1/gravity" );//gravity
 	m3.addIntArg(0);
 	sender.sendMessage( m3 );
 	ofxOscMessage m4;
-	m4.setAddress( "/1/B3" );
+	m4.setAddress( "/1/B3" );//enable or disable adding boid
 	m4.addIntArg(1);
 	sender.sendMessage( m4 );
 	ofxOscMessage m5;
-	m5.setAddress( "/1/fullscreen" );
+	m5.setAddress( "/1/fullscreen" );//fullscreen
 	m5.addIntArg(0);
 	sender.sendMessage( m5 );
 	ofxOscMessage m6;
-	m6.setAddress( "/1/E1" );
+	m6.setAddress( "/1/E1" );//gui
 	m6.addIntArg(1);
 	sender.sendMessage( m6 );
 	ofxOscMessage m7;
-	m7.setAddress("/1/ShowMsg");
+	m7.setAddress("/1/ShowMsg");//showmsg
 	m7.addIntArg(1);
 	sender.sendMessage(m7);
 
@@ -105,6 +107,7 @@ void testApp::checkFlag(){
 		if(bMouseForce){
 			//bGrabbing=false;
 			bMouseForce=true;
+			mtimer=ofGetElapsedTimef()+ 2.5;
 			bFlockings=false;
 			ofxOscMessage m1;
 			m1.setAddress( "/1/A1" );
@@ -146,13 +149,12 @@ void testApp::checkFlag(){
 		m5.addIntArg(1);
 		sender.sendMessage( m5 );
 	}
-		
 }
 
 void testApp::addBoids(float mouseX, float mouseY){
-	float r = ofRandom(3, 10);		// a random radius 4px - 20px
+	float r = ofRandom(3, 10);		// a random radius 3px - 10x
 	CustomParticle p;
-	p.setPhysics(3, 0.53, 0.31);
+	p.setPhysics(3, 0.53, 0.31);//set mass=3, bounce=0.53, friction=0.31
 	p.setup(box2d.getWorld(), mouseX, mouseY, r);
 	p.color.r = ofRandom(20, 100);
 	p.color.g = ofRandom(20, 255);;
@@ -174,27 +176,36 @@ void testApp::deleteBoids(){
 
 //--------------------------------------------------------------
 void testApp::update() {
-
+	
+	checkFlag();
+	box2d.update();
+//if the width or height is changed, redraw boundary
 	if(pwidth!=ofGetWidth()||pheight!=ofGetHeight())
 		keyPressed('w');
 	
-	
+	//if gravity button is on
 	if(bAGravity==true){
 	ofxOscMessage m5;
 	m5.setAddress( "/1/gravity" );
-	m5.addIntArg(0);
+	m5.addIntArg(0);//gravity set to 0
 	sender.sendMessage( m5 );
 	}
-	bAGravity=false;
+	bAGravity=false;//set gravity to false
+	
+	//if there is nothing changes on the mouse pad for 2.5sec the toggle for mouse force is set to false 
 	if (  mtimer < ofGetElapsedTimef()&&bmouse==false ){
 		bMouseForce=false;
 	}
+	//if timer is less then elapesed time, clear pboids2
 	if ( timer < ofGetElapsedTimef() ){
 		pBoids2.clear();
 	}
+	//receive message from OSC
 	while(receiver.hasWaitingMessages()){
 		ofxOscMessage m;
 		receiver.getNextMessage( &m );
+		
+		//if there is changes make on the mouse pad for oscemote
 		if ( m.getAddress() == "/tuio/2Dcur" )
 		{	
 			if(m.getArgAsString( 0 )=="set"){
@@ -202,7 +213,7 @@ void testApp::update() {
 				timer=ofGetElapsedTimef()+ 1.0f;
 				
 				//add boids
-				if(bAddBoids  ){
+				if(bAddBoids){
 				
 					mouseX=m.getArgAsFloat( 2 )*ofGetWidth();
 					mouseY=m.getArgAsFloat( 3 )*ofGetHeight();
@@ -211,12 +222,12 @@ void testApp::update() {
 				}
 				//if not add boids
 				else{
-					
+					//add new boid for pboids2,then set position for new boid
 					if(pBoids2.size() < m.getArgAsInt32(1)){
 						pBoids2.push_back(new boid());
 						pBoids2[m.getArgAsInt32(1)-1]->setPosition(m.getArgAsFloat( 2 )*ofGetWidth(), m.getArgAsFloat( 3 )*ofGetHeight());
 					}
-			
+					//set position for the boids
 					else{
 						pBoids2[m.getArgAsInt32(1)-1]->setPosition(m.getArgAsFloat( 2 )*ofGetWidth(), m.getArgAsFloat( 3 )*ofGetHeight());
 					}	
@@ -224,30 +235,31 @@ void testApp::update() {
 				}
 			}//finish set
 			
+			
 			if(m.getArgAsString( 0 )=="alive"){
+				//if there is more then 1 mouse point is alive , add mtimer by 2.5sec and set bmouse to true
 				if(m.getNumArgs()>1){
 					mtimer=ofGetElapsedTimef()+ 2.5;
 					bmouse=true;
 				}
+				//if only one mouse point , add mtimer by 2.5 sec and set bmouse to false
 				else {
 					mtimer=ofGetElapsedTimef()+ 2.5;
 					bmouse=false;
 				}
 			}
 		}
+//for touchosc
+		//if there is any changes make on the mouse pad for touchosc
 		if ( m.getAddress() == "/1/touchosc/set" )
 		{	
-			
-				//bmouse=true;
-				//timer=ofGetElapsedTimef()+ 1.0f;
-				
-				//add boids
+				//add boids if you have enable adding boids and the boids are less then maxboids
 				if(bAddBoids && pBoids->getNumBoids()<MAXBOIDS){
 					mouseX=m.getArgAsFloat( 0)*ofGetWidth();
 					mouseY=m.getArgAsFloat( 1 )*ofGetHeight();
 					addBoids(mouseX,mouseY);
 				}
-				//if not add boids
+				//if not add boids, just get the mouse position 
 				else{
 					
 					mouseX=m.getArgAsFloat( 0)*ofGetWidth();
@@ -255,49 +267,59 @@ void testApp::update() {
 					
 				}
 		}
-		
+		//background for red
 		else if(m.getAddress()=="/slider/1"){
 			br=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[0]=m.getArgAsFloat(0);
 		}
+		//background for green
 		else if(m.getAddress()=="/slider/2"){
 			bg=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[1]=m.getArgAsFloat(0);
 		}
+		//background for blue
 		else if(m.getAddress()=="/slider/3"){
 			bb=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[2]=m.getArgAsFloat(0);
 		}
+		//if mouse force button is pressed
 		else if (m.getAddress()=="/button/A1"){
 			timer=ofGetElapsedTimef()+ 5.0f;
 			mtimer=ofGetElapsedTimef()+ 5.0f;
 			
+			//if mouse force is on and gravity is false, then change the toggle for mouse force
 			if(m.getArgAsInt32(0)==1 && bAGravity==false)
 			bMouseForce = !bMouseForce;
 			
 		}
+		//if flocking button is pressed and gravity is false, then change the toggle for flocking
 		else if (m.getAddress()=="/button/A2"){
 			if(m.getArgAsInt32(0)==1 && bAGravity==false)
 			bFlockings = !bFlockings;
 		}
+		//change toggle for grabbing
 		else if (m.getAddress()=="/button/B1"){
 			if(m.getArgAsInt32(0)==1)
 			bGrabbing = !bGrabbing;
 		}
+		//delete boids when button is pressed
 		else if (m.getAddress()=="/button/B2"){
 			deleteBoids();
 		}
+		//add boids when button is pressed
 		else if(m.getAddress()=="/button/B3"){
 			if(m.getArgAsInt32(0)==1)
 			bAddBoids = !bAddBoids;
 		}
+		//show the gui 
 		else if (m.getAddress()=="/button/E1"){
 			if(m.getArgAsInt32(0)==1)
 			gui.toggleDraw();
 		}
+		//when acceleration is on , change the toggle of mouse force, and flocking to false and gravity to true
 		else if (m.getAddress()=="/acceleration/xyz"){
 			bMouseForce=false;
 			bFlockings=false;
@@ -306,42 +328,56 @@ void testApp::update() {
 			float yg = m.getArgAsFloat( 1 )*maxgravity*-1;
 			box2d.setGravity(xg, yg);
 		}
+		//if the accelerometer is pressed
 		else if (m.getAddress()=="/accelerometer"){
+			//if accelerometer is off then set gravity to false
 			if(m.getArgAsInt32(0)==0)
 				bAGravity=false;
+			//else set gravity to true
 			else
 				bAGravity=true;
 		}
-		//TouchOSC
+	//TouchOSC
 		//MouseForce
-		else if (m.getAddress()=="/1/A1"){
+		//if there is nothing changes on the mouse pad for 5sec then change the mouse force to false
+		else if (m.getAddress()=="/1/A1"){ 
+			//set gravity to 0
 			box2d.setGravity(0,0);
 			timer=ofGetElapsedTimef()+ 5.0f;
 			mtimer=ofGetElapsedTimef()+ 5.0f;
-			
+			//if change mouse force to true and gravity is false, set the toggle of mouse force to true
 			if(m.getArgAsInt32(0)==1 && bAGravity==false)
 				bMouseForce = true;
+			//if change to false if gravity is false, then set the toggle of mouse force to false
 			else if(m.getArgAsInt32(0)==0 && bMouseForce==true && bAGravity==false)
 				bMouseForce = false;
 		}
 		//Flocking
 		else if (m.getAddress()=="/1/A2"){
+			//set gravity to 0
 			box2d.setGravity(0,0);
+			//if change flocking to true and gravity false, then change flocking to true
 			if(m.getArgAsInt32(0)==1 && bAGravity==false)
 				bFlockings = true;
+			//if change flocking to false and gravity is false, then change flocking to false
 			if(m.getArgAsInt32(0)==0 && bAGravity==false)
 				bFlockings = false;
 		}
+		//grabbing
 		else if (m.getAddress()=="/1/B1"){
+			//change grabbing to true
 			if(m.getArgAsInt32(0)==1)
 				bGrabbing = true;
+			//change grabbing to false
 			if(m.getArgAsInt32(0)==0)
 				bGrabbing = false;
 		}
+		//button for delete boid
 		else if (m.getAddress()=="/1/B2"){
 			if(m.getArgAsInt32(0)==1)
 				deleteBoids();
 		}
+		//toggle turns on to enable adding boid, turns off to disable it
 		else if(m.getAddress()=="/1/B3"){
 			if(m.getArgAsInt32(0)==1)
 				bAddBoids = true;
@@ -349,36 +385,43 @@ void testApp::update() {
 				bAddBoids = false;
 			
 		}
+		//toggle button for gui
 		else if (m.getAddress()=="/1/E1"){
 			if(m.getArgAsInt32(0)==1)
 				gui.toggleDraw();
 			if(m.getArgAsInt32(0)==0)
 				gui.toggleDraw();
 		}
+		//background color for red
 		else if(m.getAddress()=="/1/slider/1"){
 			br=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[0]=m.getArgAsFloat(0);
 		}
+		//background color for green
 		else if(m.getAddress()=="/1/slider/2"){
 			bg=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[1]=m.getArgAsFloat(0);
 		}
+		//background color for blue
 		else if(m.getAddress()=="/1/slider/3"){
 			bb=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[2]=m.getArgAsFloat(0);
 		}
+		//toggle button for fullscreen
 		else if(m.getAddress()=="/1/fullscreen"){
 			if(m.getArgAsInt32(0)==0||m.getArgAsInt32(0)==1)
 			keyPressed('t');
 
 		}
+		//toggle button for redraw boundary
 		else if(m.getAddress()=="/1/window"){
 			if(m.getArgAsInt32(0)==0||m.getArgAsInt32(0)==1)
 			keyPressed('w');
 		}
+		//if the accelerometer is on, set the x and y gravity
 		else if(m.getAddress()=="/accxyz") {
 
 			bMouseForce=false;
@@ -388,6 +431,7 @@ void testApp::update() {
 			float yg = m.getArgAsFloat( 1 )*maxgravity*-1;
 			box2d.setGravity(xg, yg);
 		}
+		//toggle button for show message
 		else if(m.getAddress()=="/1/ShowMsg") {	
 			if(m.getArgAsInt32(0)==0||m.getArgAsInt32(0)==1)
 				keyPressed('m');
@@ -395,8 +439,8 @@ void testApp::update() {
 			
 	}
 			
-	checkFlag();
-	box2d.update();
+
+	//if mouse force is on
 	if(bMouseForce) {
 		mtimer=ofGetElapsedTimef()+ 2.5;
 		float strength = 8.0f;
@@ -415,6 +459,7 @@ void testApp::update() {
 			}
 		}
 	}
+	//if flocking turns off, set each boid their position and velocity
 	if(!bFlockings){
 			for (int i=0;i<customParticles.size();i++){
 				pBoids->getBoids()[i]->setPosition(customParticles[i].getPosition().x,customParticles[i].getPosition().y);
@@ -422,7 +467,7 @@ void testApp::update() {
 			}
 	}
 	
-			
+	//if flocking
 	if(bFlockings){
 	
 		pBoids->flock();
@@ -443,10 +488,10 @@ void testApp::update() {
 		customParticles[i].addDamping(damping,damping);
 		}
 	}
-
+	//if grabbing
 	if (bGrabbing) box2d.enableGrabbing();
 	else box2d.disableGrabbing();
-	
+
 	toggle1=false;
 	pbGrabbing =bGrabbing;
 	pbMouseForce = bMouseForce;
@@ -473,25 +518,28 @@ void testApp::draw() {
 	}
 	
 	box2d.draw();
+	
+	//stores the mouse position 
 	px = mouseX;
 	py = mouseY;
-if(bShowMsg){
-	string info = "";
-	info += "Press [f] to toggle Mouse Force ["+ofToString(bMouseForce)+"]\n"; 
-	info += "Press [b] to toggle flockings   ["+ofToString(bFlockings)+"]\n";
-	info += "Press [g] to toggle grabbing    ["+ofToString(bGrabbing)+"]\n";
-//info += "Press [c] for circles\n";
-	info += "Press [z] for adding custom particle\n";
-	info += "Press [q] for delete particle\n";
-	info += "Total Bodies: "+ofToString(box2d.getBodyCount())+"\n";
-	info += "Total Joints: "+ofToString(box2d.getJointCount())+"\n\n";
-	info += "FPS: "+ofToString(ofGetFrameRate())+"\n";
-	ofSetColor(255, 255, 255);
-	string buf;
-	buf = "listening for osc messages on port" + ofToString( PORT )+" send on: "+ ofToString( SPORT );
-	ofDrawBitmapString( buf, 10, 20 );
-	ofDrawBitmapString(info, 30, 30);
-}
+	
+	if(bShowMsg){
+		string info = "";
+		info += "Press [f] to toggle Mouse Force ["+ofToString(bMouseForce)+"]\n"; 
+		info += "Press [b] to toggle flockings   ["+ofToString(bFlockings)+"]\n";
+		info += "Press [g] to toggle grabbing    ["+ofToString(bGrabbing)+"]\n";
+		//info += "Press [c] for circles\n";
+		info += "Press [z] for adding custom particle\n";
+		info += "Press [q] for delete particle\n";
+		info += "Total Bodies: "+ofToString(box2d.getBodyCount())+"\n";
+		info += "Total Joints: "+ofToString(box2d.getJointCount())+"\n\n";
+		info += "FPS: "+ofToString(ofGetFrameRate())+"\n";
+		ofSetColor(255, 255, 255);
+		string buf;
+		buf = "listening for osc messages on port" + ofToString( PORT )+" send on: "+ ofToString( SPORT );
+		ofDrawBitmapString( buf, 10, 20 );
+		ofDrawBitmapString(info, 30, 30);
+	}
 	gui.draw();
 }
 
@@ -507,6 +555,7 @@ void testApp::keyPressed(int key) {
 	}
  */
 
+	
 	if(key == 'z') {
 		float r = ofRandom(3, 10);		// a random radius 4px - 20px
 		addBoids(mouseX,mouseY);
