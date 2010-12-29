@@ -22,6 +22,7 @@ Cells::Cells(){
 	counter=0;
 	dspeed=1;
 }
+//set cell 
 void Cells::setCells(int i,int j){
 	col=i;
 	row=j;
@@ -38,10 +39,11 @@ void Cells::setCells(int i,int j){
 	counter=0;
 	
 }
+//set counter to zero
 void Cells::resetcounter(){
 	counter=0;
 }
-
+//randomly pick a color for the cell(red,green or blue)
 void Cells::randomMode(){
 	int temp3;
 	temp3=ofRandom(0,900);
@@ -49,7 +51,7 @@ void Cells::randomMode(){
 	else if(temp3<600) cellcolor=2;
 	else cellcolor=3;
 }
-	
+//randomly set a direction for the cell
 void Cells::randomdirection(){
 	int temp1,temp2;
 	
@@ -77,41 +79,49 @@ void Cells::randomdirection(){
 	nexty=row+dy;
 }
 
-
+//set column
 void Cells::setcol(int pCol){
 	col=pCol;
 }
+//set row
 void Cells::setrow(int pRow){
 	row=pRow;
 }
-
+//get the next position x
 int Cells::getnextx(){
 	nextx=col+dx;
 	return nextx;
 }
-
+//get the next position y
 int Cells::getnexty(){
 	nexty=row+dy;
 	return nexty;
 }
+//set the next position x
 void Cells::setnextx(int pX){
 	nextx=pX;
 }
+//set the next position y
 void Cells::setnexty(int pY){
 	nexty=pY;
 }
+//get direction x
 int Cells::getXDirection(){
 	return dx;
 }
+//get direction y
 int Cells::getYDirection(){
 	return dy;
 }
+//set direction x
 void Cells::setXDirection(int pdx){
 	dx=pdx;
 }
+//set direcion y
 void Cells::setYDirection(int pdy){
 	dy=pdy;
 }
+//draw all cell that is alive
 void Cells::draw(int width){
 	if(alive)
 	{
@@ -129,8 +139,9 @@ void Cells::draw(int width){
 		
 	}
 }
+//subtract the deadspeed of each cell(cellcolor/mode 1=red, 2=green, 3=blue)
 void Cells::addCrashes(int mode){
-	//show red
+	//for red
 	if (mode==1){
 		if(blue<10||green<10)
 			alive=false;
@@ -139,7 +150,7 @@ void Cells::addCrashes(int mode){
 			green-=dspeed;
 		}
 	}
-	//show green
+	//for green
 	if(mode==2){
 		if(blue<10||red<10)
 			alive=false;
@@ -148,7 +159,7 @@ void Cells::addCrashes(int mode){
 			red-=dspeed;
 		}
 	}
-	//show blue
+	//for blue
 	if(mode==3){
 		if(red<10||green<10)
 			alive=false;

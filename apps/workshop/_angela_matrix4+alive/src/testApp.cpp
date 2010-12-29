@@ -1,23 +1,29 @@
 #include "testApp.h"
 
 
-	
+//change the cell direction and subtract its the cell deadspeed
 void testApp::changedirection(int x,int y){
     Life[x][y].dx*=-1;
 	Life[x][y].dy*=-1;
 	//mode=ofRandom(1,4);
 	Life[x][y].addCrashes(Life[x][y].cellcolor);
 }
-	 
+//if there exist a neighbor that has the same color and the counter is less then pcounter then increment counter by one
+//or else add a new cell into the board
 bool testApp::checkneighbor(int x,int y,int curx,int cury){ 
+	//if the cell position out of range
 	if(x<0 ||x >windowcol-1 ||y<0 ||y>windowrow-1) return false;
 	//if both cell is alive 
 	if (Life[x][y].alive && Life[curx][cury].alive)
 	{ 
+		//if the neighbor goes to the same spot with the current cell
 		if( map[x][y].getnextx()==map[curx][cury].getnextx() && map[x][y].getnexty()==map[curx][cury].getnexty()){
+			//if both cell are the same color
 			if(map[x][y].cellcolor==map[curx][cury].cellcolor){
+				//if the current cell is less than pcounter then add one 
 				if(map[x][y].counter<pcounter)
 					Life[x][y].counter+=1;
+				//else add a new cell
 				else
 				{	
 					int a,b;
@@ -31,10 +37,14 @@ bool testApp::checkneighbor(int x,int y,int curx,int cury){
 			}
 			return true;
 		}
+		//if there is a neighbor wants to go to the current cell position
 		if(map[x][y].getnextx()==map[curx][cury].col&&map[x][y].getnexty()==map[curx][cury].row){
+			//if both cell has the same color
 			if(map[x][y].cellcolor==map[curx][cury].cellcolor){
+				//if counter is less the pcounter, then counter add itelf by one
 				if(map[x][y].counter<pcounter)
 					Life[x][y].counter+=1;
+				//or else add a new cell
 				else
 				{	
 					int a,b;
@@ -53,7 +63,7 @@ bool testApp::checkneighbor(int x,int y,int curx,int cury){
 	}
 	return false;
 }
-
+//update the position
 void testApp::updatePosition(){
 	for (int i=0; i<windowcol;i++){
 		for(int j=0; j<windowrow;j++){
@@ -75,17 +85,20 @@ void testApp::updatePosition(){
 	int tr,tg,tb;
 	int NumOfALiveCircle=0;
 	for (int x=0; x<windowcol;x++){
-		for(int y=0; y<windowrow;y++){		
+		for(int y=0; y<windowrow;y++){
+			//if the cell is greater then zero then change direction 
 			if(map[x][y].numItems>0){
 				changedirection(x,y);
 			}
-			
+			//the temp position is next position of the current cell
 			tempx=map[x][y].col+map[x][y].dx;
 			tempy=map[x][y].row+map[x][y].dy;
+			//if the current cell is alive
 			if(	map[x][y].alive){
 				NumOfALiveCircle++;
+				//if the next position is in range
 				if(tempx<windowcol && tempy<windowrow&&tempx>=0 &&tempy>=0){
-					//if the next position dont have neighbour, change position if it is alive
+					//change te position if the current cell is alive and if the next position dont have neighbour
 					if(Life[tempx][tempy].alive==false){
 					Life[tempx][tempy].alive= true;
 					Life[x][y].alive=false;
@@ -120,7 +133,7 @@ void testApp::updatePosition(){
 		}
 	}
 }
-
+//check if the current cell has neighbor and set the number of neighors in numItems of each cell
 void testApp::updateLife(){
 	int count;
 	int tempx,tempy;
@@ -198,6 +211,7 @@ void testApp::updateLife(){
 		}
 	}
 }
+//update the number of circle in the board
 void testApp::updateNumOfCircle(){
 	NumOfALiveCircle=0;
 	for(int i=0;i<windowcol;i++){
@@ -208,7 +222,7 @@ void testApp::updateNumOfCircle(){
 		}
 	}
 }
-				
+
 
 
 //--------------------------------------------------------------
@@ -227,9 +241,11 @@ void testApp::setup(){
 	myColors[2]=bb/255;
 	flag=false;
 	
+	//setting up the receive and send ports
 	receiver.setup(PORT);
 	sender.setup(HOST,SPORT);
 	
+	//set the cell col and row
 	for (int i=0; i<windowcol;i++){
 		for(int j=0; j<windowrow;j++){
 			Life[i][j].setCells(i,j);
@@ -241,7 +257,7 @@ void testApp::setup(){
 		}
 	}
 	
-	//random set cell alive
+	//add 100 new cells
 	int numberofcell=100;
 	int a,b;
 	for (int i=0; i<numberofcell;i++){
@@ -262,32 +278,35 @@ void testApp::setup(){
 	gui.addToggle("blank", toggle1);
 	gui.addToggle("blank", toggle1);
 	*/
-	toggle1=false;
+	//toggle1=false;
 	//gui.loadFromXML();
 	//gui.show();
+	
+//send the initial message to iphone/ipod/ipad
 	ofxOscMessage m1;
 	m1.setAddress("/2/slider/4");//speed
-	m1.addFloatArg(5);
+	m1.addFloatArg(5);//set initial value to 5
 	sender.sendMessage(m1);
 	ofxOscMessage m2;
-	m2.setAddress( "/2/slider/5" );
-	m2.addFloatArg(50);
+	m2.setAddress( "/2/slider/5" );//# of hits
+	m2.addFloatArg(50);//set initial value to 50
 	sender.sendMessage( m2 );
 	ofxOscMessage m3;
-	m3.setAddress( "/2/slider/6" );
-	m3.addFloatArg(5);
+	m3.setAddress( "/2/slider/6" );//deadspeed
+	m3.addFloatArg(5);//set initial value to 5
 	sender.sendMessage( m3 );
 	ofxOscMessage m4;
 	m4.setAddress( "/2/fullscreen" );
-	m4.addIntArg(0);
+	m4.addIntArg(0);//toggle is off for fullscreen
 	sender.sendMessage( m4 );
 	ofxOscMessage m5;
 	m5.setAddress( "/2/ShowMsg" );
-	m5.addIntArg(0);
+	m5.addIntArg(0);//toggle is off for show msg
 	sender.sendMessage( m5 );
 }
 
 //--------------------------------------------------------------
+//
 void testApp::update(){
 	ofSetFrameRate(frames);
 	ofBackground(br, bg, bb);
@@ -308,16 +327,20 @@ void testApp::update(){
 			map[i][j].numItems=0;
 			//set numItem to 0
 			Life[i][j].numItems=0;
+			//set the cell color
 			map[i][j].cellcolor=Life[i][j].cellcolor;
+			//set the hit number for each cell
 			map[i][j].counter=Life[i][j].counter;
 		}
 	}
-
+	//check how many numbers of neighbor it has
 	updateLife();
 	
+//for oscemote	
 	while(receiver.hasWaitingMessages()){
 		ofxOscMessage m;
 		receiver.getNextMessage( &m );
+		//xy pad
 		if ( m.getAddress() == "/tuio/2Dcur" )
 		{	
 			if(m.getArgAsString( 0 )=="set"){
@@ -326,98 +349,118 @@ void testApp::update(){
 				mousePressed (mouseX,mouseY,0);
 			}
 		}
-		
+		//background color for red
 		else if(m.getAddress()=="/slider/1"){
 			br=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[0]=m.getArgAsFloat(0);
 		}
+		//background color for green
 		else if(m.getAddress()=="/slider/2"){
 			bg=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[1]=m.getArgAsFloat(0);
 		}
+		//background color for blue
 		else if(m.getAddress()=="/slider/3"){
 			bb=m.getArgAsFloat(0)*255;
 			ofBackground(br,bg,bb);
 			myColors[2]=m.getArgAsFloat(0);
 		}
-		
+		//framerate (max is 100) 
 		else if(m.getAddress()=="/slider/4"){
 			frames=m.getArgAsFloat(0)*100;
 			if (frames==0)
 				frames=1;
 		}
-		
+		//# of hits (max is 200) 
 		else if(m.getAddress()=="/slider/5"){
 			pcounter=m.getArgAsFloat(0)*200;
+			if (pcounter<5) {
+				pcounter=1;
+			}
 		}
+		//deadspeed (max is 80) 
 		else if(m.getAddress()=="/slider/6"){
-			deadspeed=m.getArgAsFloat(0)*200;
+			deadspeed=m.getArgAsFloat(0)*80;
+			if (deadspeed<5) {
+				deadspeed=1;
+			}
 		}
-					
+		//increase framerate by 1
 		else if (m.getAddress()=="/button/A1"){
 			if(m.getArgAsInt32(0)==1)
 			keyPressed('+');
 		}
+		//decrease framerate by 1
 		else if (m.getAddress()=="/button/B1"){
 			if(m.getArgAsInt32(0)==1)
 			keyPressed('-');
 		}
+		//decrease the # of hit by 1
 		else if (m.getAddress()=="/button/A2"){
 			if(m.getArgAsInt32(0)==1)
 			keyPressed(']');
 		}
+		//increase the # of hit by1
 		else if (m.getAddress()=="/button/B2"){
 			if(m.getArgAsInt32(0)==1)
 			keyPressed('[');
 		}
+		//this button to set all cell red to 255
 		else if (m.getAddress()=="/button/C1"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('r');
 		}
+		//this button to set all cell green to 255
 		else if (m.getAddress()=="/button/C2"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('g');
 		}
+		//this button to set all cell blue to 255
 		else if (m.getAddress()=="/button/C3"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('b');
 		}
 
 //touchosc
-		
+		//if there is changes for the # of hits, change value (max is 200)
 		else if(m.getAddress()=="/2/slider/5"){
 			pcounter=m.getArgAsFloat(0)*200;
 			if (pcounter<5) {
 				pcounter=1;
 			}
 		}
+		//if there is changes for the deadspeed, change value (max is 80) 
 		else if(m.getAddress()=="/2/slider/6"){
 			deadspeed=m.getArgAsFloat(0)*80;
 			if (deadspeed<5) {
 				deadspeed=1;
 			}
 		}
-
+		//if there is changes make for the framerate, change value (max is 100)
 		else if(m.getAddress()=="/2/slider/4"){
 			frames=m.getArgAsFloat(0)*100;
 			if (frames==0){
 				frames=1;
 			}
 		}
+		//this button to set all cell red to 255
 		else if (m.getAddress()=="/2/C1"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('r');
 		}
+		//this button to set all cell green to 255
 		else if (m.getAddress()=="/2/C2"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('g');
 		}
+		//this button to set all cell blue to 255
 		else if (m.getAddress()=="/2/C3"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('b');
 		}
+		//this toggle is for the fullscreen,  1 is to show and 0 is not show
 		else if (m.getAddress()=="/2/fullscreen"){
 			if(m.getArgAsInt32(0)==1||m.getArgAsInt32(0)==0){
 				keyPressed('t');
@@ -432,27 +475,31 @@ void testApp::update(){
 		}
 		 */
 		
+		//this toggle is for the ShowMsg, 1 is to show and 0 is not show
 		else if(m.getAddress()=="/2/ShowMsg"){
 			if(m.getArgAsInt32(0)==1||m.getArgAsInt32(0)==0){
 				keyPressed('f');
 			}
 		}
 	}
-	updateLife();
-	updatePosition();
-	updateNumOfCircle();
+	
+	updateLife();//check if there is any neighbor
+	updatePosition();//update the position 
+	updateNumOfCircle();//update the number cell in the board
 	
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
-	glEnable(GL_TEXTURE_3D);
+	//glEnable(GL_TEXTURE_3D);
+	//draw all the cells
 	for (int i=0; i<windowcol;i++){
 		for(int j=0; j<windowrow;j++){
 			ofSetColor(Life[i][j].red,Life[i][j].green,Life[i][j].blue);	
 			Life[i][j].draw(ofGetWidth());
 		}
 	}
+	//ShowMsg if flag is true
 	if(flag==true){
 		ofSetColor(255,255,255);
 		string temp;
@@ -507,13 +554,14 @@ void testApp::keyPressed(int key){
 				}
 			}
 			break;
-			
-		case '1':mode=1;
+	/*		
+		case '1':mode=1;//
 			break;
 		case '2':mode=2;
 			break;
 		case '3':mode=3;
 			break;
+	 */
 		case '[':
 			if(pcounter>200) break;
 			else pcounter++;
@@ -526,9 +574,9 @@ void testApp::keyPressed(int key){
 			}
 			else pcounter--;
 			break;
-		case ' ':
-			gui.toggleDraw();
-			break;
+	//	case ' ':
+	//		gui.toggleDraw();
+	//		break;
 		case '9':	
 			if (deadspeed<5) {
 				deadspeed=1;
@@ -571,7 +619,6 @@ void testApp::mousePressed(int x, int y, int button){
 	//convert pressed x position to (0-39)
 	int convertx=float(x)/ofGetWidth()*float(windowcol);
 	//convert pressed y position to (0-39)
-
 	int converty=float(y)/ofGetHeight()*float(windowrow);
 	//set the cell alive or dead at the position u pressed
 	if(Life[convertx][converty].alive==false){
