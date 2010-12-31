@@ -1,3 +1,8 @@
+/* testApp.h
+ * Created by Angela Chim
+ * Created: December 2010 
+ */
+
 #include "ofMain.h"
 #include "testApp.h"
 #include "ofAppGlutWindow.h"

@@ -1,17 +1,40 @@
+/* testApp.cpp
+ * Created by Angela Chim
+ * Summary: This program is similar to the Game of Life. When the cell collides with any neighbors around it, it will
+ * change direction. Everytime it hit with another cell it will change its color. it will becomes darker and when it 
+ * becomes full the cell will die. If the two cells has the same color and hit together it will keep track of how 
+ * many times it hit. When the cell hits at a certain number, a new cell will came alive. There is 3 different colors for 
+ * the cell. This program will randomly generate the color for the cells.
+ * Created: December 2010 
+ */
+
 #include "testApp.h"
 
-
-//change the cell direction and subtract its the cell deadspeed
+//--------------------------------------------------------------
+// changedirection() was used for the cell to change direction and it will subtract that cell deadspeed.
+// The parameter: contain the x and y position of the 2d matrix. x is in the range between 0 to 39.  
+//					y is in the range between 0 to 29.
+//--------------------------------------------------------------
 void testApp::changedirection(int x,int y){
     Life[x][y].dx*=-1;
 	Life[x][y].dy*=-1;
-	//mode=ofRandom(1,4);
 	Life[x][y].addCrashes(Life[x][y].cellcolor);
 }
-//if there exist a neighbor that has the same color and the counter is less then pcounter then increment counter by one
-//or else add a new cell into the board
+//--------------------------------------------------------------
+// The checkneighbor function will return true if there is any neighbor. If the neighbor goes to the same spot with 
+// the current cell and if they had the same color and the counter is less then pcounter then increment the counter by one 
+// or else it will add a new cell into the board. 
+// Also, it will check if there is a neighbor wants to go to the current cell position and if they had the 
+// same color and the counter is less then pcounter then increment the counter by one or else it will
+// add a new cell into the board.
+//
+// The parameter: x is the column position; y is the row position of the neighbor;
+//					curx is the column position; cury is the row position of the current cell;
+//					column(0-39), row(0-29);
+// return: a boolean(true or false)
+//--------------------------------------------------------------
 bool testApp::checkneighbor(int x,int y,int curx,int cury){ 
-	//if the cell position out of range
+	//if the neighbor position is out of range then return false
 	if(x<0 ||x >windowcol-1 ||y<0 ||y>windowrow-1) return false;
 	//if both cell is alive 
 	if (Life[x][y].alive && Life[curx][cury].alive)
@@ -31,7 +54,7 @@ bool testApp::checkneighbor(int x,int y,int curx,int cury){
 					b=ofRandom(0,windowrow);
 					Life[a][b].alive=true;
 					Life[a][b].setCells(a,b);
-					Life[x][y].counter=10;
+					Life[x][y].counter=0;
 					map[x][y].counter=0;
 				}
 			}
@@ -55,15 +78,18 @@ bool testApp::checkneighbor(int x,int y,int curx,int cury){
 					Life[x][y].counter=0;
 					map[x][y].counter=0;
 				}
-				
 			}
 			return true;
 		}
-
 	}
 	return false;
 }
-//update the position
+
+//--------------------------------------------------------------
+//updatePosition() was used for updating the cells position. When the cell has any neighbors, it will change direction.
+// When there is no cell that is alive on the next position then it will update the cell position. When the cell hit the border
+// then it will change direction.
+//--------------------------------------------------------------
 void testApp::updatePosition(){
 	for (int i=0; i<windowcol;i++){
 		for(int j=0; j<windowrow;j++){
@@ -86,7 +112,7 @@ void testApp::updatePosition(){
 	int NumOfALiveCircle=0;
 	for (int x=0; x<windowcol;x++){
 		for(int y=0; y<windowrow;y++){
-			//if the cell is greater then zero then change direction 
+			//if the cell has any neighbors then change direction 
 			if(map[x][y].numItems>0){
 				changedirection(x,y);
 			}
@@ -98,7 +124,7 @@ void testApp::updatePosition(){
 				NumOfALiveCircle++;
 				//if the next position is in range
 				if(tempx<windowcol && tempy<windowrow&&tempx>=0 &&tempy>=0){
-					//change te position if the current cell is alive and if the next position dont have neighbour
+					//change the position if the current cell is alive and if the next position dont have neighbour
 					if(Life[tempx][tempy].alive==false){
 					Life[tempx][tempy].alive= true;
 					Life[x][y].alive=false;
@@ -118,7 +144,7 @@ void testApp::updatePosition(){
 					
 					}
 				}
-				
+				//when they hit the borders, change direction
 				else{
 					if(tempx<0 || tempx> windowcol-1){
 						Life[x][y].dx*=-1;
@@ -133,7 +159,9 @@ void testApp::updatePosition(){
 		}
 	}
 }
-//check if the current cell has neighbor and set the number of neighors in numItems of each cell
+//--------------------------------------------------------------
+//updateLife() was used when current cell has neighbors it will set the number of neighors in numItems
+//--------------------------------------------------------------
 void testApp::updateLife(){
 	int count;
 	int tempx,tempy;
@@ -211,7 +239,10 @@ void testApp::updateLife(){
 		}
 	}
 }
-//update the number of circle in the board
+//--------------------------------------------------------------
+//updateNumOfCircle() was used for calculating the number of cells in the board. It stores the number in the variable 
+//  called NumOfALiveCircle.
+//--------------------------------------------------------------
 void testApp::updateNumOfCircle(){
 	NumOfALiveCircle=0;
 	for(int i=0;i<windowcol;i++){
@@ -224,8 +255,13 @@ void testApp::updateNumOfCircle(){
 }
 
 
-
 //--------------------------------------------------------------
+// setup() runs at the start of the program. It initialize the variables such as the background color, framerate, osc receiver, 
+// osc sender, the cells column and row, and then it will add 100 cell into the board.
+// Also for touchosc, it will send the initial settings to your iphone/ipod/ipod
+// ShowMsg and fullscreen are set to false. Framerate and deadspeed is set to 5. The hit rate is set to 50.
+//--------------------------------------------------------------
+
 void testApp::setup(){
 	//ofBackground(100,100,100);
 	ofBackground(0,0,0);
@@ -304,9 +340,9 @@ void testApp::setup(){
 	m5.addIntArg(0);//toggle is off for show msg
 	sender.sendMessage( m5 );
 }
-
 //--------------------------------------------------------------
-//
+//update() gets called repeatedly. It runs just before draw() so this place is for any updating of variables.
+//--------------------------------------------------------------
 void testApp::update(){
 	ofSetFrameRate(frames);
 	ofBackground(br, bg, bb);
@@ -488,7 +524,10 @@ void testApp::update(){
 	updateNumOfCircle();//update the number cell in the board
 	
 }
-
+//--------------------------------------------------------------
+// draw() was used to draw all the things on the screen.
+// It will show the 40 circles horizotally and 30 circles vertically, and the string messages.
+// Each circle will change its color depends on the deadspeed.
 //--------------------------------------------------------------
 void testApp::draw(){
 	//glEnable(GL_TEXTURE_3D);
@@ -613,7 +652,8 @@ void testApp::mouseMoved(int x, int y ){
 void testApp::mouseDragged(int x, int y, int button){
 
 }
-
+//--------------------------------------------------------------
+//mousePressed() is used for adding/deleting cells in the board. 
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
 	//convert pressed x position to (0-39)

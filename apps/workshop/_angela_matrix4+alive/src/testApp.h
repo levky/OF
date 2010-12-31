@@ -1,3 +1,7 @@
+/* testApp.h
+ * Created by Angela Chim
+ * Created: December 2010 
+ */
 #ifndef _TEST_APP
 #define _TEST_APP
 
@@ -42,9 +46,9 @@ class testApp : public ofBaseApp{
 		int NumOfALiveCircle;//number of circle
 		int deadspeed;//decrease the color by this number of increment
 		
-		bool flag;//show the debug
+		bool flag;//show the ShowMsg
 		bool toggle1;// for gui
-		bool toggle2;
+		bool toggle2;// for gui
 	
 	
 private:
