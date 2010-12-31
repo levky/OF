@@ -4,7 +4,7 @@
  *
  *  Created by Levky on 25/03/2010.
  *  Copyright 2010 __MyCompanyName__. All rights reserved.
- *
+ * 	Modified by Angela Chim on December 2010
  */
 
 #include "boids.h"

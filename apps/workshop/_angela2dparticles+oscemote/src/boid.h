@@ -4,7 +4,7 @@
  *
  *  Created by Levky on 25/03/2010.
  *  Copyright 2010 __MyCompanyName__. All rights reserved.
- *
+ * 	Modified by Angela Chim on December 2010
  */
 
 #ifndef BOID_H
@@ -19,7 +19,6 @@ class boid {
 		void update();
 		void draw();
 		void bounce();
-			//steering behaviors
 		void addForce(ofxVec3f oForce);
 		void subtractForce(ofxVec3f oForce);
 		void seek(ofxVec3f oTarget);

@@ -1,4 +1,9 @@
-
+/*
+* Title: testApp.h
+*  Created by Angela Chim
+* Summary: This program is the header of testApp, it has all the variables and function needed for this program
+* Created: December 2010
+*/
 #pragma once
 #include "ofMain.h"
 #include "ofxVectorMath.h"
@@ -85,10 +90,10 @@ public:
 	//ofxBox2dJoint					joints[5];		  //	box2d joints
 	//ofxBox2dLine					lineStrip;		  //	a linestrip for drawing
 
-	float br,bg,bb;
-	float myColors[4];
-	float timer;
-	float mtimer;
+	float br,bg,bb;//background color
+	float myColors[4];//background color for gui
+	float timer;//timer for mouse force
+	float mtimer;//timer for pboids2
 	bool bmouse;
 	float pwidth;
 	float pheight;

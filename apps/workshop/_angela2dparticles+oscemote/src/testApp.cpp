@@ -1,15 +1,24 @@
-
+/*
+ * Title: testApp.cpp
+ * Created by Angela Chim
+ * Summary: This program is in a 2D particle system. In this program you can use mouse force, flocking, grabbing,
+ * gravity, adding and deleting boid.  Also this program has implemented with the osc, which allow you to control the program
+ * using our customize touchosc interface or the oscemote interface.
+ * Created: December 2010
+ */
 #include "testApp.h"
 #include "ofxBox2dBaseShape.h"
-
-
 
 //--------------------------------------------------------------
 testApp::testApp(){
 }
 
-
-
+//--------------------------------------------------------------
+// setup() runs at the start of the program. It initialize the variables that include the background color, framerate, osc receiver, 
+// osc sender, mouse force, flocking, grabbing, gravity, showmsg, boids, gui. 
+// Also for touchosc, it will send the initial settings to your iphone/ipod/ipod
+// Grabbing,mouseforce,flocking,gravity and fullscreen are set to false. Enable addboids, gui and ShowMsg are set to true. 
+// Gravity is set to 0. The boids MaxVelocity is 10, too close distance is 45 and in sight distance is 75.
 //--------------------------------------------------------------
 void testApp::setup() {
 
@@ -28,9 +37,8 @@ void testApp::setup() {
 	bGrabbing =false;
 	bMouseForce = false;
 	bFlockings = false;
-	bAddBoids = true; //for oscemote
+	bAddBoids = true; //for adding boids
 	bAGravity=false;
-
 	
 	pbGrabbing =false;
 	pbMouseForce = false;
@@ -62,7 +70,6 @@ void testApp::setup() {
 
 	gui.addToggle("Toggle gravity", bAGravity).setNewColumn(true);
 	gui.addToggle("enable/disable adding boids",bAddBoids);
-
 
 	//gui.loadFromXML();
 	
@@ -102,13 +109,21 @@ void testApp::setup() {
 }
 
 //--------------------------------------------------------------
+//checkFlag() was used for checking the flags of the program.  
+//For example:	when mouse force is true, flocking and gravity is false
+//				when flocking is true, mouse force and gravity is false
+//				when gravity is true, mouse force and flocking is false
+//
+//--------------------------------------------------------------
 void testApp::checkFlag(){
 	if(pbMouseForce!=bMouseForce){
+		//when mouse force change to true, flocking and gravity will change to false
 		if(bMouseForce){
 			//bGrabbing=false;
 			bMouseForce=true;
 			mtimer=ofGetElapsedTimef()+ 2.5;
 			bFlockings=false;
+			//send osc message to touchosc, to tell it that the mouse force is true and flocking is false
 			ofxOscMessage m1;
 			m1.setAddress( "/1/A1" );
 			m1.addIntArg(1);
@@ -117,14 +132,15 @@ void testApp::checkFlag(){
 			m2.setAddress( "/1/A2" );
 			m2.addIntArg(0);
 			sender.sendMessage( m2 );
-			
 		}
 	}
+	//when flocking change to true,mouse force and gravity will change to false
 	if(pbFlockings!=bFlockings){
 		if(bFlockings){
 			//bGrabbing=false;
 			bMouseForce=false;
 			bFlockings=true;
+			//send osc message to touchosc, telling it that the mouse force is true and flocking is false
 			ofxOscMessage m3;
 			m3.setAddress( "/1/A1" );
 			m3.addIntArg(0);
@@ -135,6 +151,7 @@ void testApp::checkFlag(){
 			sender.sendMessage( m4 );
 		}
 	}
+	//when gravity is true, the program will send osc message to touchosc, telling it that the mouse force and flocking is false
 	if(bAGravity==true){
 		ofxOscMessage m3;
 		m3.setAddress( "/1/A1" );
@@ -150,7 +167,12 @@ void testApp::checkFlag(){
 		sender.sendMessage( m5 );
 	}
 }
-
+//--------------------------------------------------------------
+//addBoids() was used for adding boid into the 2d particle box
+//The parameters:	mouseX was a float number from 0 to the window width
+//					mouseY was a float number from 0 to the window height
+//
+//--------------------------------------------------------------
 void testApp::addBoids(float mouseX, float mouseY){
 	float r = ofRandom(3, 10);		// a random radius 3px - 10x
 	CustomParticle p;
@@ -161,9 +183,11 @@ void testApp::addBoids(float mouseX, float mouseY){
 	p.color.b = ofRandom(150, 255);
 	customParticles.push_back(p);
 	pBoids->addBoid();
-	
 }	
-
+//--------------------------------------------------------------
+//deleteBoids() was used for delete one boid in the 2d particle box.
+//The custom particle required to have one or more particle in the system.
+//--------------------------------------------------------------
 void testApp::deleteBoids(){
 	if(customParticles.size()>0){
 		customParticles[customParticles.size()-1].destroyShape();
@@ -171,9 +195,11 @@ void testApp::deleteBoids(){
 		pBoids->subtractBoid();
 	}
 }
-
-	
-
+//--------------------------------------------------------------
+//update() gets called repeatedly. It runs just before draw() so this place is for any updating of variables.
+// For example:  for oscemote, if there is changes make on the mouse pad it will check whether it can add boid or not. 
+//				If you have enable adding boids then you will add one boid on screen, the point is where you touch on the mouse pad. 
+//				If there is nothing change on the mouse pad for 2.5 sec the toggle for mouse force will set to false.
 //--------------------------------------------------------------
 void testApp::update() {
 	
@@ -212,9 +238,8 @@ void testApp::update() {
 				bmouse=true;
 				timer=ofGetElapsedTimef()+ 1.0f;
 				
-				//add boids
+				//add boid if you enable adding boids
 				if(bAddBoids){
-				
 					mouseX=m.getArgAsFloat( 2 )*ofGetWidth();
 					mouseY=m.getArgAsFloat( 3 )*ofGetHeight();
 					addBoids(mouseX,mouseY);
@@ -338,8 +363,7 @@ void testApp::update() {
 				bAGravity=true;
 		}
 	//TouchOSC
-		//MouseForce
-		//if there is nothing changes on the mouse pad for 5sec then change the mouse force to false
+		//MouseForce	
 		else if (m.getAddress()=="/1/A1"){ 
 			//set gravity to 0
 			box2d.setGravity(0,0);
@@ -440,18 +464,21 @@ void testApp::update() {
 	}
 			
 
-	//if mouse force is on
+	//mouse force
+	//if there is nothing changes on the mouse pad for 2.5sec then it will change the mouse force to false
 	if(bMouseForce) {
 		mtimer=ofGetElapsedTimef()+ 2.5;
 		float strength = 8.0f;
 		float damping  = 0.7f;
 		float minDis   = 100;
+		//if there is one or more mouse points, separate the boids equally to the mouse points
 		if(pBoids2.size()>0){
 			for(int i=0; i<customParticles.size(); i++) {
 				customParticles[i].addAttractionPoint(pBoids2[i % pBoids2.size()]->getPosition().x, pBoids2[i % pBoids2.size()]->getPosition().y, strength, minDis);
 				customParticles[i].addDamping(damping, damping);
 			}
 		}
+		//or else attract all boids into one point
 		else{
 			for(int i=0; i<customParticles.size(); i++) {
 				customParticles[i].addAttractionPoint(mouseX, mouseY, strength, minDis);
@@ -467,7 +494,7 @@ void testApp::update() {
 			}
 	}
 	
-	//if flocking
+	//flocking
 	if(bFlockings){
 	
 		pBoids->flock();
@@ -488,7 +515,7 @@ void testApp::update() {
 		customParticles[i].addDamping(damping,damping);
 		}
 	}
-	//if grabbing
+	//grabbing
 	if (bGrabbing) box2d.enableGrabbing();
 	else box2d.disableGrabbing();
 
@@ -501,6 +528,9 @@ void testApp::update() {
 	pheight=ofGetHeight();
 		
 }
+//--------------------------------------------------------------
+// draw() was used to draw all the 2d objects on the screen.
+// It will show the box2d, the custom particles, the string messages, and gui.
 //--------------------------------------------------------------
 void testApp::draw() {
 	
@@ -555,27 +585,22 @@ void testApp::keyPressed(int key) {
 	}
  */
 
-	
 	if(key == 'z') {
 		float r = ofRandom(3, 10);		// a random radius 4px - 20px
 		addBoids(mouseX,mouseY);
-
 	}	
 	if(key=='g'){
 		bGrabbing= !bGrabbing;
 		if (bGrabbing) box2d.enableGrabbing();
 		else box2d.disableGrabbing();
 	}
-	
 	if(key == 'f'){
 		bMouseForce = !bMouseForce;
 		mtimer=ofGetElapsedTimef()+ 2.5;
 	}
 	if(key == 't') {
 		ofToggleFullscreen();
-
 	}
-
 	if(key=='b'){ 
 		box2d.setGravity(0,0);
 		bFlockings = !bFlockings;
@@ -607,6 +632,7 @@ void testApp::keyPressed(int key) {
 
 //--------------------------------------------------------------
 void testApp::keyReleased(int key) {
+	
 }
 
 //--------------------------------------------------------------
@@ -633,4 +659,3 @@ void testApp::mouseReleased(int x, int y, int button){
 void testApp::resized(int w, int h){
 	
 }
-
