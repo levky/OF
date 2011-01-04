@@ -274,7 +274,7 @@ void testApp::update() {
 				}
 			}
 		}
-//for touchosc
+//for oscemote
 		//if there is any changes make on the mouse pad for touchosc
 		if ( m.getAddress() == "/1/touchosc/set" )
 		{	
