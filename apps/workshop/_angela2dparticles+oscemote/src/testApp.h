@@ -13,9 +13,9 @@
 #include "ofxOsc.h"
 #define maxgravity 15
 #define MAXBOIDS  500
-#define PORT 8000    //receive 
-#define SPORT 9000    //send 
-#define HOST "172.20.10.96"//ipod or iphone ip Address
+#define PORT 8050    //receive 
+#define SPORT 9001    //send 
+#define HOST "127.0.0.1"//ipod or iphone ip Address
 
 // ------------------------------------------------- a simple extended box2d circle
 class CustomParticle : public ofxBox2dCircle {
