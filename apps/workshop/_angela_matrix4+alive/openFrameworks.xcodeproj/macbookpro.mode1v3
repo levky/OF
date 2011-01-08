@@ -301,7 +301,7 @@
 							<real>252</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>522 185 1024 671 0 0 1680 1028 </string>
+						<string>517 184 1024 671 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>52E1A26412D7E637005B19ED</string>
+										<string>52E1A2A612D7EC7F005B19ED</string>
 										<key>history</key>
 										<array>
 											<string>52FB267712801989001A3F75</string>
@@ -340,7 +340,7 @@
 											<string>5253D39812C9F4F500A3D78B</string>
 											<string>5253D39A12C9F4F500A3D78B</string>
 											<string>5253D3A612C9F75F00A3D78B</string>
-											<string>5237783812CB175A003255E6</string>
+											<string>52E1A26412D7E637005B19ED</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -364,7 +364,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {750, 506}}</string>
 								<key>RubberWindowFrame</key>
-								<string>522 185 1024 671 0 0 1680 1028 </string>
+								<string>517 184 1024 671 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -384,7 +384,7 @@
 								<key>Frame</key>
 								<string>{{0, 511}, {750, 119}}</string>
 								<key>RubberWindowFrame</key>
-								<string>522 185 1024 671 0 0 1680 1028 </string>
+								<string>517 184 1024 671 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -408,9 +408,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>52E1A26512D7E637005B19ED</string>
+				<string>52E1A2A712D7EC7F005B19ED</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>52E1A26612D7E637005B19ED</string>
+				<string>52E1A2A812D7EC7F005B19ED</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -550,7 +550,7 @@
 		<string>/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/_angela_matrix4+alive/openFrameworks.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>522 185 1024 671 0 0 1680 1028 </string>
+	<string>517 184 1024 671 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -627,7 +627,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>52EA70601264176800AA1E11</string>
-				<string>52E1A26712D7E637005B19ED</string>
+				<string>52E1A2A912D7EC7F005B19ED</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -747,13 +747,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>52E1A26812D7E637005B19ED</string>
+				<string>52E1A2AA12D7EC7F005B19ED</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>52E1A26912D7E637005B19ED</string>
-				<string>52E1A26A12D7E637005B19ED</string>
-				<string>52E1A26B12D7E637005B19ED</string>
-				<string>52E1A26C12D7E637005B19ED</string>
-				<string>52E1A26D12D7E637005B19ED</string>
+				<string>52E1A2AB12D7EC7F005B19ED</string>
+				<string>52E1A2AC12D7EC7F005B19ED</string>
+				<string>52E1A2AD12D7EC7F005B19ED</string>
+				<string>52E1A2AE12D7EC7F005B19ED</string>
+				<string>52E1A2AF12D7EC7F005B19ED</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -915,7 +915,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>52E1A26E12D7E637005B19ED</string>
+				<string>52E1A2B012D7EC7F005B19ED</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
