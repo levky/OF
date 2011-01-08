@@ -23,7 +23,7 @@
     </ColorPicker_BG_Color>
     <Toggle_Toggle_Flockings>
         <name>Toggle Flockings</name>
-        <value>1</value>
+        <value>0</value>
     </Toggle_Toggle_Flockings>
     <Toggle_Toggle_gravity>
         <name>Toggle gravity</name>
