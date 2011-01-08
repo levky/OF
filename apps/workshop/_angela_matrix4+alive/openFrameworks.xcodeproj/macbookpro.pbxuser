@@ -37,16 +37,6 @@
 		path = "/Developer/SDKs/MacOSX10.4u.sdk/usr/include/c++/4.0.0/bits/stl_vector.h";
 		sourceTree = "<absolute>";
 	};
-	5253D39A12C9F4F500A3D78B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5258541F1277DF6E00A099C8 /* testApp.h */;
-		name = "testApp.h: 42";
-		rLen = 16;
-		rLoc = 977;
-		rType = 0;
-		vrLen = 899;
-		vrLoc = 255;
-	};
 	5253D39D12C9F4F500A3D78B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5253D39E12C9F4F500A3D78B /* stl_vector.h */;
@@ -76,9 +66,9 @@
 	};
 	5258541F1277DF6E00A099C8 /* testApp.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {689, 798}}";
-			sepNavSelRange = "{977, 16}";
-			sepNavVisRange = "{255, 899}";
+			sepNavIntBoundsRect = "{{0, 0}, {689, 854}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{106, 843}";
 			sepNavWindowFrame = "{{15, 179}, {845, 694}}";
 		};
 	};
@@ -99,9 +89,9 @@
 	};
 	525854221277DF6E00A099C8 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {750, 8806}}";
-			sepNavSelRange = "{40, 0}";
-			sepNavVisRange = "{0, 1994}";
+			sepNavIntBoundsRect = "{{0, 0}, {780, 9310}}";
+			sepNavSelRange = "{15231, 0}";
+			sepNavVisRange = "{14718, 854}";
 			sepNavWindowFrame = "{{15, 179}, {845, 694}}";
 		};
 	};
@@ -128,7 +118,7 @@
 		fRef = 525854221277DF6E00A099C8 /* testApp.cpp */;
 		name = "testApp.cpp: 300";
 		rLen = 0;
-		rLoc = 15391;
+		rLoc = 15473;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 6189;
@@ -202,17 +192,17 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	52E1A26412D7E637005B19ED /* PBXTextBookmark */ = {
+	52E1A2FC12D824B8005B19ED /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 525854221277DF6E00A099C8 /* testApp.cpp */;
-		name = "testApp.cpp: 7";
+		fRef = 5258541F1277DF6E00A099C8 /* testApp.h */;
+		name = "testApp.h: 17";
 		rLen = 0;
-		rLoc = 540;
+		rLoc = 288;
 		rType = 0;
-		vrLen = 1994;
-		vrLoc = 0;
+		vrLen = 843;
+		vrLoc = 106;
 	};
-	52E1A2A612D7EC7F005B19ED /* PBXTextBookmark */ = {
+	52E1A2FD12D824B8005B19ED /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 525854221277DF6E00A099C8 /* testApp.cpp */;
 		name = "testApp.cpp: 2";
@@ -221,6 +211,36 @@
 		rType = 0;
 		vrLen = 1994;
 		vrLoc = 0;
+	};
+	52E1A2FE12D824B8005B19ED /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 525854221277DF6E00A099C8 /* testApp.cpp */;
+		name = "testApp.cpp: 2";
+		rLen = 0;
+		rLoc = 40;
+		rType = 0;
+		vrLen = 1994;
+		vrLoc = 0;
+	};
+	52E1A2FF12D824B8005B19ED /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5258541F1277DF6E00A099C8 /* testApp.h */;
+		name = "testApp.h: 17";
+		rLen = 0;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 106;
+	};
+	52E1A30012D824B8005B19ED /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 525854221277DF6E00A099C8 /* testApp.cpp */;
+		name = "testApp.cpp: 504";
+		rLen = 0;
+		rLoc = 15231;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 14718;
 	};
 	52FB267712801989001A3F75 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -371,21 +391,23 @@
 			PBXWorkspaceStateSaveDate = 316144068;
 		};
 		perUserProjectItems = {
-			5253D37912C9F32600A3D78B = 5253D37912C9F32600A3D78B /* PBXTextBookmark */;
-			5253D37B12C9F32600A3D78B = 5253D37B12C9F32600A3D78B /* PBXTextBookmark */;
-			5253D39812C9F4F500A3D78B = 5253D39812C9F4F500A3D78B /* PBXTextBookmark */;
-			5253D39A12C9F4F500A3D78B = 5253D39A12C9F4F500A3D78B /* PBXTextBookmark */;
-			5253D39D12C9F4F500A3D78B = 5253D39D12C9F4F500A3D78B /* PBXTextBookmark */;
-			5253D3A612C9F75F00A3D78B = 5253D3A612C9F75F00A3D78B /* PBXTextBookmark */;
-			5258546A1278025300A099C8 = 5258546A1278025300A099C8 /* PBXTextBookmark */;
-			5258546B1278025300A099C8 = 5258546B1278025300A099C8 /* PBXTextBookmark */;
-			5258546C1278025300A099C8 = 5258546C1278025300A099C8 /* PBXTextBookmark */;
-			525854711278067700A099C8 = 525854711278067700A099C8 /* PBXTextBookmark */;
-			5258549C12781CD200A099C8 = 5258549C12781CD200A099C8 /* PBXTextBookmark */;
-			52E1A26412D7E637005B19ED = 52E1A26412D7E637005B19ED /* PBXTextBookmark */;
-			52E1A2A612D7EC7F005B19ED = 52E1A2A612D7EC7F005B19ED /* PBXTextBookmark */;
-			52FB267712801989001A3F75 = 52FB267712801989001A3F75 /* PBXTextBookmark */;
-			52FB268012801989001A3F75 = 52FB268012801989001A3F75 /* PBXTextBookmark */;
+			5253D37912C9F32600A3D78B /* PBXTextBookmark */ = 5253D37912C9F32600A3D78B /* PBXTextBookmark */;
+			5253D37B12C9F32600A3D78B /* PBXTextBookmark */ = 5253D37B12C9F32600A3D78B /* PBXTextBookmark */;
+			5253D39812C9F4F500A3D78B /* PBXTextBookmark */ = 5253D39812C9F4F500A3D78B /* PBXTextBookmark */;
+			5253D39D12C9F4F500A3D78B /* PBXTextBookmark */ = 5253D39D12C9F4F500A3D78B /* PBXTextBookmark */;
+			5253D3A612C9F75F00A3D78B /* PBXTextBookmark */ = 5253D3A612C9F75F00A3D78B /* PBXTextBookmark */;
+			5258546A1278025300A099C8 /* PBXTextBookmark */ = 5258546A1278025300A099C8 /* PBXTextBookmark */;
+			5258546B1278025300A099C8 /* PBXTextBookmark */ = 5258546B1278025300A099C8 /* PBXTextBookmark */;
+			5258546C1278025300A099C8 /* PBXTextBookmark */ = 5258546C1278025300A099C8 /* PBXTextBookmark */;
+			525854711278067700A099C8 /* PBXTextBookmark */ = 525854711278067700A099C8 /* PBXTextBookmark */;
+			5258549C12781CD200A099C8 /* PBXTextBookmark */ = 5258549C12781CD200A099C8 /* PBXTextBookmark */;
+			52E1A2FC12D824B8005B19ED /* PBXTextBookmark */ = 52E1A2FC12D824B8005B19ED /* PBXTextBookmark */;
+			52E1A2FD12D824B8005B19ED /* PBXTextBookmark */ = 52E1A2FD12D824B8005B19ED /* PBXTextBookmark */;
+			52E1A2FE12D824B8005B19ED /* PBXTextBookmark */ = 52E1A2FE12D824B8005B19ED /* PBXTextBookmark */;
+			52E1A2FF12D824B8005B19ED /* PBXTextBookmark */ = 52E1A2FF12D824B8005B19ED /* PBXTextBookmark */;
+			52E1A30012D824B8005B19ED /* PBXTextBookmark */ = 52E1A30012D824B8005B19ED /* PBXTextBookmark */;
+			52FB267712801989001A3F75 /* PBXTextBookmark */ = 52FB267712801989001A3F75 /* PBXTextBookmark */;
+			52FB268012801989001A3F75 /* PBXTextBookmark */ = 52FB268012801989001A3F75 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 52C7A6E712640FBF0005A27B /* Source Control */;
 		userBuildSettings = {

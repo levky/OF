@@ -502,7 +502,7 @@ void testApp::update(){
 				keyPressed('t');
 			if(m.getArgAsInt32(0)==1)
 				ofHideCursor();
-			if(m.getArgAsInt32(0)==0)
+			else
 				ofShowCursor();
 				
 			}
