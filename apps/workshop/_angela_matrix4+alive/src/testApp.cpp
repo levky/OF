@@ -500,6 +500,11 @@ void testApp::update(){
 		else if (m.getAddress()=="/2/fullscreen"){
 			if(m.getArgAsInt32(0)==1||m.getArgAsInt32(0)==0){
 				keyPressed('t');
+			if(m.getArgAsInt32(0)==1)
+				ofHideCursor();
+			else
+				ofShowCursor();
+				
 			}
 		}
 		
