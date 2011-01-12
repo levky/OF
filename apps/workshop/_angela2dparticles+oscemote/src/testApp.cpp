@@ -123,6 +123,7 @@ void testApp::checkFlag(){
 			bMouseForce=true;
 			mtimer=ofGetElapsedTimef()+ 2.5;
 			bFlockings=false;
+			bAGravity=false;
 			//send osc message to touchosc, to tell it that the mouse force is true and flocking is false
 			ofxOscMessage m1;
 			m1.setAddress( "/1/A1" );
@@ -132,6 +133,10 @@ void testApp::checkFlag(){
 			m2.setAddress( "/1/A2" );
 			m2.addIntArg(0);
 			sender.sendMessage( m2 );
+			ofxOscMessage m5;
+			m5.setAddress( "/1/gravity" );
+			m5.addIntArg(0);
+			sender.sendMessage( m5 );
 		}
 	}
 	//when flocking change to true,mouse force and gravity will change to false
@@ -140,6 +145,7 @@ void testApp::checkFlag(){
 			//bGrabbing=false;
 			bMouseForce=false;
 			bFlockings=true;
+			bAGravity=false;
 			//send osc message to touchosc, telling it that the mouse force is true and flocking is false
 			ofxOscMessage m3;
 			m3.setAddress( "/1/A1" );
@@ -149,22 +155,30 @@ void testApp::checkFlag(){
 			m4.setAddress( "/1/A2" );
 			m4.addIntArg(1);
 			sender.sendMessage( m4 );
+			ofxOscMessage m5;
+			m5.setAddress( "/1/gravity" );
+			m5.addIntArg(0);
+			sender.sendMessage( m5 );
 		}
 	}
 	//when gravity is true, the program will send osc message to touchosc, telling it that the mouse force and flocking is false
-	if(bAGravity==true){
-		ofxOscMessage m3;
-		m3.setAddress( "/1/A1" );
-		m3.addIntArg(0);
-		sender.sendMessage( m3 );
-		ofxOscMessage m4;
-		m4.setAddress( "/1/A2" );
-		m4.addIntArg(0);
-		sender.sendMessage( m4 );
-		ofxOscMessage m5;
-		m5.setAddress( "/1/gravity" );
-		m5.addIntArg(1);
-		sender.sendMessage( m5 );
+	if(pbAGravity!=bAGravity){
+		if(bAGravity){
+			bMouseForce=false;
+			bFlockings=false;
+			ofxOscMessage m3;
+			m3.setAddress( "/1/A1" );
+			m3.addIntArg(0);
+			sender.sendMessage( m3 );
+			ofxOscMessage m4;
+			m4.setAddress( "/1/A2" );
+			m4.addIntArg(0);
+			sender.sendMessage( m4 );
+			ofxOscMessage m5;
+			m5.setAddress( "/1/gravity" );
+			m5.addIntArg(1);
+			sender.sendMessage( m5 );
+		}
 	}
 }
 //--------------------------------------------------------------
@@ -208,7 +222,7 @@ void testApp::update() {
 //if the width or height is changed, redraw boundary
 	if(pwidth!=ofGetWidth()||pheight!=ofGetHeight())
 		keyPressed('w');
-	
+	/*
 	//if gravity button is on
 	if(bAGravity==true){
 	ofxOscMessage m5;
@@ -217,7 +231,7 @@ void testApp::update() {
 	sender.sendMessage( m5 );
 	}
 	bAGravity=false;//set gravity to false
-	
+	*/
 	//if there is nothing changes on the mouse pad for 2.5sec the toggle for mouse force is set to false 
 	if (  mtimer < ofGetElapsedTimef()&&bmouse==false ){
 		bMouseForce=false;
@@ -274,7 +288,12 @@ void testApp::update() {
 				}
 			}
 		}
+<<<<<<< HEAD
 //for oscemote
+=======
+//for touchosc
+		
+>>>>>>> 70c1bc025913accabc11c0cc76489010544c1ec2
 		//if there is any changes make on the mouse pad for touchosc
 		if ( m.getAddress() == "/1/touchosc/set" )
 		{	
@@ -342,18 +361,17 @@ void testApp::update() {
 		//show the gui 
 		else if (m.getAddress()=="/button/E1"){
 			if(m.getArgAsInt32(0)==1)
-			gui.toggleDraw();
+				gui.toggleDraw();
 		}
 		//when acceleration is on , change the toggle of mouse force, and flocking to false and gravity to true
 		else if (m.getAddress()=="/acceleration/xyz"){
-			bMouseForce=false;
-			bFlockings=false;
-			bAGravity=true;
 			float xg = m.getArgAsFloat( 0 )*maxgravity;
 			float yg = m.getArgAsFloat( 1 )*maxgravity*-1;
-			box2d.setGravity(xg, yg);
+			if (bAGravity==true)
+				box2d.setGravity(xg, yg);
 		}
 		//if the accelerometer is pressed
+	
 		else if (m.getAddress()=="/accelerometer"){
 			//if accelerometer is off then set gravity to false
 			if(m.getArgAsInt32(0)==0)
@@ -363,6 +381,7 @@ void testApp::update() {
 				bAGravity=true;
 		}
 	//TouchOSC
+		
 		//MouseForce	
 		else if (m.getAddress()=="/1/A1"){ 
 			//set gravity to 0
@@ -370,10 +389,10 @@ void testApp::update() {
 			timer=ofGetElapsedTimef()+ 5.0f;
 			mtimer=ofGetElapsedTimef()+ 5.0f;
 			//if change mouse force to true and gravity is false, set the toggle of mouse force to true
-			if(m.getArgAsInt32(0)==1 && bAGravity==false)
+			if(m.getArgAsInt32(0)==1)
 				bMouseForce = true;
 			//if change to false if gravity is false, then set the toggle of mouse force to false
-			else if(m.getArgAsInt32(0)==0 && bMouseForce==true && bAGravity==false)
+			else if(m.getArgAsInt32(0)==0 && bMouseForce==true)
 				bMouseForce = false;
 		}
 		//Flocking
@@ -381,10 +400,10 @@ void testApp::update() {
 			//set gravity to 0
 			box2d.setGravity(0,0);
 			//if change flocking to true and gravity false, then change flocking to true
-			if(m.getArgAsInt32(0)==1 && bAGravity==false)
+			if(m.getArgAsInt32(0)==1)
 				bFlockings = true;
 			//if change flocking to false and gravity is false, then change flocking to false
-			if(m.getArgAsInt32(0)==0 && bAGravity==false)
+			if(m.getArgAsInt32(0)==0)
 				bFlockings = false;
 		}
 		//grabbing
@@ -438,22 +457,33 @@ void testApp::update() {
 		else if(m.getAddress()=="/1/fullscreen"){
 			if(m.getArgAsInt32(0)==0||m.getArgAsInt32(0)==1)
 			keyPressed('t');
+			if(m.getArgAsInt32(0)==0){
+				ofShowCursor();} 
+			else {
+				ofHideCursor();}
 
 		}
 		//toggle button for redraw boundary
 		else if(m.getAddress()=="/1/window"){
 			if(m.getArgAsInt32(0)==0||m.getArgAsInt32(0)==1)
-			keyPressed('w');
+				keyPressed('w');
+		}
+		//gravity
+		else if (m.getAddress()=="/1/gravity"){
+			//change grabbing to true
+			if(m.getArgAsInt32(0)==1)
+				bAGravity = true;
+			//change grabbing to false
+			if(m.getArgAsInt32(0)==0)
+				bAGravity = false;
 		}
 		//if the accelerometer is on, set the x and y gravity
 		else if(m.getAddress()=="/accxyz") {
 
-			bMouseForce=false;
-			bFlockings=false;
-			bAGravity=true;
 			float xg = m.getArgAsFloat( 0 )*maxgravity;
 			float yg = m.getArgAsFloat( 1 )*maxgravity*-1;
-			box2d.setGravity(xg, yg);
+			if (bAGravity==true)
+				box2d.setGravity(xg, yg);
 		}
 		//toggle button for show message
 		else if(m.getAddress()=="/1/ShowMsg") {	
@@ -518,7 +548,7 @@ void testApp::update() {
 	//grabbing
 	if (bGrabbing) box2d.enableGrabbing();
 	else box2d.disableGrabbing();
-
+	checkFlag();
 	toggle1=false;
 	pbGrabbing =bGrabbing;
 	pbMouseForce = bMouseForce;
