@@ -141,7 +141,6 @@ void testApp::updatePosition(){
 					Life[x][y].red=tr;
 					Life[x][y].green=tg;
 					Life[x][y].blue=tb;
-					
 					}
 				}
 				//when they hit the borders, change direction
@@ -253,8 +252,6 @@ void testApp::updateNumOfCircle(){
 		}
 	}
 }
-
-
 //--------------------------------------------------------------
 // setup() runs at the start of the program. It initialize the variables such as the background color, framerate, osc receiver, 
 // osc sender, the cells column and row, and then it will add 100 cell into the board.
@@ -301,38 +298,22 @@ void testApp::setup(){
 		b=ofRandom(0,windowrow);
 		Life[a][b].alive=true;
 	}
-	/*
-	gui.addToggle("blank", toggle1);
-	gui.addToggle("blank", toggle1);
-	gui.addToggle("blank", toggle1);
-	gui.addToggle("blank", toggle1);
-	gui.addTitle("GuiDraw");
-	gui.addColorPicker("BG Color", myColors);
-	
-	gui.addToggle("blank", toggle1).setNewColumn(true);
-	gui.addToggle("blank", toggle1);
-	gui.addToggle("blank", toggle1);
-	gui.addToggle("blank", toggle1);
-	*/
-	//toggle1=false;
-	//gui.loadFromXML();
-	//gui.show();
 	
 //send the initial message to iphone/ipod/ipad
 	ofxOscMessage m1;
-	m1.setAddress("/2/slider/4");//speed
+	m1.setAddress("/2/slider/FrameRate");//speed
 	m1.addFloatArg(5);//set initial value to 5
 	sender.sendMessage(m1);
 	ofxOscMessage m2;
-	m2.setAddress( "/2/slider/5" );//# of hits
+	m2.setAddress( "/2/slider/NumOfHits" );//# of hits
 	m2.addFloatArg(50);//set initial value to 50
 	sender.sendMessage( m2 );
 	ofxOscMessage m3;
-	m3.setAddress( "/2/slider/6" );//deadspeed
+	m3.setAddress( "/2/slider/DeadSpeed" );//deadspeed
 	m3.addFloatArg(5);//set initial value to 5
 	sender.sendMessage( m3 );
 	ofxOscMessage m4;
-	m4.setAddress( "/2/fullscreen" );
+	m4.setAddress( "/2/FullScreen" );
 	m4.addIntArg(0);//toggle is off for fullscreen
 	sender.sendMessage( m4 );
 	ofxOscMessage m5;
@@ -458,64 +439,53 @@ void testApp::update(){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('b');
 		}
-
 //touchosc
+		//if there is changes make for the framerate, change value (max is 100)
+		else if(m.getAddress()=="/2/slider/FrameRate"){
+			frames=m.getArgAsFloat(0)*100;
+			if (frames==0){
+				frames=1;
+			}
+		}
 		//if there is changes for the # of hits, change value (max is 200)
-		else if(m.getAddress()=="/2/slider/5"){
+		else if(m.getAddress()=="/2/slider/NumOfHits"){
 			pcounter=m.getArgAsFloat(0)*200;
 			if (pcounter<5) {
 				pcounter=1;
 			}
 		}
 		//if there is changes for the deadspeed, change value (max is 80) 
-		else if(m.getAddress()=="/2/slider/6"){
+		else if(m.getAddress()=="/2/slider/DeadSpeed"){
 			deadspeed=m.getArgAsFloat(0)*80;
 			if (deadspeed<5) {
 				deadspeed=1;
 			}
 		}
-		//if there is changes make for the framerate, change value (max is 100)
-		else if(m.getAddress()=="/2/slider/4"){
-			frames=m.getArgAsFloat(0)*100;
-			if (frames==0){
-				frames=1;
-			}
-		}
 		//this button to set all cell red to 255
-		else if (m.getAddress()=="/2/C1"){
+		else if (m.getAddress()=="/2/Red"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('r');
 		}
 		//this button to set all cell green to 255
-		else if (m.getAddress()=="/2/C2"){
+		else if (m.getAddress()=="/2/Green"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('g');
 		}
 		//this button to set all cell blue to 255
-		else if (m.getAddress()=="/2/C3"){
+		else if (m.getAddress()=="/2/Blue"){
 			if(m.getArgAsInt32(0)==1)
 				keyPressed('b');
 		}
 		//this toggle is for the fullscreen,  1 is to show and 0 is not show
-		else if (m.getAddress()=="/2/fullscreen"){
+		else if (m.getAddress()=="/2/FullScreen"){
 			if(m.getArgAsInt32(0)==1||m.getArgAsInt32(0)==0){
 				keyPressed('t');
 			if(m.getArgAsInt32(0)==1)
 				ofHideCursor();
 			else
 				ofShowCursor();
-				
-			}
+				}
 		}
-		
-		/*
-		else if (m.getAddress()=="/2/E1"){
-			if(m.getArgAsInt32(0)==1||m.getArgAsInt32(0)==0){
-				keyPressed(' ');
-			}
-		}
-		 */
-		
 		//this toggle is for the ShowMsg, 1 is to show and 0 is not show
 		else if(m.getAddress()=="/2/ShowMsg"){
 			if(m.getArgAsInt32(0)==1||m.getArgAsInt32(0)==0){
@@ -523,11 +493,9 @@ void testApp::update(){
 			}
 		}
 	}
-	
 	updateLife();//check if there is any neighbor
 	updatePosition();//update the position 
 	updateNumOfCircle();//update the number cell in the board
-	
 }
 //--------------------------------------------------------------
 // draw() was used to draw all the things on the screen.
@@ -540,11 +508,11 @@ void testApp::draw(){
 	for (int i=0; i<windowcol;i++){
 		for(int j=0; j<windowrow;j++){
 			ofSetColor(Life[i][j].red,Life[i][j].green,Life[i][j].blue);	
-			Life[i][j].draw(ofGetWidth());
+			Life[i][j].draw(ofGetWidth(),ofGetHeight());
 		}
 	}
 	//ShowMsg if flag is true
-	if(flag==true){
+	if(flag){
 		ofSetColor(255,255,255);
 		string temp;
 		temp="";
@@ -562,20 +530,17 @@ void testApp::draw(){
 		temp+="Dead Speed: " +ofToString(deadspeed)+"\n";
 		ofDrawBitmapString(temp, 10, 10);
 	}
-	//gui.draw();
-
 }
-
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 	switch (key) {
 		case '-':
 			if(frames>1){
-			frames--;
+				frames--;
 			}
 			break;
 		case '+':
-			frames++;
+				frames++;
 			break;
 		case 'r':
 			for (int i=0; i<windowcol;i++){
@@ -598,14 +563,6 @@ void testApp::keyPressed(int key){
 				}
 			}
 			break;
-	/*		
-		case '1':mode=1;//
-			break;
-		case '2':mode=2;
-			break;
-		case '3':mode=3;
-			break;
-	 */
 		case '[':
 			if(pcounter>200) break;
 			else pcounter++;
@@ -613,21 +570,18 @@ void testApp::keyPressed(int key){
 		case ']':
 			if (pcounter<5) {
 				pcounter=5;
-			
-			break;
+				break;
 			}
 			else pcounter--;
 			break;
-	//	case ' ':
-	//		gui.toggleDraw();
-	//		break;
+
 		case '9':	
 			if (deadspeed<5) {
 				deadspeed=1;
-			break;
+				break;
 			}
 			else deadspeed--;
-			 break;
+			break;
 		case '0':
 			if(deadspeed>200) break;
 			else deadspeed++;
@@ -640,22 +594,16 @@ void testApp::keyPressed(int key){
 		default:
 			break;
 	}
-
 }
-
 //--------------------------------------------------------------
 void testApp::keyReleased(int key){
-
 }
-
 //--------------------------------------------------------------
 void testApp::mouseMoved(int x, int y ){
-
 }
 
 //--------------------------------------------------------------
 void testApp::mouseDragged(int x, int y, int button){
-
 }
 //--------------------------------------------------------------
 //mousePressed() is used for adding/deleting cells in the board. 
@@ -675,14 +623,9 @@ void testApp::mousePressed(int x, int y, int button){
 		Life[convertx][converty].alive=false;
 	printf("mousepressed: %i, %i %i\n", x, y, button);
 }
-
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button){
-
 }
-
 //--------------------------------------------------------------
 void testApp::windowResized(int w, int h){
-
 }
-

@@ -27,17 +27,12 @@ void Cells::setCells(int i,int j){
 	col=i;
 	row=j;
 	dspeed=5;
-	//red=ofRandom(100, 255);
-	//green=ofRandom(100, 255);
-	//blue=ofRandom(100, 255);
 	red=255;
 	green=255;
 	blue=255;
 	randomdirection();
 	randomMode();
-	
 	counter=0;
-	
 }
 //set counter to zero
 void Cells::resetcounter(){
@@ -122,13 +117,13 @@ void Cells::setYDirection(int pdy){
 	dy=pdy;
 }
 //draw all cell that is alive
-void Cells::draw(int width){
+void Cells::draw(int width,int height){
 	if(alive)
 	{
 		
 		ofSetColor(	red,green,blue);
-		ofCircle(width/windowcol/2+col*width/windowcol, width/windowcol/2+row*width/windowcol,width/windowcol/2 );
-		
+		//ofCircle( );
+		ofEllipse(width/windowcol/2+col*width/windowcol, height/windowrow/2+row*height/windowrow,width/windowcol,height/windowrow);
 		/*
 		glPushMatrix();
 		glTranslatef(width/windowcol/2+col*width/windowcol,width/windowcol/2+row*width/windowcol, 0);

@@ -30,7 +30,7 @@ public:
 	int cellcolor;
 	int counter;
 	int dspeed;
-	void draw(int width);
+	void draw(int width,int height);
 	void setcol(int pCol);
 	void setrow(int pRow);
 	int getnextx();
