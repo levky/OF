@@ -23,17 +23,14 @@ testApp::testApp(){
 //--------------------------------------------------------------
 void testApp::setup() {
 
-	br=20;
-	bg=20;
-	bb=20;
+	br=100;
+	bg=100;
+	bb=100;
 	xg=0;
 	yg=9;
-	myColors[0]=20/255;
-	myColors[1]=20/255;
-	myColors[2]=20/255;
-	masterRed=0;
-	masterBlue=0;
-	masterGreen=0;
+	myColors[0]=.5;
+	myColors[1]=.5;
+	myColors[2]=1;
 	ofSetVerticalSync(true);
 	ofBackground(20, 20, 20);
 	ofSetLogLevel(OF_LOG_NOTICE);
@@ -72,15 +69,12 @@ void testApp::setup() {
 	gui.addToggle("blank", toggle1);
 	gui.addTitle("GuiDraw");
 	gui.addColorPicker("BG Color", myColors);
-	
 	gui.addToggle("Toggle Flockings", bFlockings).setNewColumn(true);
 	gui.addTitle("subtract one boid");
-
 	gui.addToggle("Toggle gravity", bGravity).setNewColumn(true);
 	gui.addToggle("enable/disable adding boids",bAddBoids);
+	//gui.setAutoSave(true);      
 
-	//gui.loadFromXML();
-	
 	//show gui
 	gui.show();
 	
@@ -203,12 +197,12 @@ void testApp::addBoids(float mouseX, float mouseY){
 	p.setPhysics(3, 0.53, 0.31);//set mass=3, bounce=0.53, friction=0.31
 	p.setup(box2d.getWorld(), mouseX, mouseY, r);
 
-	p.color.r = ofRandom(0, 20);
-	p.color.g = ofRandom(0, 20); 
-	p.color.b = ofRandom(0, 20);
-	p.masterRed=0;
-	p.masterBlue=0;
-	p.masterGreen=0;
+	p.color.r = ofRandom(0, 100);
+	p.color.g = ofRandom(0, 100); 
+	p.color.b = ofRandom(0, 100);
+	p.masterRed=100;
+	p.masterBlue=100;
+	p.masterGreen=100;
 	customParticles.push_back(p);
 	pBoids->addBoid();
 }	
@@ -644,8 +638,8 @@ void testApp::keyPressed(int key) {
 		ofToggleFullscreen();
 	}
 	if(key==' ')gui.toggleDraw();
-	if(key=='[')gui.prevPage();
-	if(key==']')gui.nextPage();
+	if(key=='[')	
+	if(key==']')	
 	if(key=='p')gui.nextPageWithBlank();
 }
 //--------------------------------------------------------------
