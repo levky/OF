@@ -40,7 +40,6 @@ class boids {
 		void setInSightDist(float dist);
 		float getTooCloseDist();
 		float getInSightDist();
-	
 		void randomColor();
 	
 	private:

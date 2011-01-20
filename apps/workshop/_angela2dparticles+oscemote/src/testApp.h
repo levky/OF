@@ -16,14 +16,19 @@
 #define PORT 8050    //receive 
 #define SPORT 9001    //send 
 #define HOST "127.0.0.1"//ipod or iphone ip Address
+#define UseOSC 0	//0- no, 1- yes
+#define OSCInterface 1 //0 - OSCemote, 1- custom TouchOSC
 
 // ------------------------------------------------- a simple extended box2d circle
 class CustomParticle : public ofxBox2dCircle {
 	
 public:
-	CustomParticle() {
+	CustomParticle(){
 	}
 	ofColor color;
+	int masterRed,masterBlue,masterGreen;
+	ofImage loader;
+	
 	void draw() {
 		
 		if(dead=true && body == NULL) return;
@@ -32,16 +37,13 @@ public:
 		
 		glPushMatrix();
 		glTranslatef(getPosition().x, getPosition().y, 0);
-		
-		ofSetColor(color.r, color.g, color.b);
+		ofSetColor(color.r+masterRed, color.g+masterGreen, color.b+masterBlue);
 		ofFill();
 		ofCircle(0, 0, radius);	
-		
 		glPopMatrix();
 
 	}
 };
-
 // -------------------------------------------------
 
 class testApp : public ofBaseApp {
@@ -52,9 +54,15 @@ public:
 	void setup();
 	void update();
 	void draw();
+	
 	void checkFlag();
 	void addBoids(float mouseX, float mouseY);
 	void deleteBoids();
+	void sendOscFlag();
+	void checkGravity();
+	void parseOSCMsg();
+	void changeMasterColor();
+	
 	void keyPressed(int key);
 	void keyReleased(int key);
 	void mouseMoved(int x, int y);
@@ -63,7 +71,7 @@ public:
 	void mouseReleased(int x, int y, int button);
 	void resized(int w, int h);
 	
-	float px, py,vx,vy;
+	float px, py,vx,vy,xg,yg;
 	bool bMouseForce;
 	bool bGrabbing;
 	bool bFlockings;
@@ -75,28 +83,25 @@ public:
 	bool pbFlockings;
 	bool pbAGravity;
 	bool toggle1;
+	bool bGravity;
+	bool pbGravity;
 	
 	boids* pBoids;
 	vector<boid*> pBoids2;
 
 	ofxBox2d						box2d;			  //	the box2d world
-	//vector		<ofxBox2dCircle>	circles;		  //	default box2d circles
-	//vector		<ofxBox2dPolygon>	polygons;		  //	defalut box2d polgons
-	//vector		<ofxBox2dRect>		boxes;			  //	defalut box2d rects
-	//vector      <ofxBox2dLine>		lines;			  //	default box2d lines (hacked)
 	vector		<CustomParticle>	customParticles;  //	this is a custom particle the extends a cirlce
-
-	//ofxBox2dCircle					ballJoints[5];	  //	ball joints
-	//ofxBox2dJoint					joints[5];		  //	box2d joints
-	//ofxBox2dLine					lineStrip;		  //	a linestrip for drawing
 
 	float br,bg,bb;//background color
 	float myColors[4];//background color for gui
 	float timer;//timer for mouse force
 	float mtimer;//timer for pboids2
+	float gtimer;//timer for gravity
 	bool bmouse;
 	float pwidth;
 	float pheight;
+	
+	int masterRed,masterBlue,masterGreen;
 		
 private:
 	ofxOscReceiver receiver;
