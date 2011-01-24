@@ -1,0 +1,15 @@
+<controls>
+    <SliderFloat_Slider>
+        <_></_>
+        <name>Slider: </name>
+        <value>5.000000</value>
+    </SliderFloat_Slider>
+    <ColorPicker_color>
+        <_></_>
+        <name>color: </name>
+        <values_0>0.000000</values_0>
+        <values_1>0.000000</values_1>
+        <values_2>0.000000</values_2>
+        <values_3>0.000000</values_3>
+    </ColorPicker_color>
+</controls>
