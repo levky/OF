@@ -1,0 +1,3 @@
+/Users/macbookpro/Documents/Programming/OFW/apps/workshop/_angela_matrix_ver3/ofxSimpleGuiToo/src/ofxSimpleGuiToo.cpp:323: error: no 'ofxColorPicker& ofxSimpleGuiToo::addColorPicker2d(std::string, float*)' member function declared in class 'ofxSimpleGuiToo'
+/Users/macbookpro/Documents/Programming/OFW/apps/workshop/_angela_matrix_ver3/ofxSimpleGuiToo/src/ofxSimpleGuiToo.cpp: In member function 'ofxColorPicker& ofxSimpleGuiToo::addColorPicker2d(std::string, float*)':
+/Users/macbookpro/Documents/Programming/OFW/apps/workshop/_angela_matrix_ver3/ofxSimpleGuiToo/src/ofxSimpleGuiToo.cpp:325: error: 'class ofxSimpleGuiPage' has no member named 'addColorPicker2d'
