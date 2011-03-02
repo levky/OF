@@ -1,0 +1,5798 @@
+// !$*UTF8*$!
+{
+	527280E2131759150061BBEE /* ofxHttpEvents.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 770}}";
+			sepNavSelRange = "{172, 28}";
+			sepNavVisRange = "{0, 1012}";
+		};
+	};
+	527280E3131759150061BBEE /* ofxHttpTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 485}}";
+			sepNavSelRange = "{643, 17}";
+			sepNavVisRange = "{0, 689}";
+		};
+	};
+	527280E4131759150061BBEE /* ofxHttpUtils.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2366}}";
+			sepNavSelRange = "{121, 0}";
+			sepNavVisRange = "{0, 1041}";
+			sepNavWindowFrame = "{{15, 52}, {650, 826}}";
+		};
+	};
+	527280E5131759150061BBEE /* ofxHttpUtils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1722}}";
+			sepNavSelRange = "{706, 12}";
+			sepNavVisRange = "{435, 894}";
+		};
+	};
+	5272810A13175EBF0061BBEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E2131759150061BBEE /* ofxHttpEvents.h */;
+		name = "ofxHttpEvents.h: 52";
+		rLen = 33;
+		rLoc = 1637;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 1141;
+	};
+	5272810C13175EBF0061BBEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E5131759150061BBEE /* ofxHttpUtils.h */;
+		name = "ofxHttpUtils.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 1203;
+	};
+	5284201F13179FC7008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284202013179FC7008CC19D /* basic_string.h */;
+		name = "basic_string.h: 1508";
+		rLen = 20;
+		rLoc = 54699;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 54426;
+	};
+	5284202013179FC7008CC19D /* basic_string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = basic_string.h;
+		path = "/usr/include/c++/4.0.0/bits/basic_string.h";
+		sourceTree = "<absolute>";
+	};
+	5284202413179FC7008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284202513179FC7008CC19D /* basic_string.h */;
+		name = "basic_string.h: 1508";
+		rLen = 20;
+		rLoc = 54699;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 54426;
+	};
+	5284202513179FC7008CC19D /* basic_string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = basic_string.h;
+		path = "/usr/include/c++/4.0.0/bits/basic_string.h";
+		sourceTree = "<absolute>";
+	};
+	528420641317ACE0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 1005;
+	};
+	528420AC1317B7C0008CC19D /* ofxXmlExtended.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1414}}";
+			sepNavSelRange = "{98, 0}";
+			sepNavVisRange = "{0, 766}";
+		};
+	};
+	528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 485}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2}";
+		};
+	};
+	528420B41317B806008CC19D /* testApp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 485}}";
+			sepNavSelRange = "{112, 0}";
+			sepNavVisRange = "{0, 472}";
+			sepNavWindowFrame = "{{15, 52}, {650, 826}}";
+		};
+	};
+	528420B51317B806008CC19D /* testApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1176}}";
+			sepNavSelRange = "{656, 0}";
+			sepNavVisRange = "{83, 1049}";
+			sepNavWindowFrame = "{{15, 52}, {650, 826}}";
+		};
+	};
+	528420B61317B806008CC19D /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 508}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 401}";
+			sepNavWindowFrame = "{{15, 52}, {650, 826}}";
+		};
+	};
+	5284212B131B4734008CC19D /* tinyxml.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {839, 25942}}";
+			sepNavSelRange = "{10769, 62}";
+			sepNavVisRange = "{4000, 879}";
+		};
+	};
+	5284212C131B4734008CC19D /* tinyxml.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {972, 26068}}";
+			sepNavSelRange = "{15016, 54}";
+			sepNavVisRange = "{10349, 1033}";
+		};
+	};
+	5284212D131B4734008CC19D /* tinyxmlerror.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {613, 756}}";
+			sepNavSelRange = "{1307, 0}";
+			sepNavVisRange = "{312, 1204}";
+		};
+	};
+	5284212E131B4734008CC19D /* tinyxmlparser.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 24150}}";
+			sepNavSelRange = "{37336, 89}";
+			sepNavVisRange = "{25926, 859}";
+		};
+	};
+	52842130131B4734008CC19D /* ofxXmlSettings.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {714, 9226}}";
+			sepNavSelRange = "{19360, 53}";
+			sepNavVisRange = "{18486, 1143}";
+		};
+	};
+	52842131131B4734008CC19D /* ofxXmlSettings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 2296}}";
+			sepNavSelRange = "{6090, 14}";
+			sepNavVisRange = "{5549, 1433}";
+		};
+	};
+	52842142131B6319008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842170131B65EC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 44";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 472;
+	};
+	52842173131B65EC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528421E6131B832F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842130131B4734008CC19D /* ofxXmlSettings.cpp */;
+		name = "ofxXmlSettings.cpp: 156";
+		rLen = 0;
+		rLoc = 4183;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 3766;
+	};
+	52842222131B8F4D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E3131759150061BBEE /* ofxHttpTypes.h */;
+		name = "ofxHttpTypes.h: 29";
+		rLen = 17;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 280;
+	};
+	5284222D131B96F5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842131131B4734008CC19D /* ofxXmlSettings.h */;
+		name = "ofxXmlSettings.h: 146";
+		rLen = 11;
+		rLoc = 6223;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 5549;
+	};
+	52842237131B9CDC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842238131B9CDC008CC19D /* string.h */;
+		name = "string.h: 98";
+		rLen = 30;
+		rLoc = 4003;
+		rType = 0;
+		vrLen = 1596;
+		vrLoc = 3265;
+	};
+	52842238131B9CDC008CC19D /* string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = string.h;
+		path = /usr/include/string.h;
+		sourceTree = "<absolute>";
+	};
+	52842245131B9CDC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212B131B4734008CC19D /* tinyxml.cpp */;
+		name = "tinyxml.cpp: 555";
+		rLen = 62;
+		rLoc = 10769;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 5726;
+	};
+	52842282131CAFAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212B131B4734008CC19D /* tinyxml.cpp */;
+		name = "tinyxml.cpp: 555";
+		rLen = 62;
+		rLoc = 10769;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 4000;
+	};
+	52842286131CAFAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212C131B4734008CC19D /* tinyxml.h */;
+		name = "tinyxml.h: 1643";
+		rLen = 61;
+		rLoc = 58813;
+		rType = 0;
+		vrLen = 1892;
+		vrLoc = 58722;
+	};
+	528422EB131CBD39008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212D131B4734008CC19D /* tinyxmlerror.cpp */;
+		name = "tinyxmlerror.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 0;
+	};
+	528422EC131CBD39008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212E131B4734008CC19D /* tinyxmlparser.cpp */;
+		name = "tinyxmlparser.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 5551;
+	};
+	528423CE131CF734008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212D131B4734008CC19D /* tinyxmlerror.cpp */;
+		name = "tinyxmlerror.cpp: 38";
+		rLen = 0;
+		rLoc = 1307;
+		rType = 0;
+		vrLen = 1204;
+		vrLoc = 312;
+	};
+	528423CF131CF734008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212C131B4734008CC19D /* tinyxml.h */;
+		name = "tinyxml.h: 490";
+		rLen = 54;
+		rLoc = 15016;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 10349;
+	};
+	528424B6131D1BE7008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5284212E131B4734008CC19D /* tinyxmlparser.cpp */;
+		name = "tinyxmlparser.cpp: 1640";
+		rLen = 89;
+		rLoc = 37336;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 25926;
+	};
+	528424C0131D1CB2008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842131131B4734008CC19D /* ofxXmlSettings.h */;
+		name = "ofxXmlSettings.h: 138";
+		rLen = 14;
+		rLoc = 6090;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 5549;
+	};
+	528424C1131D1CB2008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842130131B4734008CC19D /* ofxXmlSettings.cpp */;
+		name = "ofxXmlSettings.cpp: 654";
+		rLen = 53;
+		rLoc = 19360;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 18486;
+	};
+	52842534131DF4FF008CC19D /* yahooweather.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 546}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 789}";
+			sepNavWindowFrame = "{{15, 52}, {650, 826}}";
+		};
+	};
+	52842535131DF4FF008CC19D /* yahooweather.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2502}}";
+			sepNavSelRange = "{129, 0}";
+			sepNavVisRange = "{0, 1079}";
+		};
+	};
+	5284259E131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 5";
+		rLen = 261;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528425A0131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 60";
+		rLen = 0;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 472;
+	};
+	528425A2131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 154;
+		vrLoc = 0;
+	};
+	528425A5131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	528425A6131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 12";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 203;
+		vrLoc = 0;
+	};
+	528425A7131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 12";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 115;
+	};
+	528425A8131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	528425AA131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 25";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 57;
+	};
+	528425AB131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 13";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	528425AC131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 37";
+		rLen = 0;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 57;
+	};
+	528425AE131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 13";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	528425AF131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 28";
+		rLen = 0;
+		rLoc = 1651;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 1337;
+	};
+	528425B0131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 13";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	528425B1131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 28";
+		rLen = 59;
+		rLoc = 1634;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 462;
+	};
+	528425B2131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	528425B3131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 28";
+		rLen = 59;
+		rLoc = 1634;
+		rType = 0;
+		vrLen = 1450;
+		vrLoc = 1236;
+	};
+	528425B5131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 16";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 343;
+		vrLoc = 0;
+	};
+	528425B6131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 85";
+		rLen = 0;
+		rLoc = 4058;
+		rType = 0;
+		vrLen = 1266;
+		vrLoc = 1556;
+	};
+	528425B7131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 26";
+		rLen = 46;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 800;
+	};
+	528425B8131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 85";
+		rLen = 0;
+		rLoc = 4058;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	528425BA131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 27";
+		rLen = 0;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 57;
+	};
+	528425BB131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	528425BC131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 43";
+		rLen = 0;
+		rLoc = 3197;
+		rType = 0;
+		vrLen = 1450;
+		vrLoc = 835;
+	};
+	528425BD131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528425BE131E0ACC008CC19D /* stdlib.h */;
+		name = "stdlib.h: 149";
+		rLen = 25;
+		rLoc = 4929;
+		rType = 0;
+		vrLen = 1791;
+		vrLoc = 0;
+	};
+	528425BE131E0ACC008CC19D /* stdlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stdlib.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h;
+		sourceTree = "<absolute>";
+	};
+	528425BF131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	528425C1131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 27";
+		rLen = 0;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425C2131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	528425C4131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	528425C5131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 44;
+	};
+	528425C7131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	528425C8131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 4";
+		rLen = 1;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425CA131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 16";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	528425CB131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 77";
+		rLen = 0;
+		rLoc = 4062;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 1465;
+	};
+	528425CC131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 18";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	528425CD131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 77";
+		rLen = 0;
+		rLoc = 4062;
+		rType = 0;
+		vrLen = 1194;
+		vrLoc = 1398;
+	};
+	528425CE131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 20";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	528425CF131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 86";
+		rLen = 0;
+		rLoc = 4292;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 1860;
+	};
+	528425D0131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 20";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	528425D2131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 20";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	528425D3131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 86";
+		rLen = 0;
+		rLoc = 4292;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 1860;
+	};
+	528425D4131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 20";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	528425D5131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 86";
+		rLen = 0;
+		rLoc = 4292;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 1858;
+	};
+	528425D7131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 20";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	528425D8131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 86";
+		rLen = 0;
+		rLoc = 4292;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 0;
+	};
+	528425DA131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425DC131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 15";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 0;
+	};
+	528425DD131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425DE131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 15";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 0;
+	};
+	528425DF131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 86";
+		rLen = 0;
+		rLoc = 4292;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 0;
+	};
+	528425E0131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 15";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 0;
+	};
+	528425E2131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 5";
+		rLen = 261;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528425E3131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 14";
+		rLen = 0;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	528425E4131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 5";
+		rLen = 261;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528425E5131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 14";
+		rLen = 0;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	528425E6131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	528425E7131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 12";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	528425E8131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	528425E9131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 12";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	528425EA131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	528425EB131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 12";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	528425ED131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	528425EF131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 585;
+		vrLoc = 0;
+	};
+	528425F1131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 457;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425F3131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 9";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425F4131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 0;
+	};
+	528425F5131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	528425F6131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 0;
+	};
+	528425F8131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 9";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528425F9131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 20";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 146;
+	};
+	528425FB131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 2389;
+	};
+	528425FC131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 28";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 39;
+	};
+	528425FD131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 302;
+	};
+	528425FE131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 22";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 850;
+		vrLoc = 42;
+	};
+	528425FF131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 0;
+	};
+	52842600131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 22";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 850;
+		vrLoc = 42;
+	};
+	52842603131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	52842604131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842606131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	52842608131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 85;
+	};
+	52842609131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 41;
+	};
+	5284260A131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 85;
+	};
+	5284260C131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 9";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284260D131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 85;
+	};
+	5284260E131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 41;
+	};
+	5284260F131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 85;
+	};
+	52842611131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 10";
+		rLen = 0;
+		rLoc = 156;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842612131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 85;
+	};
+	52842613131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 24;
+	};
+	52842616131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	52842617131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 30";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842618131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 24;
+	};
+	52842619131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 21";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 85;
+	};
+	5284261A131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 24;
+	};
+	5284261C131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284261D131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 24;
+	};
+	5284261E131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 153";
+		rLen = 39;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 3680;
+	};
+	5284261F131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 24;
+	};
+	52842620131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842621131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 24;
+	};
+	52842623131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 14";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842624131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 0;
+	};
+	52842625131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 23";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842626131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 0;
+	};
+	52842628131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 23";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284262A131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284262B131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 23";
+		rLen = 0;
+		rLoc = 293;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 133;
+	};
+	5284262C131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284262E131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284262F131E0ACC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 0;
+	};
+	5284263B131E0AFF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842641131E0B6A008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842652131E0D37008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 86";
+		rLen = 0;
+		rLoc = 4059;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 1938;
+	};
+	52842654131E0D37008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284265A131E0D72008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 12";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842662131E0DC0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 12";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842663131E0DC0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 28";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284266E131E209B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 101";
+		rLen = 0;
+		rLoc = 4272;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 3;
+	};
+	5284266F131E209B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 28";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842670131E209B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 101";
+		rLen = 0;
+		rLoc = 4272;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 3;
+	};
+	52842678131E2193008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 43";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 192;
+	};
+	5284267A131E2193008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 89";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 2418;
+	};
+	5284267B131E2193008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 199;
+	};
+	52842686131E234F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4059;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 0;
+	};
+	52842687131E234F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 199;
+	};
+	52842689131E234F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 12";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842690131E23BF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 192;
+	};
+	52842691131E23BF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4059;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 0;
+	};
+	52842692131E23BF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 192;
+	};
+	52842693131E23BF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 16";
+		rLen = 0;
+		rLoc = 1330;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 0;
+	};
+	52842694131E23BF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 44";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 192;
+	};
+	52842695131E23BF008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 76";
+		rLen = 0;
+		rLoc = 4058;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 2634;
+	};
+	5284269C131E2510008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 44";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 200;
+	};
+	5284269D131E2510008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 1330;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 2091;
+	};
+	5284269E131E2510008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 44";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 200;
+	};
+	5284269F131E2510008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 1330;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 2091;
+	};
+	528426A1131E2510008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 44";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 195;
+	};
+	528426A5131E2546008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 1330;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 1595;
+	};
+	528426B0131E268A008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 44";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 195;
+	};
+	528426B1131E268A008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 79";
+		rLen = 0;
+		rLoc = 4064;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1808;
+	};
+	528426B2131E268A008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 44";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 195;
+	};
+	528426B8131E2750008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 85;
+	};
+	528426D4131E33A6008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 119";
+		rLen = 0;
+		rLoc = 5392;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 2778;
+	};
+	528426D5131E33A6008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 85;
+	};
+	528426DC131E35B7008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 127";
+		rLen = 0;
+		rLoc = 5392;
+		rType = 0;
+		vrLen = 902;
+		vrLoc = 2955;
+	};
+	528426DE131E35B7008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 85;
+	};
+	528426FC131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 101";
+		rLen = 0;
+		rLoc = 4764;
+		rType = 0;
+		vrLen = 916;
+		vrLoc = 0;
+	};
+	528426FD131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 12";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528426FE131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 85;
+	};
+	528426FF131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 101";
+		rLen = 0;
+		rLoc = 4764;
+		rType = 0;
+		vrLen = 916;
+		vrLoc = 0;
+	};
+	52842700131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 85;
+	};
+	52842702131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 12";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842703131E389E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 5";
+		rLen = 261;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	52842728131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 18";
+		rLen = 1;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284272A131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 80";
+		rLen = 0;
+		rLoc = 4058;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 1733;
+	};
+	5284272C131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 27";
+		rLen = 0;
+		rLoc = 1330;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 212;
+	};
+	5284272E131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 49;
+	};
+	5284272F131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 38;
+		rLoc = 574;
+		rType = 0;
+		vrLen = 500;
+		vrLoc = 0;
+	};
+	52842730131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 49;
+	};
+	52842731131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 14";
+		rLen = 38;
+		rLoc = 574;
+		rType = 0;
+		vrLen = 500;
+		vrLoc = 0;
+	};
+	52842732131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 29";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 49;
+	};
+	52842733131E4C90008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 3;
+	};
+	52842738131E4CBC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 49;
+	};
+	52842739131E4CBC008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 3;
+	};
+	52842740131E4D4E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 49;
+	};
+	52842742131E4D4E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 3;
+	};
+	52842743131E4D4E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 49;
+	};
+	52842748131E4D99008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 2112;
+	};
+	52842751131E4E67008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 46;
+	};
+	52842752131E4E67008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 156;
+	};
+	52842753131E4E67008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 46;
+	};
+	52842754131E4E67008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 156;
+	};
+	52842755131E4E67008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 18";
+		rLen = 1;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842766131E518E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 24";
+		rLen = 0;
+		rLoc = 369;
+		rType = 0;
+		vrLen = 775;
+		vrLoc = 46;
+	};
+	52842767131E518E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 47";
+		rLen = 0;
+		rLoc = 2465;
+		rType = 0;
+		vrLen = 1112;
+		vrLoc = 500;
+	};
+	52842768131E518E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 40";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 133;
+	};
+	52842779131E530F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 117";
+		rLen = 0;
+		rLoc = 4875;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 2590;
+	};
+	5284277A131E530F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 40";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 133;
+	};
+	52842781131E5463008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 56";
+		rLen = 0;
+		rLoc = 2613;
+		rType = 0;
+		vrLen = 1253;
+		vrLoc = 502;
+	};
+	52842782131E5463008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 40";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	52842784131E5463008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284278A131E551B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 155;
+	};
+	5284278B131E551B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 192;
+	};
+	5284278D131E551B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284278E131E551B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	52842799131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	5284279A131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E3131759150061BBEE /* ofxHttpTypes.h */;
+		name = "ofxHttpTypes.h: 29";
+		rLen = 17;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 689;
+		vrLoc = 0;
+	};
+	5284279B131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E2131759150061BBEE /* ofxHttpEvents.h */;
+		name = "ofxHttpEvents.h: 52";
+		rLen = 33;
+		rLoc = 1637;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	5284279C131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E5131759150061BBEE /* ofxHttpUtils.h */;
+		name = "ofxHttpUtils.h: 52";
+		rLen = 80;
+		rLoc = 1048;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	5284279D131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 153";
+		rLen = 39;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 3763;
+	};
+	5284279E131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E5131759150061BBEE /* ofxHttpUtils.h */;
+		name = "ofxHttpUtils.h: 52";
+		rLen = 80;
+		rLoc = 1048;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	5284279F131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 133;
+	};
+	528427A0131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 24;
+	};
+	528427A1131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 759;
+		vrLoc = 133;
+	};
+	528427A3131E5564008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 18";
+		rLen = 1;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427AD131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 2";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	528427AE131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 3;
+	};
+	528427AF131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 37";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427B1131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427B3131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 18";
+		rLen = 1;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427B4131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 3;
+	};
+	528427B5131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 2";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	528427B6131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 18";
+		rLen = 1;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427B8131E55C3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 18";
+		rLen = 1;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427C3131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	528427C4131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427C6131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427C7131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427C8131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	528427C9131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 23;
+	};
+	528427CA131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	528427CB131E5651008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	528427D8131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427D9131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427DA131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427DB131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427DD131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427DF131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E3131759150061BBEE /* ofxHttpTypes.h */;
+		name = "ofxHttpTypes.h: 29";
+		rLen = 17;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 689;
+		vrLoc = 0;
+	};
+	528427E0131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 153";
+		rLen = 39;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	528427E1131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427E2131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	528427E3131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 23;
+	};
+	528427E4131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427E6131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427E7131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427E8131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427E9131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 104";
+		rLen = 0;
+		rLoc = 4403;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427EA131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427EB131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427EC131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528427ED131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 41;
+	};
+	528427EE131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 17";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 0;
+	};
+	528427EF131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528427F1131E571F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 7";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284280C131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 23;
+	};
+	5284280D131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 32";
+		rLen = 0;
+		rLoc = 1755;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 0;
+	};
+	5284280E131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 84;
+	};
+	5284280F131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 23;
+	};
+	52842810131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 21";
+		rLen = 10;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 226;
+	};
+	52842811131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 23;
+	};
+	52842812131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 21";
+		rLen = 10;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 226;
+	};
+	52842813131E598D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 23;
+	};
+	52842818131E59B0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 0;
+	};
+	52842824131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 1;
+	};
+	52842825131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 21";
+		rLen = 10;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 226;
+	};
+	52842826131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 1;
+	};
+	52842827131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 23;
+	};
+	52842828131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842829131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 21";
+		rLen = 10;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 226;
+	};
+	5284282A131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	5284282B131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 10";
+		rLen = 0;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	5284282C131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	5284282D131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 10";
+		rLen = 0;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	5284282E131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	5284282F131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	52842830131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842831131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	52842832131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	52842833131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	52842834131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842835131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	52842836131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	52842837131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842838131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	52842839131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	5284283A131E5A57008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842842131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	52842843131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842844131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842845131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	52842846131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842847131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 8";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842848131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	52842849131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	5284284A131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	5284284B131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	5284284C131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 975;
+		vrLoc = 0;
+	};
+	5284284D131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	5284284E131E5AD4008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 1256;
+	};
+	52842857131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	52842858131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842859131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	5284285A131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	5284285B131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	5284285C131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 32";
+		rLen = 0;
+		rLoc = 969;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	5284285D131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 0;
+	};
+	5284285E131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	5284285F131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 42";
+		rLen = 51;
+		rLoc = 994;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	52842860131E5BAD008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842867131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E3131759150061BBEE /* ofxHttpTypes.h */;
+		name = "ofxHttpTypes.h: 29";
+		rLen = 17;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 689;
+		vrLoc = 0;
+	};
+	5284286C131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 8";
+		rLen = 0;
+		rLoc = 119;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	5284286D131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	5284286E131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 0;
+	};
+	5284286F131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	52842870131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842871131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842872131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	52842873131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842874131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	52842875131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 10";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 0;
+	};
+	52842876131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 153";
+		rLen = 39;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	52842877131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E3131759150061BBEE /* ofxHttpTypes.h */;
+		name = "ofxHttpTypes.h: 29";
+		rLen = 17;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 689;
+		vrLoc = 0;
+	};
+	52842878131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E2131759150061BBEE /* ofxHttpEvents.h */;
+		name = "ofxHttpEvents.h: 52";
+		rLen = 33;
+		rLoc = 1637;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	52842879131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 8";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	5284287A131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	5284287B131E5C41008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	52842884131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	52842885131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842886131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	52842887131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 0;
+	};
+	52842888131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	52842889131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	5284288A131E5C7E008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	52842890131E5CAE008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	52842891131E5CAE008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	52842892131E5CAE008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	52842897131E5CD5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	52842898131E5CD5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428A0131E5D1B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 13";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 0;
+	};
+	528428A1131E5D1B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428A2131E5D1B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528428A3131E5D1B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428A4131E5D1B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	528428A5131E5D1B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428AD131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 8";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	528428B1131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	528428B2131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428B3131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	528428B4131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528428B5131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428B6131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	528428B7131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428B8131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 24";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	528428B9131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E2131759150061BBEE /* ofxHttpEvents.h */;
+		name = "ofxHttpEvents.h: 52";
+		rLen = 33;
+		rLoc = 1637;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	528428BA131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E4131759150061BBEE /* ofxHttpUtils.cpp */;
+		name = "ofxHttpUtils.cpp: 8";
+		rLen = 0;
+		rLoc = 121;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 0;
+	};
+	528428BB131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E5131759150061BBEE /* ofxHttpUtils.h */;
+		name = "ofxHttpUtils.h: 8";
+		rLen = 47;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	528428BC131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 2";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528428BD131E5DA5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 41";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528428C6131E5DD0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 14";
+		rLen = 0;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528428C7131E5DD0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428C8131E5DD0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 41";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 88;
+	};
+	528428C9131E5DD0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428CA131E5DD0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	528428CB131E5DD0008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	528428D3131E5E96008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 11;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 0;
+	};
+	528428D4131E5E96008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 9";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428D5131E5E96008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428D6131E5E96008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528428DC131E5ED5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 22";
+		rLen = 0;
+		rLoc = 401;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528428DD131E5ED5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428DE131E5ED5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528428DF131E5ED5008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428E5131E5F0B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	528428E6131E5F0B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428E7131E5F0B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 2";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528428E8131E5F0B008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	528428ED131E5FAE008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 2209;
+	};
+	528428F7131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428F8131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428F9131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 0;
+	};
+	528428FA131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428FB131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 10";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 23;
+	};
+	528428FC131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	528428FD131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	528428FE131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	528428FF131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	52842900131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842901131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842902131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	52842903131E619F008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 4;
+	};
+	5284290C131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528425BE131E0ACC008CC19D /* stdlib.h */;
+		name = "stdlib.h: 148";
+		rLen = 28;
+		rLoc = 4901;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 4354;
+	};
+	52842913131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	52842914131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 4;
+	};
+	52842915131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	52842916131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842917131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 1";
+		rLen = 0;
+		rLoc = 112;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	52842918131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842919131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	5284291A131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 64;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	5284291B131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	5284291C131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 5";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	5284291D131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	5284291E131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 87";
+		rLen = 0;
+		rLoc = 3765;
+		rType = 0;
+		vrLen = 889;
+		vrLoc = 89;
+	};
+	5284291F131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 1;
+	};
+	52842920131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 46";
+		rLen = 4;
+		rLoc = 2357;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 254;
+	};
+	52842921131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528425BE131E0ACC008CC19D /* stdlib.h */;
+		name = "stdlib.h: 148";
+		rLen = 28;
+		rLoc = 4901;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 4354;
+	};
+	52842922131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 46";
+		rLen = 4;
+		rLoc = 2357;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	52842923131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 1;
+	};
+	52842924131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 89;
+	};
+	52842925131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	52842926131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842927131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 89;
+	};
+	52842928131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 6";
+		rLen = 0;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	52842929131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	5284292A131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 12";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 89;
+	};
+	5284292B131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 0;
+	};
+	5284292C131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 10";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 89;
+	};
+	5284292D131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 12";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	5284292E131E6495008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	52842932131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842933131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 7";
+		rLen = 0;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	52842937131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E5131759150061BBEE /* ofxHttpUtils.h */;
+		name = "ofxHttpUtils.h: 34";
+		rLen = 12;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 435;
+	};
+	52842938131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842939131E6B76008CC19D /* HTTPResponse.h */;
+		name = "HTTPResponse.h: 111";
+		rLen = 17;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 1636;
+	};
+	52842939131E6B76008CC19D /* HTTPResponse.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPResponse.h;
+		path = /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/libs/poco/include/Poco/Net/HTTPResponse.h;
+		sourceTree = "<absolute>";
+	};
+	5284293C131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 16";
+		rLen = 0;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	5284293D131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	5284293E131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 12";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	5284293F131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 10";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 89;
+	};
+	52842940131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	52842941131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 5";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 0;
+	};
+	52842942131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	52842943131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 5";
+		rLen = 57;
+		rLoc = 44;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	52842944131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 0;
+	};
+	52842945131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 5";
+		rLen = 57;
+		rLoc = 44;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	52842946131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 5";
+		rLen = 0;
+		rLoc = 29;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 0;
+	};
+	52842947131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 6";
+		rLen = 0;
+		rLoc = 72;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842948131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 473;
+		vrLoc = 0;
+	};
+	52842949131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 5";
+		rLen = 57;
+		rLoc = 44;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 0;
+	};
+	5284294A131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 0;
+	};
+	5284294B131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 5";
+		rLen = 0;
+		rLoc = 29;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 0;
+	};
+	5284294C131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 5";
+		rLen = 0;
+		rLoc = 65;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	5284294D131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 6";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 0;
+	};
+	5284294E131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 7";
+		rLen = 0;
+		rLoc = 87;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 0;
+	};
+	5284294F131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 6";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	52842950131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 3";
+		rLen = 0;
+		rLoc = 55;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	52842951131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 7";
+		rLen = 0;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 816;
+		vrLoc = 0;
+	};
+	52842952131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 7";
+		rLen = 0;
+		rLoc = 87;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 0;
+	};
+	52842953131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 6";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	52842954131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AD1317B7C0008CC19D /* ofxXmlExtended.cpp */;
+		name = "ofxXmlExtended.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2;
+		vrLoc = 0;
+	};
+	52842955131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420AC1317B7C0008CC19D /* ofxXmlExtended.h */;
+		name = "ofxXmlExtended.h: 7";
+		rLen = 0;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	52842956131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 3";
+		rLen = 0;
+		rLoc = 55;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	52842957131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 6";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	52842958131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 7";
+		rLen = 0;
+		rLoc = 87;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 0;
+	};
+	52842959131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 10";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	5284295A131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 13";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	5284295B131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 10";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 994;
+	};
+	5284295C131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 26";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 816;
+		vrLoc = 22;
+	};
+	5284295D131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 6";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	5284295E131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 26";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 816;
+		vrLoc = 22;
+	};
+	5284295F131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 15";
+		rLen = 0;
+		rLoc = 320;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 103;
+	};
+	52842960131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 84;
+	};
+	52842961131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 48";
+		rLen = 12;
+		rLoc = 1711;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 661;
+	};
+	52842962131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E5131759150061BBEE /* ofxHttpUtils.h */;
+		name = "ofxHttpUtils.h: 34";
+		rLen = 12;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 435;
+	};
+	52842963131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842964131E6B76008CC19D /* HTTPResponse.h */;
+		name = "HTTPResponse.h: 111";
+		rLen = 17;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 1636;
+	};
+	52842964131E6B76008CC19D /* HTTPResponse.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPResponse.h;
+		path = /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/libs/poco/include/Poco/Net/HTTPResponse.h;
+		sourceTree = "<absolute>";
+	};
+	52842965131E6B76008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 112";
+		rLen = 0;
+		rLoc = 4272;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 0;
+	};
+	5284296C131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 3";
+		rLen = 0;
+		rLoc = 55;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	5284296E131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 22";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 0;
+	};
+	5284296F131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 83;
+	};
+	52842970131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 15";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 0;
+	};
+	52842971131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 83;
+	};
+	52842972131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 22";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 0;
+	};
+	52842973131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 112";
+		rLen = 0;
+		rLoc = 4272;
+		rType = 0;
+		vrLen = 1023;
+		vrLoc = 0;
+	};
+	52842974131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 22";
+		rLen = 0;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 0;
+	};
+	52842975131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 3";
+		rLen = 0;
+		rLoc = 55;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	52842976131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 9";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	52842977131E6C33008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B61317B806008CC19D /* main.cpp */;
+		name = "main.cpp: 3";
+		rLen = 0;
+		rLoc = 55;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	5284297D131E6CC1008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 129;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 0;
+	};
+	5284297E131E6CC1008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 40";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 69;
+	};
+	52842994131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 129;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 0;
+	};
+	52842995131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E2131759150061BBEE /* ofxHttpEvents.h */;
+		name = "ofxHttpEvents.h: 13";
+		rLen = 28;
+		rLoc = 172;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	52842996131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 27";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	52842997131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 11";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 93;
+	};
+	52842998131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 83;
+	};
+	52842999131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 27";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	5284299A131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 40";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 69;
+	};
+	5284299B131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 83;
+	};
+	5284299C131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842535131DF4FF008CC19D /* yahooweather.cpp */;
+		name = "yahooweather.cpp: 11";
+		rLen = 0;
+		rLoc = 129;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 0;
+	};
+	5284299D131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 40";
+		rLen = 0;
+		rLoc = 907;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 69;
+	};
+	5284299E131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 83;
+	};
+	5284299F131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 15";
+		rLen = 20;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 69;
+	};
+	528429A0131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527280E2131759150061BBEE /* ofxHttpEvents.h */;
+		name = "ofxHttpEvents.h: 13";
+		rLen = 28;
+		rLoc = 172;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	528429A1131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 83;
+	};
+	528429A2131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B41317B806008CC19D /* testApp.h */;
+		name = "testApp.h: 27";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	528429A3131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 12";
+		rLen = 271;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 83;
+	};
+	528429A4131E6D75008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52842534131DF4FF008CC19D /* yahooweather.h */;
+		name = "yahooweather.h: 11";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 93;
+	};
+	528429A8131E6D9D008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 19";
+		rLen = 0;
+		rLoc = 452;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 83;
+	};
+	528429C7131E6DB8008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 24";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 1049;
+		vrLoc = 83;
+	};
+	528429DF131E734E008CC19D /* backward_warning.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = backward_warning.h;
+		path = "/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/backward_warning.h";
+		sourceTree = "<absolute>";
+	};
+	528429E1131E735D008CC19D /* istream.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = istream.h;
+		path = "/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/istream.h";
+		sourceTree = "<absolute>";
+	};
+	528429E3131E7368008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528429DF131E734E008CC19D /* backward_warning.h */;
+		name = "backward_warning.h: 32";
+		rLen = 76;
+		rLoc = 1475;
+		rType = 0;
+		vrLen = 1263;
+		vrLoc = 590;
+	};
+	528429E4131E7368008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "In file included from /Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/istream.h";
+		fRef = 528429E5131E7368008CC19D /* istream.h */;
+		rLen = 1;
+		rLoc = 30;
+		rType = 1;
+	};
+	528429E5131E7368008CC19D /* istream.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = istream.h;
+		path = "/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/istream.h";
+		sourceTree = "<absolute>";
+	};
+	528429E6131E7368008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528429DF131E734E008CC19D /* backward_warning.h */;
+		name = "backward_warning.h: 32";
+		rLen = 76;
+		rLoc = 1475;
+		rType = 0;
+		vrLen = 1263;
+		vrLoc = 590;
+	};
+	528429E7131E7368008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528429E1131E735D008CC19D /* istream.h */;
+		name = "istream.h: 31";
+		rLen = 30;
+		rLoc = 1437;
+		rType = 0;
+		vrLen = 1154;
+		vrLoc = 344;
+	};
+	528429F3131E74D3008CC19D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 528420B51317B806008CC19D /* testApp.cpp */;
+		name = "testApp.cpp: 24";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 1049;
+		vrLoc = 83;
+	};
+	52F96BF712EEE38F003C27F8 /* emptyExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = emptyExample;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	52F96BFA12EEE3AE003C27F8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	52F96BFB12EEE3AE003C27F8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 52F96BF712EEE38F003C27F8 /* emptyExample */;
+		activeTarget = E4B69B5A0A3A1756003C02F2 /* emptyExample */;
+		addToTargets = (
+			E4B69B5A0A3A1756003C02F2 /* emptyExample */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 52F96BFB12EEE3AE003C27F8 /* Code sense */;
+		executables = (
+			52F96BF712EEE38F003C27F8 /* emptyExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					800,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320763072;
+			PBXWorkspaceStateSaveDate = 320763072;
+		};
+		perUserProjectItems = {
+			5272810A13175EBF0061BBEE = 5272810A13175EBF0061BBEE /* PBXTextBookmark */;
+			5272810C13175EBF0061BBEE = 5272810C13175EBF0061BBEE /* PBXTextBookmark */;
+			5284201F13179FC7008CC19D = 5284201F13179FC7008CC19D /* PBXTextBookmark */;
+			5284202413179FC7008CC19D = 5284202413179FC7008CC19D /* PBXTextBookmark */;
+			528420641317ACE0008CC19D = 528420641317ACE0008CC19D /* PBXTextBookmark */;
+			52842142131B6319008CC19D = 52842142131B6319008CC19D /* PBXTextBookmark */;
+			52842170131B65EC008CC19D = 52842170131B65EC008CC19D /* PBXTextBookmark */;
+			52842173131B65EC008CC19D = 52842173131B65EC008CC19D /* PBXTextBookmark */;
+			528421E6131B832F008CC19D = 528421E6131B832F008CC19D /* PBXTextBookmark */;
+			52842222131B8F4D008CC19D = 52842222131B8F4D008CC19D /* PBXTextBookmark */;
+			5284222D131B96F5008CC19D = 5284222D131B96F5008CC19D /* PBXTextBookmark */;
+			52842237131B9CDC008CC19D = 52842237131B9CDC008CC19D /* PBXTextBookmark */;
+			52842245131B9CDC008CC19D = 52842245131B9CDC008CC19D /* PBXTextBookmark */;
+			52842282131CAFAD008CC19D = 52842282131CAFAD008CC19D /* PBXTextBookmark */;
+			52842286131CAFAD008CC19D = 52842286131CAFAD008CC19D /* PBXTextBookmark */;
+			528422EB131CBD39008CC19D = 528422EB131CBD39008CC19D /* PBXTextBookmark */;
+			528422EC131CBD39008CC19D = 528422EC131CBD39008CC19D /* PBXTextBookmark */;
+			528423CE131CF734008CC19D = 528423CE131CF734008CC19D /* PBXTextBookmark */;
+			528423CF131CF734008CC19D = 528423CF131CF734008CC19D /* PBXTextBookmark */;
+			528424B6131D1BE7008CC19D = 528424B6131D1BE7008CC19D /* PBXTextBookmark */;
+			528424C0131D1CB2008CC19D = 528424C0131D1CB2008CC19D /* PBXTextBookmark */;
+			528424C1131D1CB2008CC19D = 528424C1131D1CB2008CC19D /* PBXTextBookmark */;
+			5284259E131E0ACC008CC19D = 5284259E131E0ACC008CC19D /* PBXTextBookmark */;
+			528425A0131E0ACC008CC19D = 528425A0131E0ACC008CC19D /* PBXTextBookmark */;
+			528425A2131E0ACC008CC19D = 528425A2131E0ACC008CC19D /* PBXTextBookmark */;
+			528425A5131E0ACC008CC19D = 528425A5131E0ACC008CC19D /* PBXTextBookmark */;
+			528425A6131E0ACC008CC19D = 528425A6131E0ACC008CC19D /* PBXTextBookmark */;
+			528425A7131E0ACC008CC19D = 528425A7131E0ACC008CC19D /* PBXTextBookmark */;
+			528425A8131E0ACC008CC19D = 528425A8131E0ACC008CC19D /* PBXTextBookmark */;
+			528425AA131E0ACC008CC19D = 528425AA131E0ACC008CC19D /* PBXTextBookmark */;
+			528425AB131E0ACC008CC19D = 528425AB131E0ACC008CC19D /* PBXTextBookmark */;
+			528425AC131E0ACC008CC19D = 528425AC131E0ACC008CC19D /* PBXTextBookmark */;
+			528425AE131E0ACC008CC19D = 528425AE131E0ACC008CC19D /* PBXTextBookmark */;
+			528425AF131E0ACC008CC19D = 528425AF131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B0131E0ACC008CC19D = 528425B0131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B1131E0ACC008CC19D = 528425B1131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B2131E0ACC008CC19D = 528425B2131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B3131E0ACC008CC19D = 528425B3131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B5131E0ACC008CC19D = 528425B5131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B6131E0ACC008CC19D = 528425B6131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B7131E0ACC008CC19D = 528425B7131E0ACC008CC19D /* PBXTextBookmark */;
+			528425B8131E0ACC008CC19D = 528425B8131E0ACC008CC19D /* PBXTextBookmark */;
+			528425BA131E0ACC008CC19D = 528425BA131E0ACC008CC19D /* PBXTextBookmark */;
+			528425BB131E0ACC008CC19D = 528425BB131E0ACC008CC19D /* PBXTextBookmark */;
+			528425BC131E0ACC008CC19D = 528425BC131E0ACC008CC19D /* PBXTextBookmark */;
+			528425BD131E0ACC008CC19D = 528425BD131E0ACC008CC19D /* PBXTextBookmark */;
+			528425BF131E0ACC008CC19D = 528425BF131E0ACC008CC19D /* PBXTextBookmark */;
+			528425C1131E0ACC008CC19D = 528425C1131E0ACC008CC19D /* PBXTextBookmark */;
+			528425C2131E0ACC008CC19D = 528425C2131E0ACC008CC19D /* PBXTextBookmark */;
+			528425C4131E0ACC008CC19D = 528425C4131E0ACC008CC19D /* PBXTextBookmark */;
+			528425C5131E0ACC008CC19D = 528425C5131E0ACC008CC19D /* PBXTextBookmark */;
+			528425C7131E0ACC008CC19D = 528425C7131E0ACC008CC19D /* PBXTextBookmark */;
+			528425C8131E0ACC008CC19D = 528425C8131E0ACC008CC19D /* PBXTextBookmark */;
+			528425CA131E0ACC008CC19D = 528425CA131E0ACC008CC19D /* PBXTextBookmark */;
+			528425CB131E0ACC008CC19D = 528425CB131E0ACC008CC19D /* PBXTextBookmark */;
+			528425CC131E0ACC008CC19D = 528425CC131E0ACC008CC19D /* PBXTextBookmark */;
+			528425CD131E0ACC008CC19D = 528425CD131E0ACC008CC19D /* PBXTextBookmark */;
+			528425CE131E0ACC008CC19D = 528425CE131E0ACC008CC19D /* PBXTextBookmark */;
+			528425CF131E0ACC008CC19D = 528425CF131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D0131E0ACC008CC19D = 528425D0131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D2131E0ACC008CC19D = 528425D2131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D3131E0ACC008CC19D = 528425D3131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D4131E0ACC008CC19D = 528425D4131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D5131E0ACC008CC19D = 528425D5131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D7131E0ACC008CC19D = 528425D7131E0ACC008CC19D /* PBXTextBookmark */;
+			528425D8131E0ACC008CC19D = 528425D8131E0ACC008CC19D /* PBXTextBookmark */;
+			528425DA131E0ACC008CC19D = 528425DA131E0ACC008CC19D /* PBXTextBookmark */;
+			528425DC131E0ACC008CC19D = 528425DC131E0ACC008CC19D /* PBXTextBookmark */;
+			528425DD131E0ACC008CC19D = 528425DD131E0ACC008CC19D /* PBXTextBookmark */;
+			528425DE131E0ACC008CC19D = 528425DE131E0ACC008CC19D /* PBXTextBookmark */;
+			528425DF131E0ACC008CC19D = 528425DF131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E0131E0ACC008CC19D = 528425E0131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E2131E0ACC008CC19D = 528425E2131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E3131E0ACC008CC19D = 528425E3131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E4131E0ACC008CC19D = 528425E4131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E5131E0ACC008CC19D = 528425E5131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E6131E0ACC008CC19D = 528425E6131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E7131E0ACC008CC19D = 528425E7131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E8131E0ACC008CC19D = 528425E8131E0ACC008CC19D /* PBXTextBookmark */;
+			528425E9131E0ACC008CC19D = 528425E9131E0ACC008CC19D /* PBXTextBookmark */;
+			528425EA131E0ACC008CC19D = 528425EA131E0ACC008CC19D /* PBXTextBookmark */;
+			528425EB131E0ACC008CC19D = 528425EB131E0ACC008CC19D /* PBXTextBookmark */;
+			528425ED131E0ACC008CC19D = 528425ED131E0ACC008CC19D /* PBXTextBookmark */;
+			528425EF131E0ACC008CC19D = 528425EF131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F1131E0ACC008CC19D = 528425F1131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F3131E0ACC008CC19D = 528425F3131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F4131E0ACC008CC19D = 528425F4131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F5131E0ACC008CC19D = 528425F5131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F6131E0ACC008CC19D = 528425F6131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F8131E0ACC008CC19D = 528425F8131E0ACC008CC19D /* PBXTextBookmark */;
+			528425F9131E0ACC008CC19D = 528425F9131E0ACC008CC19D /* PBXTextBookmark */;
+			528425FB131E0ACC008CC19D = 528425FB131E0ACC008CC19D /* PBXTextBookmark */;
+			528425FC131E0ACC008CC19D = 528425FC131E0ACC008CC19D /* PBXTextBookmark */;
+			528425FD131E0ACC008CC19D = 528425FD131E0ACC008CC19D /* PBXTextBookmark */;
+			528425FE131E0ACC008CC19D = 528425FE131E0ACC008CC19D /* PBXTextBookmark */;
+			528425FF131E0ACC008CC19D = 528425FF131E0ACC008CC19D /* PBXTextBookmark */;
+			52842600131E0ACC008CC19D = 52842600131E0ACC008CC19D /* PBXTextBookmark */;
+			52842603131E0ACC008CC19D = 52842603131E0ACC008CC19D /* PBXTextBookmark */;
+			52842604131E0ACC008CC19D = 52842604131E0ACC008CC19D /* PBXTextBookmark */;
+			52842606131E0ACC008CC19D = 52842606131E0ACC008CC19D /* PBXTextBookmark */;
+			52842608131E0ACC008CC19D = 52842608131E0ACC008CC19D /* PBXTextBookmark */;
+			52842609131E0ACC008CC19D = 52842609131E0ACC008CC19D /* PBXTextBookmark */;
+			5284260A131E0ACC008CC19D = 5284260A131E0ACC008CC19D /* PBXTextBookmark */;
+			5284260C131E0ACC008CC19D = 5284260C131E0ACC008CC19D /* PBXTextBookmark */;
+			5284260D131E0ACC008CC19D = 5284260D131E0ACC008CC19D /* PBXTextBookmark */;
+			5284260E131E0ACC008CC19D = 5284260E131E0ACC008CC19D /* PBXTextBookmark */;
+			5284260F131E0ACC008CC19D = 5284260F131E0ACC008CC19D /* PBXTextBookmark */;
+			52842611131E0ACC008CC19D = 52842611131E0ACC008CC19D /* PBXTextBookmark */;
+			52842612131E0ACC008CC19D = 52842612131E0ACC008CC19D /* PBXTextBookmark */;
+			52842613131E0ACC008CC19D = 52842613131E0ACC008CC19D /* PBXTextBookmark */;
+			52842616131E0ACC008CC19D = 52842616131E0ACC008CC19D /* PBXTextBookmark */;
+			52842617131E0ACC008CC19D = 52842617131E0ACC008CC19D /* PBXTextBookmark */;
+			52842618131E0ACC008CC19D = 52842618131E0ACC008CC19D /* PBXTextBookmark */;
+			52842619131E0ACC008CC19D = 52842619131E0ACC008CC19D /* PBXTextBookmark */;
+			5284261A131E0ACC008CC19D = 5284261A131E0ACC008CC19D /* PBXTextBookmark */;
+			5284261C131E0ACC008CC19D = 5284261C131E0ACC008CC19D /* PBXTextBookmark */;
+			5284261D131E0ACC008CC19D = 5284261D131E0ACC008CC19D /* PBXTextBookmark */;
+			5284261E131E0ACC008CC19D = 5284261E131E0ACC008CC19D /* PBXTextBookmark */;
+			5284261F131E0ACC008CC19D = 5284261F131E0ACC008CC19D /* PBXTextBookmark */;
+			52842620131E0ACC008CC19D = 52842620131E0ACC008CC19D /* PBXTextBookmark */;
+			52842621131E0ACC008CC19D = 52842621131E0ACC008CC19D /* PBXTextBookmark */;
+			52842623131E0ACC008CC19D = 52842623131E0ACC008CC19D /* PBXTextBookmark */;
+			52842624131E0ACC008CC19D = 52842624131E0ACC008CC19D /* PBXTextBookmark */;
+			52842625131E0ACC008CC19D = 52842625131E0ACC008CC19D /* PBXTextBookmark */;
+			52842626131E0ACC008CC19D = 52842626131E0ACC008CC19D /* PBXTextBookmark */;
+			52842628131E0ACC008CC19D = 52842628131E0ACC008CC19D /* PBXTextBookmark */;
+			5284262A131E0ACC008CC19D = 5284262A131E0ACC008CC19D /* PBXTextBookmark */;
+			5284262B131E0ACC008CC19D = 5284262B131E0ACC008CC19D /* PBXTextBookmark */;
+			5284262C131E0ACC008CC19D = 5284262C131E0ACC008CC19D /* PBXTextBookmark */;
+			5284262E131E0ACC008CC19D = 5284262E131E0ACC008CC19D /* PBXTextBookmark */;
+			5284262F131E0ACC008CC19D = 5284262F131E0ACC008CC19D /* PBXTextBookmark */;
+			5284263B131E0AFF008CC19D = 5284263B131E0AFF008CC19D /* PBXTextBookmark */;
+			52842641131E0B6A008CC19D = 52842641131E0B6A008CC19D /* PBXTextBookmark */;
+			52842652131E0D37008CC19D = 52842652131E0D37008CC19D /* PBXTextBookmark */;
+			52842654131E0D37008CC19D = 52842654131E0D37008CC19D /* PBXTextBookmark */;
+			5284265A131E0D72008CC19D = 5284265A131E0D72008CC19D /* PBXTextBookmark */;
+			52842662131E0DC0008CC19D = 52842662131E0DC0008CC19D /* PBXTextBookmark */;
+			52842663131E0DC0008CC19D = 52842663131E0DC0008CC19D /* PBXTextBookmark */;
+			5284266E131E209B008CC19D = 5284266E131E209B008CC19D /* PBXTextBookmark */;
+			5284266F131E209B008CC19D = 5284266F131E209B008CC19D /* PBXTextBookmark */;
+			52842670131E209B008CC19D = 52842670131E209B008CC19D /* PBXTextBookmark */;
+			52842678131E2193008CC19D = 52842678131E2193008CC19D /* PBXTextBookmark */;
+			5284267A131E2193008CC19D = 5284267A131E2193008CC19D /* PBXTextBookmark */;
+			5284267B131E2193008CC19D = 5284267B131E2193008CC19D /* PBXTextBookmark */;
+			52842686131E234F008CC19D = 52842686131E234F008CC19D /* PBXTextBookmark */;
+			52842687131E234F008CC19D = 52842687131E234F008CC19D /* PBXTextBookmark */;
+			52842689131E234F008CC19D = 52842689131E234F008CC19D /* PBXTextBookmark */;
+			52842690131E23BF008CC19D = 52842690131E23BF008CC19D /* PBXTextBookmark */;
+			52842691131E23BF008CC19D = 52842691131E23BF008CC19D /* PBXTextBookmark */;
+			52842692131E23BF008CC19D = 52842692131E23BF008CC19D /* PBXTextBookmark */;
+			52842693131E23BF008CC19D = 52842693131E23BF008CC19D /* PBXTextBookmark */;
+			52842694131E23BF008CC19D = 52842694131E23BF008CC19D /* PBXTextBookmark */;
+			52842695131E23BF008CC19D = 52842695131E23BF008CC19D /* PBXTextBookmark */;
+			5284269C131E2510008CC19D = 5284269C131E2510008CC19D /* PBXTextBookmark */;
+			5284269D131E2510008CC19D = 5284269D131E2510008CC19D /* PBXTextBookmark */;
+			5284269E131E2510008CC19D = 5284269E131E2510008CC19D /* PBXTextBookmark */;
+			5284269F131E2510008CC19D = 5284269F131E2510008CC19D /* PBXTextBookmark */;
+			528426A1131E2510008CC19D = 528426A1131E2510008CC19D /* PBXTextBookmark */;
+			528426A5131E2546008CC19D = 528426A5131E2546008CC19D /* PBXTextBookmark */;
+			528426B0131E268A008CC19D = 528426B0131E268A008CC19D /* PBXTextBookmark */;
+			528426B1131E268A008CC19D = 528426B1131E268A008CC19D /* PBXTextBookmark */;
+			528426B2131E268A008CC19D = 528426B2131E268A008CC19D /* PBXTextBookmark */;
+			528426B8131E2750008CC19D = 528426B8131E2750008CC19D /* PBXTextBookmark */;
+			528426D4131E33A6008CC19D = 528426D4131E33A6008CC19D /* PBXTextBookmark */;
+			528426D5131E33A6008CC19D = 528426D5131E33A6008CC19D /* PBXTextBookmark */;
+			528426DC131E35B7008CC19D = 528426DC131E35B7008CC19D /* PBXTextBookmark */;
+			528426DE131E35B7008CC19D = 528426DE131E35B7008CC19D /* PBXTextBookmark */;
+			528426FC131E389E008CC19D = 528426FC131E389E008CC19D /* PBXTextBookmark */;
+			528426FD131E389E008CC19D = 528426FD131E389E008CC19D /* PBXTextBookmark */;
+			528426FE131E389E008CC19D = 528426FE131E389E008CC19D /* PBXTextBookmark */;
+			528426FF131E389E008CC19D = 528426FF131E389E008CC19D /* PBXTextBookmark */;
+			52842700131E389E008CC19D = 52842700131E389E008CC19D /* PBXTextBookmark */;
+			52842702131E389E008CC19D = 52842702131E389E008CC19D /* PBXTextBookmark */;
+			52842703131E389E008CC19D = 52842703131E389E008CC19D /* PBXTextBookmark */;
+			52842728131E4C90008CC19D = 52842728131E4C90008CC19D /* PBXTextBookmark */;
+			5284272A131E4C90008CC19D = 5284272A131E4C90008CC19D /* PBXTextBookmark */;
+			5284272C131E4C90008CC19D = 5284272C131E4C90008CC19D /* PBXTextBookmark */;
+			5284272E131E4C90008CC19D = 5284272E131E4C90008CC19D /* PBXTextBookmark */;
+			5284272F131E4C90008CC19D = 5284272F131E4C90008CC19D /* PBXTextBookmark */;
+			52842730131E4C90008CC19D = 52842730131E4C90008CC19D /* PBXTextBookmark */;
+			52842731131E4C90008CC19D = 52842731131E4C90008CC19D /* PBXTextBookmark */;
+			52842732131E4C90008CC19D = 52842732131E4C90008CC19D /* PBXTextBookmark */;
+			52842733131E4C90008CC19D = 52842733131E4C90008CC19D /* PBXTextBookmark */;
+			52842738131E4CBC008CC19D = 52842738131E4CBC008CC19D /* PBXTextBookmark */;
+			52842739131E4CBC008CC19D = 52842739131E4CBC008CC19D /* PBXTextBookmark */;
+			52842740131E4D4E008CC19D = 52842740131E4D4E008CC19D /* PBXTextBookmark */;
+			52842742131E4D4E008CC19D = 52842742131E4D4E008CC19D /* PBXTextBookmark */;
+			52842743131E4D4E008CC19D = 52842743131E4D4E008CC19D /* PBXTextBookmark */;
+			52842748131E4D99008CC19D = 52842748131E4D99008CC19D /* PBXTextBookmark */;
+			52842751131E4E67008CC19D = 52842751131E4E67008CC19D /* PBXTextBookmark */;
+			52842752131E4E67008CC19D = 52842752131E4E67008CC19D /* PBXTextBookmark */;
+			52842753131E4E67008CC19D = 52842753131E4E67008CC19D /* PBXTextBookmark */;
+			52842754131E4E67008CC19D = 52842754131E4E67008CC19D /* PBXTextBookmark */;
+			52842755131E4E67008CC19D = 52842755131E4E67008CC19D /* PBXTextBookmark */;
+			52842766131E518E008CC19D = 52842766131E518E008CC19D /* PBXTextBookmark */;
+			52842767131E518E008CC19D = 52842767131E518E008CC19D /* PBXTextBookmark */;
+			52842768131E518E008CC19D = 52842768131E518E008CC19D /* PBXTextBookmark */;
+			52842779131E530F008CC19D = 52842779131E530F008CC19D /* PBXTextBookmark */;
+			5284277A131E530F008CC19D = 5284277A131E530F008CC19D /* PBXTextBookmark */;
+			52842781131E5463008CC19D = 52842781131E5463008CC19D /* PBXTextBookmark */;
+			52842782131E5463008CC19D = 52842782131E5463008CC19D /* PBXTextBookmark */;
+			52842784131E5463008CC19D = 52842784131E5463008CC19D /* PBXTextBookmark */;
+			5284278A131E551B008CC19D = 5284278A131E551B008CC19D /* PBXTextBookmark */;
+			5284278B131E551B008CC19D = 5284278B131E551B008CC19D /* PBXTextBookmark */;
+			5284278D131E551B008CC19D = 5284278D131E551B008CC19D /* PBXTextBookmark */;
+			5284278E131E551B008CC19D = 5284278E131E551B008CC19D /* PBXTextBookmark */;
+			52842799131E5564008CC19D = 52842799131E5564008CC19D /* PBXTextBookmark */;
+			5284279A131E5564008CC19D = 5284279A131E5564008CC19D /* PBXTextBookmark */;
+			5284279B131E5564008CC19D = 5284279B131E5564008CC19D /* PBXTextBookmark */;
+			5284279C131E5564008CC19D = 5284279C131E5564008CC19D /* PBXTextBookmark */;
+			5284279D131E5564008CC19D = 5284279D131E5564008CC19D /* PBXTextBookmark */;
+			5284279E131E5564008CC19D = 5284279E131E5564008CC19D /* PBXTextBookmark */;
+			5284279F131E5564008CC19D = 5284279F131E5564008CC19D /* PBXTextBookmark */;
+			528427A0131E5564008CC19D = 528427A0131E5564008CC19D /* PBXTextBookmark */;
+			528427A1131E5564008CC19D = 528427A1131E5564008CC19D /* PBXTextBookmark */;
+			528427A3131E5564008CC19D = 528427A3131E5564008CC19D /* PBXTextBookmark */;
+			528427AD131E55C3008CC19D = 528427AD131E55C3008CC19D /* PBXTextBookmark */;
+			528427AE131E55C3008CC19D = 528427AE131E55C3008CC19D /* PBXTextBookmark */;
+			528427AF131E55C3008CC19D = 528427AF131E55C3008CC19D /* PBXTextBookmark */;
+			528427B1131E55C3008CC19D = 528427B1131E55C3008CC19D /* PBXTextBookmark */;
+			528427B3131E55C3008CC19D = 528427B3131E55C3008CC19D /* PBXTextBookmark */;
+			528427B4131E55C3008CC19D = 528427B4131E55C3008CC19D /* PBXTextBookmark */;
+			528427B5131E55C3008CC19D = 528427B5131E55C3008CC19D /* PBXTextBookmark */;
+			528427B6131E55C3008CC19D = 528427B6131E55C3008CC19D /* PBXTextBookmark */;
+			528427B8131E55C3008CC19D = 528427B8131E55C3008CC19D /* PBXTextBookmark */;
+			528427C3131E5651008CC19D = 528427C3131E5651008CC19D /* PBXTextBookmark */;
+			528427C4131E5651008CC19D = 528427C4131E5651008CC19D /* PBXTextBookmark */;
+			528427C6131E5651008CC19D = 528427C6131E5651008CC19D /* PBXTextBookmark */;
+			528427C7131E5651008CC19D = 528427C7131E5651008CC19D /* PBXTextBookmark */;
+			528427C8131E5651008CC19D = 528427C8131E5651008CC19D /* PBXTextBookmark */;
+			528427C9131E5651008CC19D = 528427C9131E5651008CC19D /* PBXTextBookmark */;
+			528427CA131E5651008CC19D = 528427CA131E5651008CC19D /* PBXTextBookmark */;
+			528427CB131E5651008CC19D = 528427CB131E5651008CC19D /* PBXTextBookmark */;
+			528427D8131E571F008CC19D = 528427D8131E571F008CC19D /* PBXTextBookmark */;
+			528427D9131E571F008CC19D = 528427D9131E571F008CC19D /* PBXTextBookmark */;
+			528427DA131E571F008CC19D = 528427DA131E571F008CC19D /* PBXTextBookmark */;
+			528427DB131E571F008CC19D = 528427DB131E571F008CC19D /* PBXTextBookmark */;
+			528427DD131E571F008CC19D = 528427DD131E571F008CC19D /* PBXTextBookmark */;
+			528427DF131E571F008CC19D = 528427DF131E571F008CC19D /* PBXTextBookmark */;
+			528427E0131E571F008CC19D = 528427E0131E571F008CC19D /* PBXTextBookmark */;
+			528427E1131E571F008CC19D = 528427E1131E571F008CC19D /* PBXTextBookmark */;
+			528427E2131E571F008CC19D = 528427E2131E571F008CC19D /* PBXTextBookmark */;
+			528427E3131E571F008CC19D = 528427E3131E571F008CC19D /* PBXTextBookmark */;
+			528427E4131E571F008CC19D = 528427E4131E571F008CC19D /* PBXTextBookmark */;
+			528427E6131E571F008CC19D = 528427E6131E571F008CC19D /* PBXTextBookmark */;
+			528427E7131E571F008CC19D = 528427E7131E571F008CC19D /* PBXTextBookmark */;
+			528427E8131E571F008CC19D = 528427E8131E571F008CC19D /* PBXTextBookmark */;
+			528427E9131E571F008CC19D = 528427E9131E571F008CC19D /* PBXTextBookmark */;
+			528427EA131E571F008CC19D = 528427EA131E571F008CC19D /* PBXTextBookmark */;
+			528427EB131E571F008CC19D = 528427EB131E571F008CC19D /* PBXTextBookmark */;
+			528427EC131E571F008CC19D = 528427EC131E571F008CC19D /* PBXTextBookmark */;
+			528427ED131E571F008CC19D = 528427ED131E571F008CC19D /* PBXTextBookmark */;
+			528427EE131E571F008CC19D = 528427EE131E571F008CC19D /* PBXTextBookmark */;
+			528427EF131E571F008CC19D = 528427EF131E571F008CC19D /* PBXTextBookmark */;
+			528427F1131E571F008CC19D = 528427F1131E571F008CC19D /* PBXTextBookmark */;
+			5284280C131E598D008CC19D = 5284280C131E598D008CC19D /* PBXTextBookmark */;
+			5284280D131E598D008CC19D = 5284280D131E598D008CC19D /* PBXTextBookmark */;
+			5284280E131E598D008CC19D = 5284280E131E598D008CC19D /* PBXTextBookmark */;
+			5284280F131E598D008CC19D = 5284280F131E598D008CC19D /* PBXTextBookmark */;
+			52842810131E598D008CC19D = 52842810131E598D008CC19D /* PBXTextBookmark */;
+			52842811131E598D008CC19D = 52842811131E598D008CC19D /* PBXTextBookmark */;
+			52842812131E598D008CC19D = 52842812131E598D008CC19D /* PBXTextBookmark */;
+			52842813131E598D008CC19D = 52842813131E598D008CC19D /* PBXTextBookmark */;
+			52842818131E59B0008CC19D = 52842818131E59B0008CC19D /* PBXTextBookmark */;
+			52842824131E5A57008CC19D = 52842824131E5A57008CC19D /* PBXTextBookmark */;
+			52842825131E5A57008CC19D = 52842825131E5A57008CC19D /* PBXTextBookmark */;
+			52842826131E5A57008CC19D = 52842826131E5A57008CC19D /* PBXTextBookmark */;
+			52842827131E5A57008CC19D = 52842827131E5A57008CC19D /* PBXTextBookmark */;
+			52842828131E5A57008CC19D = 52842828131E5A57008CC19D /* PBXTextBookmark */;
+			52842829131E5A57008CC19D = 52842829131E5A57008CC19D /* PBXTextBookmark */;
+			5284282A131E5A57008CC19D = 5284282A131E5A57008CC19D /* PBXTextBookmark */;
+			5284282B131E5A57008CC19D = 5284282B131E5A57008CC19D /* PBXTextBookmark */;
+			5284282C131E5A57008CC19D = 5284282C131E5A57008CC19D /* PBXTextBookmark */;
+			5284282D131E5A57008CC19D = 5284282D131E5A57008CC19D /* PBXTextBookmark */;
+			5284282E131E5A57008CC19D = 5284282E131E5A57008CC19D /* PBXTextBookmark */;
+			5284282F131E5A57008CC19D = 5284282F131E5A57008CC19D /* PBXTextBookmark */;
+			52842830131E5A57008CC19D = 52842830131E5A57008CC19D /* PBXTextBookmark */;
+			52842831131E5A57008CC19D = 52842831131E5A57008CC19D /* PBXTextBookmark */;
+			52842832131E5A57008CC19D = 52842832131E5A57008CC19D /* PBXTextBookmark */;
+			52842833131E5A57008CC19D = 52842833131E5A57008CC19D /* PBXTextBookmark */;
+			52842834131E5A57008CC19D = 52842834131E5A57008CC19D /* PBXTextBookmark */;
+			52842835131E5A57008CC19D = 52842835131E5A57008CC19D /* PBXTextBookmark */;
+			52842836131E5A57008CC19D = 52842836131E5A57008CC19D /* PBXTextBookmark */;
+			52842837131E5A57008CC19D = 52842837131E5A57008CC19D /* PBXTextBookmark */;
+			52842838131E5A57008CC19D = 52842838131E5A57008CC19D /* PBXTextBookmark */;
+			52842839131E5A57008CC19D = 52842839131E5A57008CC19D /* PBXTextBookmark */;
+			5284283A131E5A57008CC19D = 5284283A131E5A57008CC19D /* PBXTextBookmark */;
+			52842842131E5AD4008CC19D = 52842842131E5AD4008CC19D /* PBXTextBookmark */;
+			52842843131E5AD4008CC19D = 52842843131E5AD4008CC19D /* PBXTextBookmark */;
+			52842844131E5AD4008CC19D = 52842844131E5AD4008CC19D /* PBXTextBookmark */;
+			52842845131E5AD4008CC19D = 52842845131E5AD4008CC19D /* PBXTextBookmark */;
+			52842846131E5AD4008CC19D = 52842846131E5AD4008CC19D /* PBXTextBookmark */;
+			52842847131E5AD4008CC19D = 52842847131E5AD4008CC19D /* PBXTextBookmark */;
+			52842848131E5AD4008CC19D = 52842848131E5AD4008CC19D /* PBXTextBookmark */;
+			52842849131E5AD4008CC19D = 52842849131E5AD4008CC19D /* PBXTextBookmark */;
+			5284284A131E5AD4008CC19D = 5284284A131E5AD4008CC19D /* PBXTextBookmark */;
+			5284284B131E5AD4008CC19D = 5284284B131E5AD4008CC19D /* PBXTextBookmark */;
+			5284284C131E5AD4008CC19D = 5284284C131E5AD4008CC19D /* PBXTextBookmark */;
+			5284284D131E5AD4008CC19D = 5284284D131E5AD4008CC19D /* PBXTextBookmark */;
+			5284284E131E5AD4008CC19D = 5284284E131E5AD4008CC19D /* PBXTextBookmark */;
+			52842857131E5BAD008CC19D = 52842857131E5BAD008CC19D /* PBXTextBookmark */;
+			52842858131E5BAD008CC19D = 52842858131E5BAD008CC19D /* PBXTextBookmark */;
+			52842859131E5BAD008CC19D = 52842859131E5BAD008CC19D /* PBXTextBookmark */;
+			5284285A131E5BAD008CC19D = 5284285A131E5BAD008CC19D /* PBXTextBookmark */;
+			5284285B131E5BAD008CC19D = 5284285B131E5BAD008CC19D /* PBXTextBookmark */;
+			5284285C131E5BAD008CC19D = 5284285C131E5BAD008CC19D /* PBXTextBookmark */;
+			5284285D131E5BAD008CC19D = 5284285D131E5BAD008CC19D /* PBXTextBookmark */;
+			5284285E131E5BAD008CC19D = 5284285E131E5BAD008CC19D /* PBXTextBookmark */;
+			5284285F131E5BAD008CC19D = 5284285F131E5BAD008CC19D /* PBXTextBookmark */;
+			52842860131E5BAD008CC19D = 52842860131E5BAD008CC19D /* PBXTextBookmark */;
+			52842867131E5C41008CC19D = 52842867131E5C41008CC19D /* PBXTextBookmark */;
+			5284286C131E5C41008CC19D = 5284286C131E5C41008CC19D /* PBXTextBookmark */;
+			5284286D131E5C41008CC19D = 5284286D131E5C41008CC19D /* PBXTextBookmark */;
+			5284286E131E5C41008CC19D = 5284286E131E5C41008CC19D /* PBXTextBookmark */;
+			5284286F131E5C41008CC19D = 5284286F131E5C41008CC19D /* PBXTextBookmark */;
+			52842870131E5C41008CC19D = 52842870131E5C41008CC19D /* PBXTextBookmark */;
+			52842871131E5C41008CC19D = 52842871131E5C41008CC19D /* PBXTextBookmark */;
+			52842872131E5C41008CC19D = 52842872131E5C41008CC19D /* PBXTextBookmark */;
+			52842873131E5C41008CC19D = 52842873131E5C41008CC19D /* PBXTextBookmark */;
+			52842874131E5C41008CC19D = 52842874131E5C41008CC19D /* PBXTextBookmark */;
+			52842875131E5C41008CC19D = 52842875131E5C41008CC19D /* PBXTextBookmark */;
+			52842876131E5C41008CC19D = 52842876131E5C41008CC19D /* PBXTextBookmark */;
+			52842877131E5C41008CC19D = 52842877131E5C41008CC19D /* PBXTextBookmark */;
+			52842878131E5C41008CC19D = 52842878131E5C41008CC19D /* PBXTextBookmark */;
+			52842879131E5C41008CC19D = 52842879131E5C41008CC19D /* PBXTextBookmark */;
+			5284287A131E5C41008CC19D = 5284287A131E5C41008CC19D /* PBXTextBookmark */;
+			5284287B131E5C41008CC19D = 5284287B131E5C41008CC19D /* PBXTextBookmark */;
+			52842884131E5C7E008CC19D = 52842884131E5C7E008CC19D /* PBXTextBookmark */;
+			52842885131E5C7E008CC19D = 52842885131E5C7E008CC19D /* PBXTextBookmark */;
+			52842886131E5C7E008CC19D = 52842886131E5C7E008CC19D /* PBXTextBookmark */;
+			52842887131E5C7E008CC19D = 52842887131E5C7E008CC19D /* PBXTextBookmark */;
+			52842888131E5C7E008CC19D = 52842888131E5C7E008CC19D /* PBXTextBookmark */;
+			52842889131E5C7E008CC19D = 52842889131E5C7E008CC19D /* PBXTextBookmark */;
+			5284288A131E5C7E008CC19D = 5284288A131E5C7E008CC19D /* PBXTextBookmark */;
+			52842890131E5CAE008CC19D = 52842890131E5CAE008CC19D /* PBXTextBookmark */;
+			52842891131E5CAE008CC19D = 52842891131E5CAE008CC19D /* PBXTextBookmark */;
+			52842892131E5CAE008CC19D = 52842892131E5CAE008CC19D /* PBXTextBookmark */;
+			52842897131E5CD5008CC19D = 52842897131E5CD5008CC19D /* PBXTextBookmark */;
+			52842898131E5CD5008CC19D = 52842898131E5CD5008CC19D /* PBXTextBookmark */;
+			528428A0131E5D1B008CC19D = 528428A0131E5D1B008CC19D /* PBXTextBookmark */;
+			528428A1131E5D1B008CC19D = 528428A1131E5D1B008CC19D /* PBXTextBookmark */;
+			528428A2131E5D1B008CC19D = 528428A2131E5D1B008CC19D /* PBXTextBookmark */;
+			528428A3131E5D1B008CC19D = 528428A3131E5D1B008CC19D /* PBXTextBookmark */;
+			528428A4131E5D1B008CC19D = 528428A4131E5D1B008CC19D /* PBXTextBookmark */;
+			528428A5131E5D1B008CC19D = 528428A5131E5D1B008CC19D /* PBXTextBookmark */;
+			528428AD131E5DA5008CC19D = 528428AD131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B1131E5DA5008CC19D = 528428B1131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B2131E5DA5008CC19D = 528428B2131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B3131E5DA5008CC19D = 528428B3131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B4131E5DA5008CC19D = 528428B4131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B5131E5DA5008CC19D = 528428B5131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B6131E5DA5008CC19D = 528428B6131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B7131E5DA5008CC19D = 528428B7131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B8131E5DA5008CC19D = 528428B8131E5DA5008CC19D /* PBXTextBookmark */;
+			528428B9131E5DA5008CC19D = 528428B9131E5DA5008CC19D /* PBXTextBookmark */;
+			528428BA131E5DA5008CC19D = 528428BA131E5DA5008CC19D /* PBXTextBookmark */;
+			528428BB131E5DA5008CC19D = 528428BB131E5DA5008CC19D /* PBXTextBookmark */;
+			528428BC131E5DA5008CC19D = 528428BC131E5DA5008CC19D /* PBXTextBookmark */;
+			528428BD131E5DA5008CC19D = 528428BD131E5DA5008CC19D /* PBXTextBookmark */;
+			528428C6131E5DD0008CC19D = 528428C6131E5DD0008CC19D /* PBXTextBookmark */;
+			528428C7131E5DD0008CC19D = 528428C7131E5DD0008CC19D /* PBXTextBookmark */;
+			528428C8131E5DD0008CC19D = 528428C8131E5DD0008CC19D /* PBXTextBookmark */;
+			528428C9131E5DD0008CC19D = 528428C9131E5DD0008CC19D /* PBXTextBookmark */;
+			528428CA131E5DD0008CC19D = 528428CA131E5DD0008CC19D /* PBXTextBookmark */;
+			528428CB131E5DD0008CC19D = 528428CB131E5DD0008CC19D /* PBXTextBookmark */;
+			528428D3131E5E96008CC19D = 528428D3131E5E96008CC19D /* PBXTextBookmark */;
+			528428D4131E5E96008CC19D = 528428D4131E5E96008CC19D /* PBXTextBookmark */;
+			528428D5131E5E96008CC19D = 528428D5131E5E96008CC19D /* PBXTextBookmark */;
+			528428D6131E5E96008CC19D = 528428D6131E5E96008CC19D /* PBXTextBookmark */;
+			528428DC131E5ED5008CC19D = 528428DC131E5ED5008CC19D /* PBXTextBookmark */;
+			528428DD131E5ED5008CC19D = 528428DD131E5ED5008CC19D /* PBXTextBookmark */;
+			528428DE131E5ED5008CC19D = 528428DE131E5ED5008CC19D /* PBXTextBookmark */;
+			528428DF131E5ED5008CC19D = 528428DF131E5ED5008CC19D /* PBXTextBookmark */;
+			528428E5131E5F0B008CC19D = 528428E5131E5F0B008CC19D /* PBXTextBookmark */;
+			528428E6131E5F0B008CC19D = 528428E6131E5F0B008CC19D /* PBXTextBookmark */;
+			528428E7131E5F0B008CC19D = 528428E7131E5F0B008CC19D /* PBXTextBookmark */;
+			528428E8131E5F0B008CC19D = 528428E8131E5F0B008CC19D /* PBXTextBookmark */;
+			528428ED131E5FAE008CC19D = 528428ED131E5FAE008CC19D /* PBXTextBookmark */;
+			528428F7131E619F008CC19D = 528428F7131E619F008CC19D /* PBXTextBookmark */;
+			528428F8131E619F008CC19D = 528428F8131E619F008CC19D /* PBXTextBookmark */;
+			528428F9131E619F008CC19D = 528428F9131E619F008CC19D /* PBXTextBookmark */;
+			528428FA131E619F008CC19D = 528428FA131E619F008CC19D /* PBXTextBookmark */;
+			528428FB131E619F008CC19D = 528428FB131E619F008CC19D /* PBXTextBookmark */;
+			528428FC131E619F008CC19D = 528428FC131E619F008CC19D /* PBXTextBookmark */;
+			528428FD131E619F008CC19D = 528428FD131E619F008CC19D /* PBXTextBookmark */;
+			528428FE131E619F008CC19D = 528428FE131E619F008CC19D /* PBXTextBookmark */;
+			528428FF131E619F008CC19D = 528428FF131E619F008CC19D /* PBXTextBookmark */;
+			52842900131E619F008CC19D = 52842900131E619F008CC19D /* PBXTextBookmark */;
+			52842901131E619F008CC19D = 52842901131E619F008CC19D /* PBXTextBookmark */;
+			52842902131E619F008CC19D = 52842902131E619F008CC19D /* PBXTextBookmark */;
+			52842903131E619F008CC19D = 52842903131E619F008CC19D /* PBXTextBookmark */;
+			5284290C131E6495008CC19D = 5284290C131E6495008CC19D /* PBXTextBookmark */;
+			52842913131E6495008CC19D = 52842913131E6495008CC19D /* PBXTextBookmark */;
+			52842914131E6495008CC19D = 52842914131E6495008CC19D /* PBXTextBookmark */;
+			52842915131E6495008CC19D = 52842915131E6495008CC19D /* PBXTextBookmark */;
+			52842916131E6495008CC19D = 52842916131E6495008CC19D /* PBXTextBookmark */;
+			52842917131E6495008CC19D = 52842917131E6495008CC19D /* PBXTextBookmark */;
+			52842918131E6495008CC19D = 52842918131E6495008CC19D /* PBXTextBookmark */;
+			52842919131E6495008CC19D = 52842919131E6495008CC19D /* PBXTextBookmark */;
+			5284291A131E6495008CC19D = 5284291A131E6495008CC19D /* PBXTextBookmark */;
+			5284291B131E6495008CC19D = 5284291B131E6495008CC19D /* PBXTextBookmark */;
+			5284291C131E6495008CC19D = 5284291C131E6495008CC19D /* PBXTextBookmark */;
+			5284291D131E6495008CC19D = 5284291D131E6495008CC19D /* PBXTextBookmark */;
+			5284291E131E6495008CC19D = 5284291E131E6495008CC19D /* PBXTextBookmark */;
+			5284291F131E6495008CC19D = 5284291F131E6495008CC19D /* PBXTextBookmark */;
+			52842920131E6495008CC19D = 52842920131E6495008CC19D /* PBXTextBookmark */;
+			52842921131E6495008CC19D = 52842921131E6495008CC19D /* PBXTextBookmark */;
+			52842922131E6495008CC19D = 52842922131E6495008CC19D /* PBXTextBookmark */;
+			52842923131E6495008CC19D = 52842923131E6495008CC19D /* PBXTextBookmark */;
+			52842924131E6495008CC19D = 52842924131E6495008CC19D /* PBXTextBookmark */;
+			52842925131E6495008CC19D = 52842925131E6495008CC19D /* PBXTextBookmark */;
+			52842926131E6495008CC19D = 52842926131E6495008CC19D /* PBXTextBookmark */;
+			52842927131E6495008CC19D = 52842927131E6495008CC19D /* PBXTextBookmark */;
+			52842928131E6495008CC19D = 52842928131E6495008CC19D /* PBXTextBookmark */;
+			52842929131E6495008CC19D = 52842929131E6495008CC19D /* PBXTextBookmark */;
+			5284292A131E6495008CC19D = 5284292A131E6495008CC19D /* PBXTextBookmark */;
+			5284292B131E6495008CC19D = 5284292B131E6495008CC19D /* PBXTextBookmark */;
+			5284292C131E6495008CC19D = 5284292C131E6495008CC19D /* PBXTextBookmark */;
+			5284292D131E6495008CC19D = 5284292D131E6495008CC19D /* PBXTextBookmark */;
+			5284292E131E6495008CC19D = 5284292E131E6495008CC19D /* PBXTextBookmark */;
+			52842932131E6B76008CC19D = 52842932131E6B76008CC19D /* PBXTextBookmark */;
+			52842933131E6B76008CC19D = 52842933131E6B76008CC19D /* PBXTextBookmark */;
+			52842937131E6B76008CC19D = 52842937131E6B76008CC19D /* PBXTextBookmark */;
+			52842938131E6B76008CC19D = 52842938131E6B76008CC19D /* PBXTextBookmark */;
+			5284293C131E6B76008CC19D = 5284293C131E6B76008CC19D /* PBXTextBookmark */;
+			5284293D131E6B76008CC19D = 5284293D131E6B76008CC19D /* PBXTextBookmark */;
+			5284293E131E6B76008CC19D = 5284293E131E6B76008CC19D /* PBXTextBookmark */;
+			5284293F131E6B76008CC19D = 5284293F131E6B76008CC19D /* PBXTextBookmark */;
+			52842940131E6B76008CC19D = 52842940131E6B76008CC19D /* PBXTextBookmark */;
+			52842941131E6B76008CC19D = 52842941131E6B76008CC19D /* PBXTextBookmark */;
+			52842942131E6B76008CC19D = 52842942131E6B76008CC19D /* PBXTextBookmark */;
+			52842943131E6B76008CC19D = 52842943131E6B76008CC19D /* PBXTextBookmark */;
+			52842944131E6B76008CC19D = 52842944131E6B76008CC19D /* PBXTextBookmark */;
+			52842945131E6B76008CC19D = 52842945131E6B76008CC19D /* PBXTextBookmark */;
+			52842946131E6B76008CC19D = 52842946131E6B76008CC19D /* PBXTextBookmark */;
+			52842947131E6B76008CC19D = 52842947131E6B76008CC19D /* PBXTextBookmark */;
+			52842948131E6B76008CC19D = 52842948131E6B76008CC19D /* PBXTextBookmark */;
+			52842949131E6B76008CC19D = 52842949131E6B76008CC19D /* PBXTextBookmark */;
+			5284294A131E6B76008CC19D = 5284294A131E6B76008CC19D /* PBXTextBookmark */;
+			5284294B131E6B76008CC19D = 5284294B131E6B76008CC19D /* PBXTextBookmark */;
+			5284294C131E6B76008CC19D = 5284294C131E6B76008CC19D /* PBXTextBookmark */;
+			5284294D131E6B76008CC19D = 5284294D131E6B76008CC19D /* PBXTextBookmark */;
+			5284294E131E6B76008CC19D = 5284294E131E6B76008CC19D /* PBXTextBookmark */;
+			5284294F131E6B76008CC19D = 5284294F131E6B76008CC19D /* PBXTextBookmark */;
+			52842950131E6B76008CC19D = 52842950131E6B76008CC19D /* PBXTextBookmark */;
+			52842951131E6B76008CC19D = 52842951131E6B76008CC19D /* PBXTextBookmark */;
+			52842952131E6B76008CC19D = 52842952131E6B76008CC19D /* PBXTextBookmark */;
+			52842953131E6B76008CC19D = 52842953131E6B76008CC19D /* PBXTextBookmark */;
+			52842954131E6B76008CC19D = 52842954131E6B76008CC19D /* PBXTextBookmark */;
+			52842955131E6B76008CC19D = 52842955131E6B76008CC19D /* PBXTextBookmark */;
+			52842956131E6B76008CC19D = 52842956131E6B76008CC19D /* PBXTextBookmark */;
+			52842957131E6B76008CC19D = 52842957131E6B76008CC19D /* PBXTextBookmark */;
+			52842958131E6B76008CC19D = 52842958131E6B76008CC19D /* PBXTextBookmark */;
+			52842959131E6B76008CC19D = 52842959131E6B76008CC19D /* PBXTextBookmark */;
+			5284295A131E6B76008CC19D = 5284295A131E6B76008CC19D /* PBXTextBookmark */;
+			5284295B131E6B76008CC19D = 5284295B131E6B76008CC19D /* PBXTextBookmark */;
+			5284295C131E6B76008CC19D = 5284295C131E6B76008CC19D /* PBXTextBookmark */;
+			5284295D131E6B76008CC19D = 5284295D131E6B76008CC19D /* PBXTextBookmark */;
+			5284295E131E6B76008CC19D = 5284295E131E6B76008CC19D /* PBXTextBookmark */;
+			5284295F131E6B76008CC19D = 5284295F131E6B76008CC19D /* PBXTextBookmark */;
+			52842960131E6B76008CC19D = 52842960131E6B76008CC19D /* PBXTextBookmark */;
+			52842961131E6B76008CC19D = 52842961131E6B76008CC19D /* PBXTextBookmark */;
+			52842962131E6B76008CC19D = 52842962131E6B76008CC19D /* PBXTextBookmark */;
+			52842963131E6B76008CC19D = 52842963131E6B76008CC19D /* PBXTextBookmark */;
+			52842965131E6B76008CC19D = 52842965131E6B76008CC19D /* PBXTextBookmark */;
+			5284296C131E6C33008CC19D = 5284296C131E6C33008CC19D /* PBXTextBookmark */;
+			5284296E131E6C33008CC19D = 5284296E131E6C33008CC19D /* PBXTextBookmark */;
+			5284296F131E6C33008CC19D = 5284296F131E6C33008CC19D /* PBXTextBookmark */;
+			52842970131E6C33008CC19D = 52842970131E6C33008CC19D /* PBXTextBookmark */;
+			52842971131E6C33008CC19D = 52842971131E6C33008CC19D /* PBXTextBookmark */;
+			52842972131E6C33008CC19D = 52842972131E6C33008CC19D /* PBXTextBookmark */;
+			52842973131E6C33008CC19D = 52842973131E6C33008CC19D /* PBXTextBookmark */;
+			52842974131E6C33008CC19D = 52842974131E6C33008CC19D /* PBXTextBookmark */;
+			52842975131E6C33008CC19D = 52842975131E6C33008CC19D /* PBXTextBookmark */;
+			52842976131E6C33008CC19D = 52842976131E6C33008CC19D /* PBXTextBookmark */;
+			52842977131E6C33008CC19D = 52842977131E6C33008CC19D /* PBXTextBookmark */;
+			5284297D131E6CC1008CC19D = 5284297D131E6CC1008CC19D /* PBXTextBookmark */;
+			5284297E131E6CC1008CC19D = 5284297E131E6CC1008CC19D /* PBXTextBookmark */;
+			52842994131E6D75008CC19D = 52842994131E6D75008CC19D /* PBXTextBookmark */;
+			52842995131E6D75008CC19D = 52842995131E6D75008CC19D /* PBXTextBookmark */;
+			52842996131E6D75008CC19D = 52842996131E6D75008CC19D /* PBXTextBookmark */;
+			52842997131E6D75008CC19D = 52842997131E6D75008CC19D /* PBXTextBookmark */;
+			52842998131E6D75008CC19D = 52842998131E6D75008CC19D /* PBXTextBookmark */;
+			52842999131E6D75008CC19D = 52842999131E6D75008CC19D /* PBXTextBookmark */;
+			5284299A131E6D75008CC19D = 5284299A131E6D75008CC19D /* PBXTextBookmark */;
+			5284299B131E6D75008CC19D = 5284299B131E6D75008CC19D /* PBXTextBookmark */;
+			5284299C131E6D75008CC19D = 5284299C131E6D75008CC19D /* PBXTextBookmark */;
+			5284299D131E6D75008CC19D = 5284299D131E6D75008CC19D /* PBXTextBookmark */;
+			5284299E131E6D75008CC19D = 5284299E131E6D75008CC19D /* PBXTextBookmark */;
+			5284299F131E6D75008CC19D = 5284299F131E6D75008CC19D /* PBXTextBookmark */;
+			528429A0131E6D75008CC19D = 528429A0131E6D75008CC19D /* PBXTextBookmark */;
+			528429A1131E6D75008CC19D = 528429A1131E6D75008CC19D /* PBXTextBookmark */;
+			528429A2131E6D75008CC19D = 528429A2131E6D75008CC19D /* PBXTextBookmark */;
+			528429A3131E6D75008CC19D = 528429A3131E6D75008CC19D /* PBXTextBookmark */;
+			528429A4131E6D75008CC19D = 528429A4131E6D75008CC19D /* PBXTextBookmark */;
+			528429A8131E6D9D008CC19D = 528429A8131E6D9D008CC19D /* PBXTextBookmark */;
+			528429C7131E6DB8008CC19D = 528429C7131E6DB8008CC19D /* PBXTextBookmark */;
+			528429E3131E7368008CC19D = 528429E3131E7368008CC19D /* PBXTextBookmark */;
+			528429E4131E7368008CC19D = 528429E4131E7368008CC19D /* PBXTextBookmark */;
+			528429E6131E7368008CC19D = 528429E6131E7368008CC19D /* PBXTextBookmark */;
+			528429E7131E7368008CC19D = 528429E7131E7368008CC19D /* PBXTextBookmark */;
+			528429F3131E74D3008CC19D /* PBXTextBookmark */ = 528429F3131E74D3008CC19D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 52F96BFA12EEE3AE003C27F8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E4B69B5A0A3A1756003C02F2 /* emptyExample */ = {
+		activeExec = 0;
+		executables = (
+			52F96BF712EEE38F003C27F8 /* emptyExample */,
+		);
+	};
+}

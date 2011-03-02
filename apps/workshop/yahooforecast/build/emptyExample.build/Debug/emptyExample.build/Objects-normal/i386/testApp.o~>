@@ -1,0 +1,8 @@
+In file included from /Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/istream.h:31,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/apps/workshop/getHttpxml3/ofxHttpUtils/ofxHttpUtils.h:30,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/apps/workshop/getHttpxml3/ofxHttpUtils/ofxHttpEvents.h:11,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/apps/workshop/getHttpxml3/src/yahooweather.h:11,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/apps/workshop/getHttpxml3/src/testApp.h:9,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v0062_osx_FAT/apps/workshop/getHttpxml3/src/testApp.cpp:10:
+/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
+i686-apple-darwin9-gcc-4.0.1: -lpthread: linker input file unused because linking not done
