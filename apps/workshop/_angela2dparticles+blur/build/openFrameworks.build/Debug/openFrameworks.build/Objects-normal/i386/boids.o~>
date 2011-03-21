@@ -1,0 +1,1 @@
+/Users/macbookpro/Documents/Programming/of_preRelease_v0.06_xcode_FAT/apps/workshop/_angela2dparticles+blur/src/boids.cpp:88: error: no 'void boids::setBlending(int)' member function declared in class 'boids'
