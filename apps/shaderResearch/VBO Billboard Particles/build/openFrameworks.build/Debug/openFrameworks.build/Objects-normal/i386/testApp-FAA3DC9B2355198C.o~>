@@ -1,0 +1,112 @@
+In file included from /Users/todd/OF/006/apps/Demos/Array Particles/../../../addons/ofxVectorMath/src/ofxVectorMath.h:10,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h:6,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:1:
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../addons/ofxVectorMath/src/ofxPoint2f.h:15:2: warning: #warning "ofxPoint2f is deprecated, use ofxVec2f.h for both points and vectors"
+In file included from /Users/todd/OF/006/apps/Demos/Array Particles/../../../addons/ofxVectorMath/src/ofxVectorMath.h:11,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h:6,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:1:
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../addons/ofxVectorMath/src/ofxPoint3f.h:15:2: warning: #warning "ofxPoint3f is deprecated, use ofxVec3f.h for both points and vectors"
+In file included from /Users/todd/OF/006/apps/Demos/Array Particles/../../../addons/ofxVectorMath/src/ofxVectorMath.h:12,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h:6,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:1:
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../addons/ofxVectorMath/src/ofxPoint4f.h:15:2: warning: #warning "ofxPoint4f is deprecated, use ofxVec4f.h for both points and vectors"
+In file included from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:1:
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h:10:26: error: ofxTileSaver.h: No such file or directory
+In file included from /Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/openFrameworks/sound/ofSoundPlayer.h:9,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/openFrameworks/ofMain.h:34,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h:5,
+                 from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:1:
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h: In function 'char* FMOD_ErrorString(FMOD_RESULT)':
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:25: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:26: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:27: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:28: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:29: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:30: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:31: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:32: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:33: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:34: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:35: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:36: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:37: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:38: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:39: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:40: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:41: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:42: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:43: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:44: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:45: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:46: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:47: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:48: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:49: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:50: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:51: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:52: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:53: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:54: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:55: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:56: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:57: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:58: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:59: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:60: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:61: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:62: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:63: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:64: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:65: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:66: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:67: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:68: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:69: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:70: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:71: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:72: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:73: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:74: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:75: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:76: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:77: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:78: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:79: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:80: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:81: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:82: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:83: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:84: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:85: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:86: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:87: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:88: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:89: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:90: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:91: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:92: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:93: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:94: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:95: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:96: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:97: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:98: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:99: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:100: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:101: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:102: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:103: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:104: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:105: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:106: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:107: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:108: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:109: warning: deprecated conversion from string constant to 'char*'
+/Users/todd/OF/006/apps/Demos/Array Particles/../../../libs/fmodex/inc/fmod_errors.h:110: warning: deprecated conversion from string constant to 'char*'
+In file included from /Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:1:
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h: At global scope:
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.h:146: error: 'ofxTileSaver' does not name a type
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp: In member function 'virtual void testApp::draw()':
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:28: error: 'saver' was not declared in this scope
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp: In member function 'virtual void testApp::keyPressed(int)':
+/Users/todd/OF/006/apps/Demos/Array Particles/src/testApp.cpp:69: error: 'saver' was not declared in this scope

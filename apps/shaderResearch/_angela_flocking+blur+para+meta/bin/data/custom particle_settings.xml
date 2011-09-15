@@ -1,0 +1,37 @@
+<controls>
+    <SliderFloat_strength>
+        <name>strength</name>
+        <value>8.000000</value>
+    </SliderFloat_strength>
+    <SliderFloat_damping>
+        <name>damping</name>
+        <value>0.700000</value>
+    </SliderFloat_damping>
+    <SliderFloat_mini_Distance>
+        <name>mini Distance</name>
+        <value>100.000000</value>
+    </SliderFloat_mini_Distance>
+    <Toggle_random_Radius>
+        <name>random Radius</name>
+        <value>1</value>
+    </Toggle_random_Radius>
+    <SliderFloat_radius>
+        <name>radius</name>
+        <value>10.000000</value>
+    </SliderFloat_radius>
+    <Toggle_random_Color>
+        <name>random Color</name>
+        <value>0</value>
+    </Toggle_random_Color>
+    <ColorPicker_particle_Color>
+        <name>particle Color</name>
+        <values_0>0.500000</values_0>
+        <values_1>0.500000</values_1>
+        <values_2>1.000000</values_2>
+        <values_3>0.000000</values_3>
+    </ColorPicker_particle_Color>
+    <Toggle_Update_Physics>
+        <name>Update Physics</name>
+        <value>0</value>
+    </Toggle_Update_Physics>
+</controls>

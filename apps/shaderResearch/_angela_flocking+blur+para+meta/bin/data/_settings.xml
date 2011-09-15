@@ -1,0 +1,151 @@
+<controls>
+    <Toggle_Toggle_Mouse_Force>
+        <name>Toggle Mouse Force</name>
+        <value>0</value>
+    </Toggle_Toggle_Mouse_Force>
+    <Toggle_Toggle_grabbing>
+        <name>Toggle grabbing</name>
+        <value>1</value>
+    </Toggle_Toggle_grabbing>
+    <Toggle_blank>
+        <name>blank</name>
+        <value>0</value>
+        <name>blank</name>
+        <value>0</value>
+    </Toggle_blank>
+    <Toggle_blank></Toggle_blank>
+    <ColorPicker_BG_Color>
+        <name>BG Color</name>
+        <values_0>0.500000</values_0>
+        <values_1>0.500000</values_1>
+        <values_2>1.000000</values_2>
+        <values_3>0.000000</values_3>
+    </ColorPicker_BG_Color>
+    <Toggle_Toggle_Flockings>
+        <name>Toggle Flockings</name>
+        <value>1</value>
+    </Toggle_Toggle_Flockings>
+    <Button_subtract_one_boid>
+        <name>subtract one boid</name>
+        <value>0</value>
+        <name>subtract one boid</name>
+        <value>0</value>
+    </Button_subtract_one_boid>
+    <Button_adding_one_boid>
+        <name>adding one boid</name>
+        <value>0</value>
+        <name>adding one boid</name>
+        <value>0</value>
+    </Button_adding_one_boid>
+    <Toggle_Toggle_gravity>
+        <name>Toggle gravity</name>
+        <value>0</value>
+    </Toggle_Toggle_gravity>
+    <Toggle_enable/disable_adding_boids>
+        <name>enable/disable adding boids</name>
+        <value>1</value>
+        <name>enable/disable adding boids</name>
+        <value>1</value>
+    </Toggle_enable/disable_adding_boids>
+    <Toggle_Update_Physics>
+        <name>Update Physics</name>
+        <value>0</value>
+        <name>Update Physics</name>
+        <value>0</value>
+    </Toggle_Update_Physics>
+    <Toggle_check_bound>
+        <name>check bound</name>
+        <value>1</value>
+    </Toggle_check_bound>
+    <SliderFloat_Box2d_FPS>
+        <name>Box2d FPS</name>
+        <value>30.000000</value>
+    </SliderFloat_Box2d_FPS>
+    <SliderFloat_x_gravity>
+        <name>x gravity</name>
+        <value>0.000000</value>
+    </SliderFloat_x_gravity>
+    <SliderFloat_y_gravity>
+        <name>y gravity</name>
+        <value>9.000000</value>
+    </SliderFloat_y_gravity>
+    <SliderFloat_mass>
+        <name>mass</name>
+        <value>3.000000</value>
+    </SliderFloat_mass>
+    <SliderFloat_bounce>
+        <name>bounce</name>
+        <value>0.530000</value>
+    </SliderFloat_bounce>
+    <SliderFloat_friction>
+        <name>friction</name>
+        <value>0.310000</value>
+    </SliderFloat_friction>
+    <SliderFloat_strength>
+        <name>strength</name>
+        <value>8.000000</value>
+    </SliderFloat_strength>
+    <SliderFloat_damping>
+        <name>damping</name>
+        <value>0.700000</value>
+    </SliderFloat_damping>
+    <SliderFloat_mini_Distance>
+        <name>mini Distance</name>
+        <value>100.000000</value>
+    </SliderFloat_mini_Distance>
+    <Toggle_random_Radius>
+        <name>random Radius</name>
+        <value>1</value>
+    </Toggle_random_Radius>
+    <SliderFloat_radius>
+        <name>radius</name>
+        <value>10.000000</value>
+    </SliderFloat_radius>
+    <Toggle_random_Color>
+        <name>random Color</name>
+        <value>0</value>
+    </Toggle_random_Color>
+    <ColorPicker_particle_Color>
+        <name>particle Color</name>
+        <values_0>0.500000</values_0>
+        <values_1>0.500000</values_1>
+        <values_2>1.000000</values_2>
+        <values_3>0.000000</values_3>
+    </ColorPicker_particle_Color>
+    <Toggle_Update_Physics></Toggle_Update_Physics>
+    <SliderInt_Flock/arrive/flee/drift>
+        <name>Flock/arrive/flee/drift</name>
+        <value>0</value>
+    </SliderInt_Flock/arrive/flee/drift>
+    <SliderInt_Limit_Num>
+        <name>Limit Num</name>
+        <value>200</value>
+    </SliderInt_Limit_Num>
+    <SliderFloat_Max_Velocity>
+        <name>Max Velocity</name>
+        <value>10.000000</value>
+    </SliderFloat_Max_Velocity>
+    <SliderFloat_Too_Close_Distance>
+        <name>Too Close Distance</name>
+        <value>100.000000</value>
+    </SliderFloat_Too_Close_Distance>
+    <SliderFloat_In_sight_distance>
+        <name>In sight distance</name>
+        <value>20.000000</value>
+    </SliderFloat_In_sight_distance>
+    <Button_subtract_one_boid></Button_subtract_one_boid>
+    <Button_adding_one_boid></Button_adding_one_boid>
+    <Toggle_enable/disable_adding_boids></Toggle_enable/disable_adding_boids>
+    <SliderFloat_blur>
+        <name>blur</name>
+        <value>10.000000</value>
+    </SliderFloat_blur>
+    <SliderFloat_colorRange>
+        <name>colorRange</name>
+        <value>1.000000</value>
+    </SliderFloat_colorRange>
+    <SliderFloat_blur_Speed>
+        <name>blur Speed</name>
+        <value>0.500000</value>
+    </SliderFloat_blur_Speed>
+</controls>

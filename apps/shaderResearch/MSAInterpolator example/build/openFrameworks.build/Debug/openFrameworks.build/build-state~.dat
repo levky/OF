@@ -1,0 +1,52 @@
+TopenFrameworks
+v7
+r1
+cCheck dependencies
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin//openFrameworksDebug.app
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin//openFrameworksDebug.app/Contents/Info.plist
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin//openFrameworksDebug.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin/openFrameworksDebug.app/Contents/Resources/openFrameworks-Info.plist
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/openFrameworks-Info.plist
+c0000000045E1106E0000000000000277
+t1172377710
+s631
+
+NopenFrameworks-Info.plist
+c0000000045E1106E0000000000000277
+t1172377710
+s631
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333890338#333890338#0(207"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'2(22@114"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.333890338#18446744073709551615#0#0(1@0"0(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'333890338#18446744073709551615#0#0(1@0"0(0#1#0"8608546368#0"0#
+
+CCopyPlistFile "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin/openFrameworksDebug.app/Contents/Resources/openFrameworks-Info.plist" openFrameworks-Info.plist
+r0
+
+CPhaseScriptExecution "Run Script" "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh"
+r0
+
+CProcessInfoPlistFile "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin//openFrameworksDebug.app/Contents/Info.plist" openFrameworks-Info.plist
+r0
+
+CTouch "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/_shaderZoomExampleUpdated/bin//openFrameworksDebug.app"
+r0
+

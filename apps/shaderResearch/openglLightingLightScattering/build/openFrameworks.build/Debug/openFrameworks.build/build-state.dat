@@ -1,0 +1,2330 @@
+TopenFrameworks
+v7
+r0
+t333977727.002157
+cCheck dependencies
+cProcessInfoPlistFile "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/Info.plist" openFrameworks-Info.plist
+cCopyPlistFile "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/openFrameworksDebug.app/Contents/Resources/openFrameworks-Info.plist" openFrameworks-Info.plist
+cProcessPCH++ /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/main.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/testApp.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofStandardFirmata.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUCUtils.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxMatrix3x3.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxFBOTexture.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxShader.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/lightScattering.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cLd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug" normal i386
+cPhaseScriptExecution "Run Script" "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh"
+cTouch "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c0000000047BAEC060000000000000476
+t1203432454
+s1142
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h
+c0000000048649BCC000000000002C0F0
+t1214553036
+s180464
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c0000000047BAD4120000000000000400
+t1203426322
+s1024
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004864C81A000000000000563C
+t1214564378
+s22076
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004702C63B0000000000025B59
+t1191364155
+s154457
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004702C63B0000000000003F8D
+t1191364155
+s16269
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004864C165000000000000067F
+t1214562661
+s1663
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/TargetConditionals.h
+c000000004817F9680000000000002778
+t1209530728
+s10104
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/ctype.h
+c0000000047BA99310000000000002C3A
+t1203411249
+s11322
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/dirent.h
+c0000000047BA993100000000000014E4
+t1203411249
+s5348
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/errno.h
+c0000000047BA993000000000000003EB
+t1203411248
+s1003
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/fcntl.h
+c0000000047BA993000000000000003EA
+t1203411248
+s1002
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/getopt.h
+c0000000047BA99300000000000000CBC
+t1203411248
+s3260
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/setjmp.h
+c0000000047BA99300000000000000438
+t1203411248
+s1080
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/ioctl.h
+c0000000047E883CF00000000000011D1
+t1206420431
+s4561
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/mman.h
+c0000000047E883D00000000000001F86
+t1206420432
+s8070
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/select.h
+c0000000047E883D100000000000016A2
+t1206420433
+s5794
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/stat.h
+c0000000047E883D100000000000047CE
+t1206420433
+s18382
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/time.h
+c0000000047E883D20000000000001E18
+t1206420434
+s7704
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/termios.h
+c0000000047BA993000000000000004D4
+t1203411248
+s1236
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/unistd.h
+c0000000047BA993200000000000053FF
+t1203411250
+s21503
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/wchar.h
+c0000000047BA993200000000000025DA
+t1203411250
+s9690
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h
+c000000004CC3D36A00000000000010D9
+t1287902058
+s4313
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h
+c000000004CC3D36A0000000000003193
+t1287902058
+s12691
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdint.h
+c000000004CC3D36A0000000000001BE4
+t1287902058
+s7140
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004CC410E50000000000000477
+t1287917797
+s1143
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004CC41EA700000000000005FF
+t1287921319
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h
+c000000004CC3F024000000000002DC86
+t1287909412
+s187526
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004CC3FFFE0000000000000401
+t1287913470
+s1025
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004CC42BAC000000000000578C
+t1287924652
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004CC420410000000000000659
+t1287921729
+s1625
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004BBD2CE90000000000002C18
+t1270689001
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dirent.h
+c000000004BBD2CE900000000000016D3
+t1270689001
+s5843
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/getopt.h
+c000000004BBD2CE90000000000000CBC
+t1270689001
+s3260
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h
+c000000004BBD2CE90000000000000438
+t1270689001
+s1080
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004CC3DE66000000000000116C
+t1287904870
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/mman.h
+c000000004CC3DE670000000000002098
+t1287904871
+s8344
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h
+c000000004CC3DE6700000000000016A2
+t1287904871
+s5794
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004CC3DE680000000000004A1D
+t1287904872
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/termios.h
+c000000004BBD2CE900000000000004D4
+t1270689001
+s1236
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h
+c000000004BBD2CE900000000000025DA
+t1270689001
+s9690
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h
+c000000004CC3D39D00000000000010D9
+t1287902109
+s4313
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h
+c000000004CC3D39D0000000000003193
+t1287902109
+s12691
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdint.h
+c000000004CC3D39D0000000000001BE4
+t1287902109
+s7140
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c000000004DEEB9110000000000043820
+t1307490577
+s276512
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004DD5EC60000000000051BA20
+t1305865312
+s5356064
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004DEEB6D200000000002181A0
+t1307490002
+s2195872
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004DBF2B880000000000781330
+t1304374152
+s7869232
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004C23F49F0000000000021710
+t1277424799
+s136976
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004DEEB8140000000000043360
+t1307490324
+s275296
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004DE5A33C0000000000785970
+t1306895164
+s7887216
+
+N/Users/macbookpro/Documents/Programming/OFW/addons/ofxVectorMath/src/ofxMatrix3x3.h
+c000000004B6CA9DA0000000000000A1D
+t1265412570
+s2589
+
+N/Users/macbookpro/Documents/Programming/OFW/addons/ofxVectorMath/src/ofxMatrix4x4.h
+c000000004B6CA9DA0000000000005B20
+t1265412570
+s23328
+i"ofxVec3f.h"
+i"ofxVec4f.h"
+i"ofxQuaternion.h"
+i<cmath>
+
+N/Users/macbookpro/Documents/Programming/OFW/addons/ofxVectorMath/src/ofxQuaternion.h
+c000000004B6CA9DA000000000000242E
+t1265412570
+s9262
+i"ofxVec3f.h"
+i"ofxVec4f.h"
+i<cmath>
+
+N/Users/macbookpro/Documents/Programming/OFW/addons/ofxVectorMath/src/ofxVec2f.h
+c000000004B6CA9DA0000000000004100
+t1265412570
+s16640
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/addons/ofxVectorMath/src/ofxVec3f.h
+c000000004B6CA9DA0000000000006487
+t1265412570
+s25735
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/addons/ofxVectorMath/src/ofxVec4f.h
+c000000004B6CA9DA0000000000002DE5
+t1265412570
+s11749
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp
+c000000004B6CA9DA0000000000001593
+t1265412570
+s5523
+i"ofxMatrix3x3.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVectorMath.h
+c000000004B6CA9DA0000000000000125
+t1265412570
+s293
+i"ofxVec2f.h"
+i"ofxVec3f.h"
+i"ofxVec4f.h"
+i"ofxMatrix3x3.h"
+i"ofxMatrix4x4.h"
+i"ofxQuaternion.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/GLee/include/GLee.h
+c000000004D2D71BF00000000000934B4
+t1294823871
+s603316
+i<windows.h>
+i<GL/gl.h>
+i<OpenGL/gl.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<stddef.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/GLee/lib/GLee.a
+c000000004D2D71BF00000000000C88C8
+t1294823871
+s821448
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/fmodex/inc/fmod.h
+c000000004D2D71BF0000000000023B31
+t1294823871
+s146225
+i"fmod_codec.h"
+i"fmod_dsp.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/fmodex/inc/fmod_errors.h
+c000000004D2D71BF0000000000002F68
+t1294823871
+s12136
+i"fmod.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/fmodex/lib/libfmodex.dylib
+c000000004D2D71BF00000000001DD8CC
+t1294823871
+s1956044
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freeimage/include/FreeImage.h
+c000000004D2D71BF000000000000AD91
+t1294823871
+s44433
+i<wchar.h>
+i<stdint.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freeimage/lib/freeimage.a
+c000000004D2D71BF0000000000645020
+t1294823871
+s6574112
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004D2D71BF0000000000008B72
+t1294823871
+s35698
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/include/freetype2/freetype/freetype.h
+c000000004D2D71BF00000000000312DA
+t1294823871
+s201434
+i"ft2build.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/include/freetype2/freetype/ftglyph.h
+c000000004D2D71BF0000000000008C93
+t1294823871
+s35987
+i"ft2build.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/include/freetype2/freetype/ftoutln.h
+c000000004D2D71BF000000000000751A
+t1294823871
+s29978
+i"ft2build.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/include/freetype2/freetype/fttrigon.h
+c000000004D2D71BF0000000000004A41
+t1294823871
+s19009
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/include/ft2build.h
+c000000004D2D71BF0000000000000F22
+t1294823871
+s3874
+i"ftheader.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/lib/freetype.a
+c000000004D2D71C0000000000027FFFC
+t1294823872
+s2621436
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp
+c000000004D2D71C00000000000003A07
+t1294823872
+s14855
+i"ofAppGlutWindow.h"
+i"ofBaseApp.h"
+i"ofMain.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004D2D71C000000000000005C9
+t1294823872
+s1481
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp
+c000000004D2D71C0000000000000170D
+t1294823872
+s5901
+i"ofAppRunner.h"
+i"ofAppiPhoneWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.h
+c000000004D2D71C000000000000004DA
+t1294823872
+s1242
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofBaseApp.h
+c000000004D2D71C00000000000000375
+t1294823872
+s885
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp
+c000000004D2D71C00000000000000D45
+t1294823872
+s3397
+i"ofArduino.h"
+i"ofUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.h
+c000000004D2D71C00000000000000B94
+t1294823872
+s2964
+i"ofStandardFirmata.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp
+c000000004D2D71C00000000000004799
+t1294823872
+s18329
+i"ofSerial.h"
+i"ofMain.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.h
+c000000004D2D71C00000000000000D2E
+t1294823872
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp
+c000000004D2D71C00000000000003D26
+t1294823872
+s15654
+i"ofStandardFirmata.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.h
+c000000004D2D71C00000000000003B50
+t1294823872
+s15184
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/events/ofEvents.h
+c000000004D2D71C000000000000007AF
+t1294823872
+s1967
+i"ofConstants.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp
+c000000004D2D71C00000000000009319
+t1294823872
+s37657
+i"ofBitmapFont.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp
+c000000004D2D71C000000000000074F4
+t1294823872
+s29940
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"ofBitmapFont.h"
+i<OpenGL/glu.h>
+i"glu.h"
+i"GL/glu.h"
+i"glu.h"
+i<vector>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.h
+c000000004D2D71C00000000000000B4E
+t1294823872
+s2894
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp
+c000000004D2D71C00000000000003DE8
+t1294823872
+s15848
+i"ofImage.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.h
+c000000004D2D71C00000000000000CD0
+t1294823872
+s3280
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp
+c000000004D2D71C00000000000002E0F
+t1294823872
+s11791
+i"ofTexture.h"
+i"ofUtils.h"
+i"ofAppRunner.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.h
+c000000004D2D71C000000000000009E0
+t1294823872
+s2528
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp
+c000000004D2D71C00000000000006DEB
+t1294823872
+s28139
+i"ofTrueTypeFont.h"
+i<ft2build.h>
+i<freetype/freetype.h>
+i<freetype/ftglyph.h>
+i<freetype/ftoutln.h>
+i<freetype/fttrigon.h>
+i"ft2build.h"
+i"freetype.h"
+i"ftglyph.h"
+i"ftoutln.h"
+i"fttrigon.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D2D71C0000000000000087A
+t1294823872
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/ofMain.h
+c000000004D2D71C00000000000000367
+t1294823872
+s871
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofStandardFirmata.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp
+c000000004D2D71C000000000000023AD
+t1294823872
+s9133
+i"ofSoundPlayer.h"
+i"ofUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004D2D71C00000000000000691
+t1294823872
+s1681
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp
+c000000004D2D71C0000000000000108D
+t1294823872
+s4237
+i"ofSoundStream.h"
+i"RtAudio.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.h
+c000000004D2D71C00000000000000254
+t1294823872
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofConstants.h
+c000000004D2D71C00000000000002A28
+t1294823872
+s10792
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp
+c000000004D2D71C00000000000000D73
+t1294823872
+s3443
+i"ofMath.h"
+i"ofAppRunner.h"
+i<sys/time.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.h
+c000000004D2D71C0000000000000052A
+t1294823872
+s1322
+i"ofConstants.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofTypes.h
+c000000004D2D71C00000000000001883
+t1294823872
+s6275
+i"ofConstants.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp
+c000000004D2D71C00000000000002497
+t1294823872
+s9367
+i"ofUtils.h"
+i"ofImage.h"
+i"sys/time.h"
+i<mmsystem.h>
+i<direct.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.h
+c000000004D2D71C00000000000000551
+t1294823872
+s1361
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp
+c000000004D2D71C000000000000024FA
+t1294823872
+s9466
+i"ofQtUtils.h"
+i"ofUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp
+c000000004D2D71C000000000000039E7
+t1294823872
+s14823
+i"ofUCUtils.h"
+i"ofConstants.h"
+i<stdio.h>
+i<stdint.h>
+i"ofUtils.h"
+i<avformat.h>
+i<swscale.h>
+i<libavformat/avformat.h>
+i<libswscale/swscale.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp
+c000000004D2D71C00000000000007AA3
+t1294823872
+s31395
+i"ofVideoGrabber.h"
+i"ofUtils.h"
+i"ofV4LUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.h
+c000000004D2D71C00000000000000CA8
+t1294823872
+s3240
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp
+c000000004D2D71C00000000000008B83
+t1294823872
+s35715
+i"ofVideoPlayer.h"
+i"ofUtils.h"
+i<gst/video/video.h>
+i"gst/app/gstappsink.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.h
+c000000004D2D71C00000000000000E80
+t1294823872
+s3712
+i"ofConstants.h"
+i"ofTexture.h"
+i<gst/gst.h>
+i<pthread.h>
+i"ofQtUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib/libCppUnit.a
+c000000004D2D71C0000000000003ABB0
+t1294823872
+s240560
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib/libPocoFoundation.a
+c000000004D2D71C000000000005A62E8
+t1294823872
+s5923560
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib/libPocoNet.a
+c000000004D2D71C10000000000378278
+t1294823873
+s3637880
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib/libPocoUtil.a
+c000000004D2D71C100000000000FFB80
+t1294823873
+s1047424
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib/libPocoXML.a
+c000000004D2D71C10000000000239BC0
+t1294823873
+s2333632
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/rtAudio/include/RtAudio.h
+c000000004D2D71C10000000000007735
+t1294823873
+s30517
+i"RtError.h"
+i<string>
+i<vector>
+i<windows.h>
+i<process.h>
+i<pthread.h>
+i<CoreAudio/AudioHardware.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/rtAudio/lib/rtAudio.a
+c000000004D2D71C10000000000082BF8
+t1294823873
+s535544
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app
+t1312284927
+s102
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/Info.plist
+t1257197478
+s623
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug
+t1312200978
+s1092220
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/PkgInfo
+t1257197478
+s8
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/openFrameworksDebug.app/Contents/Resources/openFrameworks-Info.plist
+t1257197478
+s631
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/lightScattering.o
+t1312197810
+s40816
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/main.o
+t1312197793
+s73504
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
+t1312197796
+s1080604
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o
+t1312197796
+s1358208
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
+t1312197797
+s69432
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o
+t1312197799
+s45164
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o
+t1312197801
+s232244
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o
+t1312197801
+s77376
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o
+t1312197805
+s24604
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o
+t1312197806
+s31316
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
+t1312197798
+s53232
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o
+t1312197803
+s54300
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+t1312197804
+s89104
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofStandardFirmata.o
+t1312197800
+s1092816
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o
+t1312197802
+s46500
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o
+t1312197803
+s294768
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUCUtils.o
+t1312197806
+s16624
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o
+t1312197806
+s111892
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o
+t1312197807
+s88436
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o
+t1312197807
+s87368
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxFBOTexture.o
+t1312197809
+s29892
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxMatrix3x3.o
+t1312197807
+s21924
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint2f.o
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint3f.o
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint4f.o
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxShader.o
+t1312197809
+s46528
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec2f.o
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec3f.o
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec4f.o
+t2
+s0
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList
+c000000004E368EBD0000000000001090
+t1312198333
+s4240
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/testApp.o
+t1312197793
+s85204
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c000000004E36883D000000000000010F
+t1312196669
+s271
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/openFrameworks-Info.plist
+c0000000045E1B92E0000000000000277
+t1172420910
+s631
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp
+c000000004AD0BE120000000000001B86
+t1255194130
+s7046
+i"ofxFBOTexture.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.h
+c000000004AD0BBFE00000000000004D3
+t1255193598
+s1235
+i"ofMain.h"
+i<iostream>
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp
+c000000004AC7DF7A000000000000184C
+t1254612858
+s6220
+i"ofxShader.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.h
+c000000004AC7D98A0000000000000575
+t1254611338
+s1397
+i"ofMain.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp
+c000000004AF331DE00000000000006DC
+t1257451998
+s1756
+i"lightScattering.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.h
+c000000004AF331800000000000000233
+t1257451904
+s563
+i"ofMain.h"
+i"ofxShader.h"
+i"ofxFBOTexture.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp
+c000000004AF332AB000000000000019E
+t1257452203
+s414
+i"ofMain.h"
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp
+c000000004AF3560B0000000000003746
+t1257461259
+s14150
+i"testApp.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.h
+c000000004AF3311F000000000000033E
+t1257451807
+s830
+i"ofMain.h"
+i"ofxFBOTexture.h"
+i"ofxShader.h"
+i"ofxVectorMath.h"
+i"lightScattering.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/fmodex/inc/fmod.h
+c000000004D2D71BF0000000000023B31
+t1294823871
+s146225
+i"fmod_codec.h"
+i"fmod_dsp.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/fmodex/inc/fmod_codec.h
+c000000004D2D71BF000000000000334A
+t1294823871
+s13130
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/fmodex/inc/fmod_dsp.h
+c000000004D2D71BF00000000000088D2
+t1294823871
+s35026
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004D2D71C00000000000000413
+t1294823872
+s1043
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004D2D71C000000000000005C9
+t1294823872
+s1481
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/app/ofAppRunner.h
+c000000004D2D71C000000000000004DA
+t1294823872
+s1242
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/app/ofBaseApp.h
+c000000004D2D71C00000000000000375
+t1294823872
+s885
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/communication/ofArduino.h
+c000000004D2D71C00000000000000B94
+t1294823872
+s2964
+i"ofStandardFirmata.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/communication/ofSerial.h
+c000000004D2D71C00000000000000D2E
+t1294823872
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/communication/ofStandardFirmata.h
+c000000004D2D71C00000000000003B50
+t1294823872
+s15184
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/events/ofEventUtils.h
+c000000004D2D71C00000000000000876
+t1294823872
+s2166
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/graphics/ofBitmapFont.h
+c000000004D2D71C0000000000000018C
+t1294823872
+s396
+i"ofConstants.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/graphics/ofGraphics.h
+c000000004D2D71C00000000000000B4E
+t1294823872
+s2894
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/graphics/ofImage.h
+c000000004D2D71C00000000000000CD0
+t1294823872
+s3280
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/graphics/ofTexture.h
+c000000004D2D71C000000000000009E0
+t1294823872
+s2528
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004D2D71C0000000000000087A
+t1294823872
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004D2D71C00000000000000691
+t1294823872
+s1681
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/sound/ofSoundStream.h
+c000000004D2D71C00000000000000254
+t1294823872
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/utils/ofConstants.h
+c000000004D2D71C00000000000002A28
+t1294823872
+s10792
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/utils/ofMath.h
+c000000004D2D71C0000000000000052A
+t1294823872
+s1322
+i"ofConstants.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/utils/ofUtils.h
+c000000004D2D71C00000000000000551
+t1294823872
+s1361
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/video/ofQtUtils.h
+c000000004D2D71C000000000000006CF
+t1294823872
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/video/ofUCUtils.h
+c000000004D2D71C000000000000004A7
+t1294823872
+s1191
+i"ofConstants.h"
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<unicap.h>
+i<unistd.h>
+i<string.h>
+i<pthread.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/video/ofV4LUtils.h
+c000000004D2D71C00000000000004AE1
+t1294823872
+s19169
+i"ofConstants.h"
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i<fcntl.h>
+i<unistd.h>
+i<sys/ioctl.h>
+i<sys/stat.h>
+i<sys/mman.h>
+i<sys/types.h>
+i<time.h>
+i<linux/videodev.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004D2D71C00000000000000CA8
+t1294823872
+s3240
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004D2D71C00000000000000E80
+t1294823872
+s3712
+i"ofConstants.h"
+i"ofTexture.h"
+i<gst/gst.h>
+i<pthread.h>
+i"ofQtUtils.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/AbstractDelegate.h
+c000000004D2D71C00000000000000B32
+t1294823872
+s2866
+i"Poco/Foundation.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/AbstractEvent.h
+c000000004D2D71C00000000000002C6A
+t1294823872
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/ActiveMethod.h
+c000000004D2D71C00000000000001C64
+t1294823872
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/ActiveResult.h
+c000000004D2D71C00000000000002E66
+t1294823872
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/ActiveRunnable.h
+c000000004D2D71C00000000000001785
+t1294823872
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/ActiveStarter.h
+c000000004D2D71C00000000000000927
+t1294823872
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/AutoPtr.h
+c000000004D2D71C00000000000001E0C
+t1294823872
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Bugcheck.h
+c000000004D2D71C000000000000012FE
+t1294823872
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/CompareFunctions.h
+c000000004D2D71C000000000000007EC
+t1294823872
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Config.h
+c000000004D2D71C000000000000008B5
+t1294823872
+s2229
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Delegate.h
+c000000004D2D71C0000000000000180A
+t1294823872
+s6154
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Event.h
+c000000004D2D71C00000000000000E21
+t1294823872
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Event_POSIX.h
+c000000004D2D71C00000000000000A91
+t1294823872
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Event_WIN32.h
+c000000004D2D71C00000000000000947
+t1294823872
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Exception.h
+c000000004D2D71C000000000000026AC
+t1294823872
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Expire.h
+c000000004D2D71C00000000000000CF1
+t1294823872
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/FIFOEvent.h
+c000000004D2D71C00000000000000AD4
+t1294823872
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/FIFOStrategy.h
+c000000004D2D71C000000000000010F3
+t1294823872
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Foundation.h
+c000000004D2D71C00000000000001023
+t1294823872
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/FunctionDelegate.h
+c000000004D2D71C000000000000013CA
+t1294823872
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Mutex.h
+c000000004D2D71C00000000000001A61
+t1294823872
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004D2D71C00000000000000AC3
+t1294823872
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004D2D71C00000000000000A07
+t1294823872
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/NotificationStrategy.h
+c000000004D2D71C00000000000000A37
+t1294823872
+s2615
+i"Poco/Foundation.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Platform.h
+c000000004D2D71C00000000000001A3A
+t1294823872
+s6714
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Platform_POSIX.h
+c000000004D2D71C00000000000000843
+t1294823872
+s2115
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Platform_VMS.h
+c000000004D2D71C00000000000000BAA
+t1294823872
+s2986
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Platform_WIN32.h
+c000000004D2D71C00000000000000D4D
+t1294823872
+s3405
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/RefCountedObject.h
+c000000004D2D71C00000000000000B10
+t1294823872
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Runnable.h
+c000000004D2D71C00000000000000861
+t1294823872
+s2145
+i"Poco/Foundation.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/ScopedLock.h
+c000000004D2D71C000000000000008EB
+t1294823872
+s2283
+i"Poco/Foundation.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/SharedPtr.h
+c000000004D2D71C000000000000021DE
+t1294823872
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/SignalHandler.h
+c000000004D2D71C000000000000011EB
+t1294823872
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/SingletonHolder.h
+c000000004D2D71C00000000000000A64
+t1294823872
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Thread.h
+c000000004D2D71C00000000000001C3A
+t1294823872
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/ThreadPool.h
+c000000004D2D71C00000000000001849
+t1294823872
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Thread_POSIX.h
+c000000004D2D71C000000000000012A8
+t1294823872
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Thread_WIN32.h
+c000000004D2D71C0000000000000106C
+t1294823872
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Timestamp.h
+c000000004D2D71C000000000000019A7
+t1294823872
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/Types.h
+c000000004D2D71C00000000000001910
+t1294823872
+s6416
+i"Poco/Foundation.h"
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/poco/include/Poco/UnWindows.h
+c000000004D2D71C00000000000000FD1
+t1294823872
+s4049
+i<windows.h>
+
+N/Users/macbookpro/Documents/Programming/OFW/libs/rtAudio/include/RtError.h
+c000000004D2D71C100000000000007E6
+t1294823873
+s2022
+i<iostream>
+i<string>
+
+N/var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-airiqhuriacclehgplyixdurhbuc/Carbon.h.gch
+t1312196676
+s36760464
+
+N/var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h.gch
+t1312196730
+s37146048
+
+NopenFrameworks-Info.plist
+c0000000045E1B92E0000000000000277
+t1172420910
+s631
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333977725#333977726#0(121"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.1(22@114"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.333977726#18446744073709551615#0#0(1@0"0(0#1#0"8630563584#0"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/lightScattering.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890609.075934
+e333890610.186046
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/lightScattering.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@120"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp333890609#333890610#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#112"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp8607638048#1615"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/lightScattering.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/lightScattering.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/main.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890591.484646
+e333890593.341402
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/main.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@109"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp333890591#333890593#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#101"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp8616424352#1593"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/main.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890593.341550
+e333890596.171888
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@149"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp333890593#333890596#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#141"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp8608753408#1644"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppGlutWindow.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppGlutWindow.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890593.571793
+e333890596.815397
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@145"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp333890593#333890596#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#137"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp8609897344#1636"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/app/ofAppRunner.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofAppRunner.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890596.172079
+e333890597.469928
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@153"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp333890596#333890597#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#145"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp8610527392#1642"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofArduino.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofArduino.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890598.418691
+e333890599.055470
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@151"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp333890598#333890599#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#143"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp8618807904#1643"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofBitmapFont.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofBitmapFont.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890599.055585
+e333890601.261897
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@149"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp333890599#333890601#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#141"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp8616969920#1639"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofGraphics.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofGraphics.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890600.105689
+e333890601.900777
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@146"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp333890600#333890601#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#138"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp8617295296#1633"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofImage.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofImage.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890603.581610
+e333890605.152538
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@142"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp333890603#333890605#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#134"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp8621603040#1628"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofMath.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofMath.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890605.152688
+e333890606.249966
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@145"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp333890605#333890606#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#137"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp8602558752#1634"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofQtUtils.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofQtUtils.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890596.815502
+e333890598.418465
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@152"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp333890596#333890598#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#144"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp8621603488#1640"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofSerial.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSerial.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890602.731810
+e333890603.581395
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@149"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp333890602#333890603#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#141"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp8601164384#1642"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundPlayer.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundPlayer.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890603.131809
+e333890604.341501
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@149"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp333890603#333890604#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#141"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp8617462656#1642"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/sound/ofSoundStream.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofSoundStream.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofStandardFirmata.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890597.470035
+e333890600.105535
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofStandardFirmata.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@161"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp333890597#333890600#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#153"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp8605864832#1658"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/communication/ofStandardFirmata.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofStandardFirmata.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890601.261999
+e333890602.731707
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@148"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp333890601#333890602#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#140"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp8610478336#1637"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTexture.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTexture.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890601.900996
+e333890603.131711
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@153"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp333890601#333890603#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#145"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp8616799456#1647"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofTrueTypeFont.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUCUtils.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890606.043240
+e333890606.683030
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUCUtils.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@145"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp333890606#333890606#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#137"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp8608465152#1634"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofUCUtils.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUCUtils.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890604.341615
+e333890606.043136
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@143"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp333890604#333890606#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#135"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp8603607360#1630"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/utils/ofUtils.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofUtils.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890606.250419
+e333890607.421659
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@150"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp333890606#333890607#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#142"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp8600680768#1644"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoGrabber.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoGrabber.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890606.683183
+e333890607.895610
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@149"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp333890606#333890607#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#141"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp8612336960#1642"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/openFrameworks/video/ofVideoPlayer.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofVideoPlayer.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxFBOTexture.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890607.606988
+e333890609.075724
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxFBOTexture.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@125"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp333890607#333890609#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#117"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp8612643424#1618"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxFBOTexture.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxFBOTexture.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxMatrix3x3.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890607.421764
+e333890607.542450
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxMatrix3x3.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@147"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp333890607#333890607#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#139"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp8612317952#1639"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxMatrix3x3.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint2f.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890980.598806
+e333890980.605904
+r0
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint2f.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp: No such file or directory
+lSLF07#2@145"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp333890980#333890980#0(255"i686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp: No such file or directoryCommand /Developer/usr/bin/gcc-4.0 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.0 failed with exit code 1333890980#18446744073709551615#0#0(1@0"0(0#0#137"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp8611565760#1635"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint2f.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint2f.o"1#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint3f.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890980.600374
+e333890980.617990
+r0
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint3f.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp: No such file or directory
+lSLF07#2@145"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp333890980#333890980#0(255"i686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp: No such file or directoryCommand /Developer/usr/bin/gcc-4.0 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.0 failed with exit code 1333890980#18446744073709551615#0#0(1@0"0(0#0#137"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp8606371296#1635"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint3f.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint3f.o"1#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint4f.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890980.606001
+e333890980.619708
+r0
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint4f.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp: No such file or directory
+lSLF07#2@145"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp333890980#333890980#0(255"i686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp: No such file or directoryCommand /Developer/usr/bin/gcc-4.0 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.0 failed with exit code 1333890980#18446744073709551615#0#0(1@0"0(0#0#137"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp8606267968#1635"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxPoint4f.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxPoint4f.o"1#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxShader.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890607.895719
+e333890609.469479
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxShader.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@121"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp333890607#333890609#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#113"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp8616292512#1610"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/addons/ofxShader.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxShader.o"0#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec2f.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890980.618085
+e333890980.625706
+r0
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec2f.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp: No such file or directory
+lSLF07#2@143"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp333890980#333890980#0(253"i686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp: No such file or directoryCommand /Developer/usr/bin/gcc-4.0 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.0 failed with exit code 1333890980#18446744073709551615#0#0(1@0"0(0#0#135"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp8612994400#1631"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec2f.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec2f.o"1#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec3f.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890980.619793
+e333890980.628099
+r0
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec3f.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp: No such file or directory
+lSLF07#2@143"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp333890980#333890980#0(253"i686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp: No such file or directoryCommand /Developer/usr/bin/gcc-4.0 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.0 failed with exit code 1333890980#18446744073709551615#0#0(1@0"0(0#0#135"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp8612862400#1631"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec3f.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec3f.o"1#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec4f.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890980.625803
+e333890980.633415
+r0
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec4f.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp: No such file or directory
+lSLF07#2@143"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp333890980#333890980#0(253"i686-apple-darwin10-gcc-4.0.1: /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp: No such file or directoryCommand /Developer/usr/bin/gcc-4.0 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.0 failed with exit code 1333890980#18446744073709551615#0#0(1@0"0(0#0#135"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp8611874976#1631"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../addons/ofxVectorMath/src/ofxVec4f.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/ofxVec4f.o"1#
+
+CCompileC build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/testApp.o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s333890591.485905
+e333890593.571681
+r1
+xCompileC
+xbuild/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/testApp.o
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@112"Compile /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp333890591#333890593#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#104"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp8608672864#1599"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -include /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/src/testApp.cpp" -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/testApp.o"0#
+
+CCopyPlistFile "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/openFrameworksDebug.app/Contents/Resources/openFrameworks-Info.plist" openFrameworks-Info.plist
+r0
+
+CLd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug" normal i386
+s333891133.501659
+e333891134.218350
+r1
+xLd
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug
+xnormal
+xi386
+lSLF07#2@157"Link /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug333891133#333891134#0(0"0(0#0#0"8596205664#2319"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freeimage/lib" "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/fmodex/lib" "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/lib" "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/GLee/lib" "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib" "-L/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/rtAudio/lib" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" -filelist "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList" -mmacosx-version-min=10.5 -dead_strip "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freeimage/lib/freeimage.a" -lfmodex "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/lib/freetype.a" "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/GLee/lib/GLee.a" "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/rtAudio/lib/rtAudio.a" -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework GLUT -framework OpenGL -framework QuickTime -lCppUnit -lPocoFoundation -lPocoNet -lPocoUtil -lPocoXML -o "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug"0#
+
+CPhaseScriptExecution "Run Script" "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh"
+s333977726.862819
+e333977726.997139
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF07#2@36"Run custom shell script 'Run Script'333977726#333977727#0(0"0(0#0#0"8694785824#21291"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER macbookpro    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build"    setenv BUILD_ROOT "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/"    setenv CACHE_ROOT /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app"    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/"    setenv CONFIGURATION_TEMP_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug"    setenv CONTENTS_FOLDER_PATH openFrameworksDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH openFrameworksDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/openFrameworks.dst    setenv DWARF_DSYM_FILE_NAME openFrameworksDebug.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/"    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH openFrameworksDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH openFrameworksDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME openFrameworksDebug    setenv EXECUTABLE_PATH openFrameworksDebug.app/Contents/MacOS/openFrameworksDebug    setenv FILE_LIST "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH openFrameworksDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME openFrameworksDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.0    setenv GCC_VERSION_IDENTIFIER __0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//include\" ../../../libs/poco/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH openFrameworksDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH openFrameworksDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/openFrameworks.dst/Users/macbookpro/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER macbookpro    setenv INSTALL_PATH /Users/macbookpro/Applications    setenv INSTALL_ROOT /tmp/openFrameworks.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH openFrameworksDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/\"  \"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freeimage/lib\" \"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/fmodex/lib\" \"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/lib\" \"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/GLee/lib\" \"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib\" \"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/rtAudio/lib\"      "    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freeimage/lib\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/fmodex/lib\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/freetype/lib\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/GLee/lib\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/poco/lib\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/../../../libs/rtAudio/lib\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal/i386/openFrameworksDebug.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH openFrameworksDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 10K549    setenv MAC_OS_X_VERSION_ACTUAL 1068    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0608    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Objects-normal"    setenv OBJROOT "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH openFrameworksDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/PkgInfo"    setenv PKGINFO_PATH openFrameworksDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2518    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH openFrameworksDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH openFrameworksDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME openFrameworksDebug    setenv PRODUCT_SETTINGS_PATH "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/openFrameworks-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT openFrameworks    setenv PROJECT_DERIVED_FILE_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/DerivedSources"    setenv PROJECT_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv PROJECT_FILE_PATH "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/openFrameworks.xcodeproj"    setenv PROJECT_NAME openFrameworks    setenv PROJECT_TEMP_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build"    setenv PUBLIC_HEADERS_FOLDER_PATH openFrameworksDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH openFrameworksDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_NAME macosx10.5    setenv SDK_PRODUCT_BUILD_VERSION 9L31a    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH openFrameworksDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH openFrameworksDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv SRCROOT "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/SymbolRepositories"    setenv SYMROOT "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME openFrameworks    setenv TARGET_BUILD_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/"    setenv TARGET_NAME openFrameworks    setenv TARGET_TEMP_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build"    setenv TEMP_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build"    setenv TEMP_FILES_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build"    setenv TEMP_FILE_DIR "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build"    setenv TEMP_ROOT "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH openFrameworksDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER macbookpro    setenv USER_APPS_DIR /Users/macbookpro/Applications    setenv USER_LIBRARY_DIR /Users/macbookpro/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH openFrameworksDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER macbookpro    setenv VERSION_INFO_FILE openFrameworksDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:openFrameworksDebug  PROJECT:openFrameworks-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME openFrameworksDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2518    setenv XCODE_VERSION_ACTUAL 0400    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0400    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    setenv _REAL_SDKROOT macosx10.5    /bin/sh -c "\"/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh\""0#
+
+CProcessInfoPlistFile "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app/Contents/Info.plist" openFrameworks-Info.plist
+r0
+
+CProcessPCH++ /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-airiqhuriacclehgplyixdurhbuc/Carbon.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_0
+s333889469.075442
+e333889476.667203
+r1
+xProcessPCH++
+x/var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-airiqhuriacclehgplyixdurhbuc/Carbon.h.gch
+x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h333889469#333889476#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#90"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h8600998400#1410"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-airiqhuriacclehgplyixdurhbuc/Carbon.h.gch0#
+
+CProcessPCH++ /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_0
+s333889524.630426
+e333889530.433424
+r1
+xProcessPCH++
+x/var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h.gch
+x/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+oi686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h333889524#333889530#0(92"i686-apple-darwin10-gcc-4.0.1: -lpthread: linker input file unused because linking not done0(0#0#90"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h8608022304#1410"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/openFrameworksDebug.hmap" "-F/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin/include" -I../../../libs/poco/include "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources/i386" "-I/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/build/openFrameworks.build/Debug/openFrameworks.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -c /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/bU/bUrfyZTqEwSOhHZ0EcfARU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bppicvclbuywomhdzxgfjvbbyasw/Carbon.h.gch0#
+
+CTouch "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app"
+s333977726.997223
+e333977727.002114
+r1
+xTouch
+x/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app
+lSLF07#2@123"Touch /Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app333977726#333977727#0(0"0(0#0#0"8710070976#240"    cd "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering"    /usr/bin/touch -c "/Users/macbookpro/Documents/Programming/OFW/apps/oF shader/openglLightingLightScattering/bin//openFrameworksDebug.app"0#
+

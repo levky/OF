@@ -1,0 +1,34 @@
+<controls>
+    <SliderInt_Flock/arrive/flee/explode/drift>
+        <name>Flock/arrive/flee/explode/drift</name>
+        <value>0</value>
+    </SliderInt_Flock/arrive/flee/explode/drift>
+    <SliderInt_Limit_Num>
+        <name>Limit Num</name>
+        <value>200</value>
+    </SliderInt_Limit_Num>
+    <SliderFloat_Max_Velocity>
+        <name>Max Velocity</name>
+        <value>10.000000</value>
+    </SliderFloat_Max_Velocity>
+    <SliderFloat_Too_Close_Distance>
+        <name>Too Close Distance</name>
+        <value>45.000000</value>
+    </SliderFloat_Too_Close_Distance>
+    <SliderFloat_In_sight_distance>
+        <name>In sight distance</name>
+        <value>75.000000</value>
+    </SliderFloat_In_sight_distance>
+    <Button_subtract_one_boid>
+        <name>subtract one boid</name>
+        <value>0</value>
+    </Button_subtract_one_boid>
+    <Button_adding_one_boid>
+        <name>adding one boid</name>
+        <value>0</value>
+    </Button_adding_one_boid>
+    <Toggle_enable/disable_adding_boids>
+        <name>enable/disable adding boids</name>
+        <value>1</value>
+    </Toggle_enable/disable_adding_boids>
+</controls>
