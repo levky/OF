@@ -1,0 +1,18 @@
+In file included from /Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/boid.h:12,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/boids.h:14,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.h:14,
+                 from /Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:9:
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/../../../addons/ofxVectorMath/src/ofxVec3f.h:5:2: warning: #warning ofxVec3f has been deprecated.
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/../../../addons/ofxVectorMath/src/ofxVec3f.h:6:2: warning: #warning Remove all references to ofxVec3f.h and use ofVec3f instead.
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp: In member function 'virtual void testApp::setup()':
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:19: error: 'totboids' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:46: error: 'tlength' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp: In member function 'void testApp::parseOSCMsg()':
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:114: error: 'tlength' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp: In member function 'virtual void testApp::update()':
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:242: error: 'tlength' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:251: error: 'tlength' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp: In member function 'virtual void testApp::draw()':
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:312: error: 'tlength' was not declared in this scope
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp: In member function 'virtual void testApp::keyPressed(int)':
+/Users/macbookpro/Documents/Programming/of_preRelease_v007_osx/apps/workshop/_flockingtriangle of007/src/testApp.cpp:374: error: 'tlength' was not declared in this scope
